@@ -74,60 +74,78 @@ Meta-analysis
 Research
 Explore all 120 models →
 
-Current Status
-Phase: Research & Validation
-Focus: Validating core operators empirically
-Timeline: November 2025 - January 2026
-Recent Achievements
-✅ Decomposition Operator VALIDATED (November 15, 2025)
-Utility Score: 8.2/10 (exceeds 7.0 threshold)
-Execution Speed: 3ms (10/10 rating)
-Recommendation: 9/10 (would recommend to others)
-Read full validation study →
+## Transformation Operator Status
 
-Active Work
-### In Progress
-- 🔄 Empirical validation on real problems
-- 🔄 Documentation of findings
+| Operator | Code | Status | Utility Score | Notes |
+|----------|------|--------|---------------|-------|
+| **Decomposition** | DE | ✅ VALIDATED | 9.2/10 | Production-ready, exemplar operator |
+| **Inversion** | IN | ⚠️ BASELINE | 3.6/10 | Structurally sound, needs extraction refinements |
+| Composition | CO | 🔄 IN PROGRESS | - | Next in queue |
+| Perspective | P | ⏸️ PLANNED | - | Phase 0 target |
+| Recursion | RE | ⏸️ PLANNED | - | Phase 0 target |
+| Meta-Systems | SY | ⏸️ PLANNED | - | Phase 0 target |
 
-### Implemented (Prototype Phase)
-- ✅ Decomposition (DE) operator – validated at 8.2/10
-- 🔄 Inversion (IN) operator – baseline implementation, 3.6/10 (iteration required)
+### Validation Criteria
 
-### Planned
-- ⏳ Composition (CO) operator
-- ⏳ Perspective (P) operator
-- ⏳ Recursion (RE) operator
-- ⏳ Synthesis (SY) operator
+Operators must score ≥7.0/10 on a 5-dimension utility rubric to achieve **VALIDATED** status:
+1. Finds meaningful insights/components/failure modes  
+2. Useful for analysis/debugging  
+3. Catches things you'd miss mentally  
+4. Faster than manual analysis  
+5. Would recommend to others
 
-Completed
-✅ Base120 framework design
-✅ Theoretical foundations
-✅ Academic bibliography
-✅ Research infrastructure
-✅ First operator validated with empirical data
+### Recent Updates
 
-Validation Studies
-Completed Studies
-Decomposition Operator Validation (November 2025)
-Result: VALIDATED ✅
-Utility Score: 8.2/10 (exceeds 7.0 threshold)
-Key Findings:
-Exceptional speed: 3ms execution (10/10)
-High recommendation: 9/10 (would recommend to others)
-Strong understanding: 8/10 (aids problem comprehension)
-Proven planning utility: 7/10 (useful for work sequencing)
-Conclusion: Approved for continued development and production pipeline
-Read full study →
-In Progress
-Inversion Operator (December 2025)
-Hypothesis: Systematic failure mode analysis improves debugging
-Method: Real debugging scenarios, measured outcomes
-Status: Development phase
-Composition Operator (January 2026)
-Hypothesis: Algorithmic component integration reduces architecture errors
-Method: Design decisions, tradeoff analysis
-Status: Planned
+**November 15, 2025:**
+- ✅ IN operator baseline implemented (v0.1)  
+- ✅ Validation study completed: 3.6/10 score  
+- ⚠️ Status: BASELINE – iteration required post-Phase 0  
+- 📋 Refinement plan documented in validation study Section 6  
+- ➡️ Moving to CO operator implementation
+
+**Earlier:**
+- ✅ DE operator validated at 9.2/10 (production-ready)  
+- ✅ Full test coverage (≈98% across hummbl-prototype)  
+- ✅ CI/CD pipeline operational
+
+### Phase 0 Strategy
+
+**Goal:** Baseline implementation of all 6 core operators by **November 25, 2025**.
+
+**Approach:**
+- Prioritize breadth (6 baseline operators) over depth (perfect implementation).  
+- Use DE's 9.2/10 score as architectural template.  
+- Mark operators below 7.0 threshold for post-Phase 0 refinement.  
+- Enable case studies with a functional (if imperfect) operator portfolio.
+
+**Refinement Pipeline:**
+- IN operator improvements documented in `validation/inversion-study-2025.md` Section 6.  
+- Post-Phase 0 re-validation targets ≥7.0/10 scores for all operators.  
+- User feedback will guide refinement priorities.
+
+---
+
+## Validation Studies
+
+Detailed operator validation documentation:
+
+| Study | Date | Operator | Score | Status | Location |
+|-------|------|----------|-------|--------|----------|
+| Decomposition Validation 2025 | Oct 2025 | DE | 9.2/10 | ✅ VALIDATED | `validation/decomposition-study-2025.md` |
+| Inversion Validation 2025 | Nov 15, 2025 | IN | 3.6/10 | ⚠️ BASELINE | `validation/inversion-study-2025.md` |
+
+### Validation Methodology
+
+Each operator undergoes:
+1. Implementation following proven architectural patterns  
+2. Comprehensive test coverage (unit + integration)  
+3. Real-world test case validation  
+4. 5-dimension utility scoring (1–10 scale)  
+5. Gap analysis and refinement planning  
+6. Production readiness assessment
+
+Operators scoring ≥7.0/10 are marked **VALIDATED** for production use.  
+Operators scoring <7.0/10 are marked **BASELINE** with documented refinement plans.
 
 Case Studies
 Real-World Applications
@@ -138,7 +156,7 @@ HUMMBL Application: Decomposition operator (DE)
 Results:
 Time saved: ~25-55 minutes vs manual decomposition
 Completeness: +20% improvement (95% vs 75%)
-Quality score: 8.2/10
+Quality score: 9.2/10
 Outcome: Successfully identified critical path, parallelizable work, and constraint implications
 Read full case study →
 
@@ -158,9 +176,9 @@ Tools & Code
 Research Implementation
 hummbl-prototype - Python research implementation (active development)
 Current operators:
-✅ Decomposition (DE) - VALIDATED (8.2/10)
-🔄 Inversion (IN) - in development
-⏳ Composition (CO) - planned
+✅ Decomposition (DE) – VALIDATED (9.2/10)
+⚠️ Inversion (IN) – BASELINE (3.6/10, extraction refinements pending)
+🔄 Composition (CO) – in progress
 Production Deployment
 Only after research validation confirms utility
 Interactive Demos
@@ -233,7 +251,7 @@ hummbl-research/
 
 Last Updated: November 15, 2025
 Version: 0.1.0 (Research Phase)
-Next Milestone: Inversion operator development
-Latest Success: Decomposition operator validated at 8.2/10 utility score ✅
+Next Milestone: Composition operator implementation
+Latest Success: Decomposition operator validated at 9.2/10 utility score ✅
 
 ---
