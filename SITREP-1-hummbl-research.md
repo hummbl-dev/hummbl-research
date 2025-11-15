@@ -134,10 +134,8 @@
 ## 6. Timeline Constraints
 
 - **External commitments**
-  - Georgia life insurance exam: 2025-11-17.
-  - Law school applications: ongoing.
-  - Primerica fast-start: active exploration.
   - Life Time training: current employment.
+  - Family, friends, pets, etc. 
 
 - **HUMMBL targets**
   - Phase 0 completion target: 2025-11-25 (10 days from this SITREP).
