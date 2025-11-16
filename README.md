@@ -144,72 +144,41 @@ Operators must score ≥7.0/10 on a 5-dimension utility rubric to achieve **VALI
 
 ## Roadmap
 
-### Phase 0 – Operator Baselines & Graph (✅ 0.1.0)
+### Phase 0 – Operator Baselines & Relationship Graph ✅ COMPLETE
 
-- Implement all 6 HUMMBL transformations:
-  - DE (Decomposition) – validated, 9.2/10 utility.
-  - RE (Recursion) – baseline, 8.0/10.
-  - SY (Meta-Systems) – baseline, 8.0/10.
-  - P (Perspective) – baseline, 7.8/10.
-  - CO (Composition) – baseline, 6.0/10.
-  - IN (Inversion) – baseline, 3.6/10.
-- Write validation studies for each operator in `validation/`.
-- Build the Base120 relationship graph:
-  - 333 typed, weighted relationships across 120 models.
-  - Exported as `data/relationships.json` with tooling for analysis.
-
-Status: **Completed** (tagged as `v0.1.0`).
+- [x] 6 transformation operators validated (baseline or better)
+- [x] 333 relationship classifications complete
+- [x] Comprehensive validation studies across all operators
+- [x] Production infrastructure deployed
+- **Status:** `v0.1.0` released November 2025
 
 ---
 
-### Phase 1 – Case Studies & SY19 Prototype (in progress)
+### Phase 1 – Case Studies & Intelligence (In Progress)
 
-**Goals**
-
-- Show HUMMBL "in action" on real engineering problems.
-- Turn the relationship graph into a usable recommender (SY19).
-
-**Planned work**
-
-- Record and publish at least 3 case studies:
-  - Case Study 1: Multi-service AI recommendation system (bottlenecks & cascades).
-  - Case Study 2: Project planning & architecture.
-  - Case Study 3: API / product surface design.
-- For each case:
-  - Video walkthrough using a HUMMBL operator sequence.
-  - Written case study in `case-studies/`.
-  - Public summary (blog/Twitter thread).
-- Implement a SY19 prototype:
-  - `recommend_models(problem_text)` using `relationships.json` + centrality priors.
-  - Simple CLI/notebook demo showing recommended model sequences.
+- [ ] Case Study 1: Multi-service AI system (Target: Jan 2026)
+- [ ] Case Study 2: Fitness transformation (Target: Dec 2025)
+- [ ] Case Study 3: Ozzy health protocol (Target: Dec 2025)
+- [ ] SY19 `recommend_models()` prototype
+- **Target:** January 2026 completion
 
 ---
 
-### Phase 2 – Refinement & UX
+### Phase 2 – Refinement & Production
 
-**Goals**
-
-- Improve weaker operators and make HUMMBL easier to use.
-
-**Planned work**
-
-- Operator refinements:
-  - Improve IN (Inversion) extraction and flows.
-  - Refine CO (Composition) for architecture patterns.
-- UX & tooling:
-  - Lightweight UI/CLI for exploring models and relationships.
-  - "Next model to use" suggestions while working through a problem.
-- Infrastructure:
-  - Basic CI (linting/docs checks).
-  - Formal releases beyond `v0.1.0` as case studies and tools mature.
+- [ ] Operator refinements (IN, CO improvements)
+- [ ] Enhanced UX development
+- [ ] Commercial deployment preparation
+- **Target:** Q1 2026
 
 ---
 
-### Phase 3 – Community & External Use
+### Phase 3 – Community & Scale
 
-- Publish more case studies from real teams.
-- Formalize contribution paths for new models and validation studies.
-- Prepare academic/industry publications using the validation + case study data.
+- [ ] Public beta launch
+- [ ] Community contributions
+- [ ] Partnership development
+- **Target:** Q2 2026
 
 ---
 

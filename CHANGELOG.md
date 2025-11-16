@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is inspired by [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) for research releases.
 
+## [Unreleased]
+
+### In Progress
+- Case Study 1: Multi-service AI recommendation system
+- Case Study 2: Personal training program design
+- Case Study 3: Ozzy (French Bulldog) health optimization
+- SY19 Meta-Model Selection prototype development
+
+### Infrastructure
+- Added case study templates and production workflow
+- Added GitHub Actions markdown linting (soft enforcement)
+- Created Phase 1 project tracking issues
+
 ## [0.1.0] - 2025-11-16
 
 ### Added
