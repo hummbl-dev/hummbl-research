@@ -6,7 +6,7 @@
 - **Target Date:** Dec 15, 2025
 - **Status:** Preparation
 - **Progress:**
-  - [ ] Infrastructure deployed
+  - [x] Infrastructure deployed
   - [ ] Vet appointment scheduled
   - [ ] Pre-vet preparation complete
   - [ ] Vet visit complete
@@ -20,7 +20,7 @@
 - **Target Date:** Dec 31, 2025
 - **Status:** Planning
 - **Progress:**
-  - [ ] Infrastructure deployed
+  - [x] Infrastructure deployed
   - [ ] Data gathered
   - [ ] Recording complete
   - [ ] Documentation complete
@@ -32,7 +32,7 @@
 - **Target Date:** Jan 15, 2026
 - **Status:** Planning
 - **Progress:**
-  - [ ] Infrastructure deployed
+  - [x] Infrastructure deployed
   - [ ] Architecture finalized
   - [ ] Recording complete
   - [ ] Documentation complete
