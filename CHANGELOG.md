@@ -7,16 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added - Phase 1
+- ✅ SY19 Meta-Model Selection prototype (`tools/sy19_recommend.py`)
+  - Automatic primary model detection from keywords
+  - Graph traversal with centrality-weighted scoring
+  - Configurable recommendations (top-K, max-hops)
+  - Detailed reasoning for each recommendation
+  - Tested on Case Study 1 scenario
+
 ### In Progress
 - Case Study 1: Multi-service AI recommendation system
 - Case Study 2: Personal training program design
 - Case Study 3: Ozzy (French Bulldog) health optimization
-- SY19 Meta-Model Selection prototype development
 
 ### Infrastructure
 - Added case study templates and production workflow
 - Added GitHub Actions markdown linting (soft enforcement)
 - Created Phase 1 project tracking issues
+- Added `requirements.txt` for Python dependencies (networkx, numpy, scipy)
+- Added virtual environment setup for tools
 
 ## [0.1.0] - 2025-11-16
 

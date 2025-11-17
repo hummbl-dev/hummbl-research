@@ -1,0 +1,334 @@
+relation_id,from_model,to_model,relation_type,strength,direction,description
+REL-001,P01,P08,SCAFFOLDS,0.9,unidirectional,First Principles thinking enables effective reframing by revealing assumptions to question
+REL-002,P01,IN02,COMPOSES_WITH,0.8,unidirectional,Breaking down to fundamentals improves Premortem analysis quality
+REL-003,P01,DE01,SCAFFOLDS,1,unidirectional,First Principles is the foundation of First Principles Decomposition
+REL-004,P01,P06,PARALLELS,0.7,bidirectional,Both deal with understanding fundamental thinking patterns
+REL-005,P01,IN17,SCAFFOLDS,0.8,unidirectional,Understanding first principles helps apply Chesterton's Fence properly
+REL-006,P02,P03,PARALLELS,0.7,unidirectional,Multiple perspectives include different timeframes as one perspective type
+REL-007,P02,P04,SCAFFOLDS,0.8,unidirectional,Taking multiple perspectives reveals different reference frames
+REL-008,P02,P08,PARALLELS,0.8,bidirectional,Perspective-taking and reframing are complementary approaches
+REL-009,P02,SY01,COMPOSES_WITH,0.7,bidirectional,Systems thinking requires multiple perspectives to understand interconnections
+REL-010,P02,P16,SCAFFOLDS,0.6,unidirectional,Understanding multiple perspectives helps recognize information asymmetries
+REL-011,P02,IN16,SCAFFOLDS,0.7,unidirectional,Perspective-taking is essential for Red Team Thinking
+REL-012,P02,DE12,SCAFFOLDS,0.8,unidirectional,Understanding customer perspective is core to Jobs-to-be-Done
+REL-013,P02,DE13,SCAFFOLDS,0.7,unidirectional,Different abstraction levels are different perspectives
+REL-014,P02,SY11,SCAFFOLDS,0.8,unidirectional,Boundary objects work by accommodating multiple perspectives
+REL-015,P03,RE05,SCAFFOLDS,0.9,unidirectional,Long timeframe thinking is essential for understanding compound growth
+REL-016,P03,SY10,COMPOSES_WITH,0.8,unidirectional,Timeframe shifting reveals time delays between actions and consequences
+REL-017,P03,IN03,PARALLELS,0.6,bidirectional,Different timeframes reveal what should be subtracted vs added
+REL-018,P03,P09,SCAFFOLDS,0.9,unidirectional,Timeframe shifting is essential for second-order thinking
+REL-019,P03,IN12,SCAFFOLDS,0.9,unidirectional,Regret minimization requires long timeframe perspective
+REL-020,P03,DE16,SCAFFOLDS,0.8,unidirectional,Understanding time is foundational to temporal decomposition
+REL-021,P03,RE20,SCAFFOLDS,0.8,unidirectional,Timeframe thinking helps manage temporal discounting
+REL-022,P04,P05,COMPOSES_WITH,0.7,unidirectional,Reference frame affects how opportunity costs are perceived
+REL-023,P04,P08,SCAFFOLDS,0.8,unidirectional,Changing reference frame is a form of reframing
+REL-024,P04,IN01,PARALLELS,0.7,bidirectional,Inversion changes the reference frame dramatically
+REL-025,P04,P11,PARALLELS,0.8,bidirectional,Anchoring bias is about reference frame dependence
+REL-026,P05,DE04,COMPOSES_WITH,0.8,unidirectional,Opportunity cost thinking clarifies critical path priorities
+REL-027,P05,DE05,COMPOSES_WITH,0.9,unidirectional,Understanding opportunity costs improves Pareto prioritization
+REL-028,P05,IN05,PARALLELS,1,bidirectional,Both examine the cost of choices through an opportunity lens
+REL-029,P05,IN04,SCAFFOLDS,0.7,unidirectional,Understanding resource constraints helps see opportunity costs
+REL-030,P05,DE11,PARALLELS,0.7,bidirectional,Value chain analysis reveals opportunity costs of activities
+REL-031,P05,SY04,PARALLELS,0.8,bidirectional,Leverage points minimize opportunity costs
+REL-032,P05,IN18,PARALLELS,0.7,bidirectional,Killing darlings is accepting opportunity cost of attachment
+REL-033,P06,P07,SCAFFOLDS,0.9,unidirectional,Understanding mental models helps distinguish map from territory
+REL-034,P06,SY19,SCAFFOLDS,1,unidirectional,Mental models foundation enables meta-model selection
+REL-035,P06,RE01,PARALLELS,0.6,bidirectional,Deliberate practice improves mental model application
+REL-036,P06,P17,SCAFFOLDS,0.7,unidirectional,Understanding mental models helps recognize Dunning–Kruger effect
+REL-037,P06,RE11,PARALLELS,0.6,bidirectional,Iterative deepening applies to learning mental models
+REL-038,P06,RE12,SCAFFOLDS,0.9,unidirectional,Mental models framework enables meta-learning
+REL-039,P06,CO20,SCAFFOLDS,0.8,unidirectional,Broad mental model library enables crossover innovation
+REL-040,P07,SY01,SCAFFOLDS,0.8,unidirectional,Map–territory distinction is essential for systems thinking
+REL-041,P07,DE01,PARALLELS,0.7,bidirectional,Both deal with distinguishing models from reality
+REL-042,P07,P14,SCAFFOLDS,0.8,unidirectional,Map–territory awareness helps understand observer effect
+REL-043,P07,P20,SCAFFOLDS,0.9,unidirectional,Understanding representation is essential for simulacra levels
+REL-044,P07,CO08,PARALLELS,0.7,bidirectional,Layering creates maps at different abstraction levels
+REL-045,P07,DE20,PARALLELS,0.6,bidirectional,Boundary analysis defines the territory
+REL-046,P07,SY08,PARALLELS,0.5,bidirectional,Open/closed systems have different map–territory relationships
+REL-047,P08,CO06,SCAFFOLDS,0.8,unidirectional,Reframing enables synthesis of different perspectives
+REL-048,P08,IN01,SCAFFOLDS,0.7,unidirectional,Reframing can include inverting the problem
+REL-049,P08,CO20,PARALLELS,0.7,bidirectional,Reframing enables seeing crossover possibilities
+REL-050,P09,SY10,SCAFFOLDS,0.9,unidirectional,Second-order thinking reveals time delays
+REL-051,P09,SY01,SCAFFOLDS,0.9,unidirectional,Thinking beyond first order is essential for systems thinking
+REL-052,P09,IN03,PARALLELS,0.6,bidirectional,Second-order effects reveal what to subtract
+REL-053,P09,P12,PARALLELS,0.7,bidirectional,Counterfactual thinking helps trace consequence chains
+REL-054,P09,CO18,PARALLELS,0.7,bidirectional,Emergence often appears as a second-order effect
+REL-055,P09,SY13,PARALLELS,0.8,bidirectional,Cascading failures are chains of consequences
+REL-056,P09,SY15,PARALLELS,0.7,bidirectional,Phase transitions show non-linear consequences
+REL-057,P10,SY05,SCAFFOLDS,1,unidirectional,Understanding incentives is core to designing incentive systems
+REL-058,P10,CO04,SCAFFOLDS,0.7,unidirectional,Incentives create feedback loops in behavior
+REL-059,P10,P14,SCAFFOLDS,0.8,unidirectional,Incentives explain observer effect on behavior
+REL-060,P10,P16,SCAFFOLDS,0.8,unidirectional,Information asymmetry affects incentive alignment
+REL-061,P10,P18,SCAFFOLDS,0.9,unidirectional,Skin in the game aligns incentives with outcomes
+REL-062,P10,IN8,SCAFFOLDS,0.9,unidirectional,Incentive understanding is core to principal–agent problem
+REL-063,P10,IN20,PARALLELS,0.7,bidirectional,Cunningham's Law exploits incentive to correct
+REL-064,P10,SY16,SCAFFOLDS,0.9,unidirectional,Individual incentives drive tragedy of the commons
+REL-065,P10,SY17,PARALLELS,0.6,bidirectional,Preferential attachment creates incentive dynamics
+REL-066,P10,SY18,SCAFFOLDS,0.9,unidirectional,Goodhart's Law is about incentive misalignment
+REL-067,P11,IN02,SCAFFOLDS,0.7,unidirectional,Recognizing biases improves premortem quality
+REL-068,P11,P13,SCAFFOLDS,0.8,unidirectional,Bias recognition helps properly use base rates
+REL-069,P11,P15,SCAFFOLDS,0.8,unidirectional,Understanding bias helps recognize narrative fallacy
+REL-070,P11,P17,SCAFFOLDS,0.7,unidirectional,Bias awareness includes Dunning–Kruger effect
+REL-071,P11,DE07,PARALLELS,0.7,bidirectional,Probabilistic thinking counteracts cognitive biases
+REL-072,P11,RE20,PARALLELS,0.7,bidirectional,Temporal discounting is a cognitive bias
+REL-073,P12,IN02,SCAFFOLDS,0.8,unidirectional,Counterfactual thinking strengthens premortems
+REL-074,P12,RE08,SCAFFOLDS,0.8,unidirectional,Counterfactuals improve retrospective learning
+REL-075,P12,DE08,PARALLELS,0.6,bidirectional,Decision trees map counterfactual branches
+REL-076,P13,IN03,SCAFFOLDS,0.7,unidirectional,Base rates reveal realistic expectations for premortems
+REL-077,P13,IN14,PARALLELS,0.8,bidirectional,Base rates inform margin of safety calculations
+REL-078,P13,P19,SCAFFOLDS,0.8,unidirectional,Base rate thinking helps understand ergodicity
+REL-079,P13,IN11,PARALLELS,0.7,bidirectional,Lindy Effect is about empirical base rates
+REL-080,P13,DE07,SCAFFOLDS,0.9,unidirectional,Base rates are foundation of probabilistic thinking
+REL-081,P13,IN19,SCAFFOLDS,0.8,unidirectional,Null hypothesis testing requires base rate thinking
+REL-082,P14,SY05,SCAFFOLDS,0.8,unidirectional,Observer effect is crucial for understanding incentive systems
+REL-083,P14,RE02,SCAFFOLDS,0.8,unidirectional,Measurement affects the system being measured
+REL-084,P14,SY18,SCAFFOLDS,0.9,unidirectional,Observer effect explains Goodhart's Law
+REL-085,P15,SY01,SCAFFOLDS,0.7,unidirectional,Recognizing narrative fallacy improves systems thinking
+REL-086,P15,P20,SCAFFOLDS,0.8,unidirectional,Narrative construction relates to simulacra levels
+REL-087,P15,RE08,PARALLELS,0.6,bidirectional,Retrospectives can fall victim to narrative fallacy
+REL-088,P16,SY09,SCAFFOLDS,1,unidirectional,Information asymmetry concept enables system-level analysis
+REL-089,P16,P18,PARALLELS,0.7,bidirectional,Skin in the game reduces information asymmetry
+REL-090,P16,IN8,PARALLELS,0.8,bidirectional,Information asymmetry is core to principal–agent problem
+REL-091,P17,RE01,SCAFFOLDS,0.7,unidirectional,Understanding competence helps design better practice
+REL-092,P18,SY05,SCAFFOLDS,0.8,unidirectional,Skin in the game aligns incentive systems
+REL-093,P19,SY10,SCAFFOLDS,0.7,unidirectional,Ergodicity affects how time delays compound
+REL-094,P19,IN6,PARALLELS,0.9,bidirectional,Antifragility deals with ergodic risk management
+REL-095,P19,IN7,PARALLELS,0.8,bidirectional,Barbell strategy respects ergodicity
+REL-096,P19,CO12,PARALLELS,0.8,bidirectional,Optionality manages non-ergodic risk
+REL-097,P20,SY19,SCAFFOLDS,0.8,unidirectional,Understanding abstraction levels helps meta-model selection
+REL-098,IN1,IN2,SCAFFOLDS,0.9,unidirectional,Inversion thinking enables premortem analysis
+REL-099,IN1,IN3,SCAFFOLDS,0.8,unidirectional,Inversion reveals what should be subtracted
+REL-100,IN1,DE06,PARALLELS,0.6,bidirectional,Inversion helps separate concerns by negation
+REL-101,IN1,IN10,PARALLELS,0.8,bidirectional,Negative space is inverting focus from presence to absence
+REL-102,IN1,IN12,PARALLELS,0.7,bidirectional,Regret minimization inverts the decision question
+REL-103,IN2,IN3,SCAFFOLDS,0.7,unidirectional,Premortems often reveal what to subtract
+REL-104,IN2,IN19,PARALLELS,0.6,bidirectional,Both start from a skeptical stance
+REL-105,IN3,DE03,SCAFFOLDS,0.7,unidirectional,Subtraction reveals essential modules
+REL-106,IN3,IN18,PARALLELS,0.9,bidirectional,Kill your darlings is applied via negativa
+REL-107,IN3,CO17,PARALLELS,0.7,bidirectional,Creative destruction requires subtraction
+REL-108,IN3,DE14,PARALLELS,0.7,bidirectional,Information theory removes noise via negativa
+REL-109,IN4,DE05,SCAFFOLDS,0.8,unidirectional,Constraints force prioritization (Pareto)
+REL-110,IN4,CO01,SCAFFOLDS,0.9,unidirectional,Constraints drive MVP composition thinking
+REL-111,IN4,DE10,SCAFFOLDS,0.8,unidirectional,Understanding constraints enables constraint analysis
+REL-112,IN4,IN15,SCAFFOLDS,0.8,unidirectional,Constraints can be forcing functions
+REL-113,IN5,DE04,SCAFFOLDS,0.7,unidirectional,Opportunity cost inversion clarifies critical path
+REL-114,IN6,SY06,SCAFFOLDS,0.9,unidirectional,Antifragility creates resilient feedback structures
+REL-115,IN6,RE06,SCAFFOLDS,0.9,unidirectional,Antifragile growth operates through feedback loops
+REL-116,IN6,IN7,SCAFFOLDS,0.9,unidirectional,Antifragility concept enables barbell strategy
+REL-117,IN6,IN9,PARALLELS,0.7,bidirectional,Antifragility prefers reversible decisions
+REL-118,IN6,SY11,PARALLELS,0.6,bidirectional,Lindy Effect identifies antifragile ideas
+REL-119,IN7,CO12,SCAFFOLDS,0.8,unidirectional,Barbell strategy creates an optionality structure
+REL-120,IN8,SY05,SCAFFOLDS,0.9,unidirectional,Principal–agent problem shapes incentive system design
+REL-121,IN09,RE03,SCAFFOLDS,0.8,unidirectional,Reversibility enables safe iteration
+REL-122,IN09,CO07,SCAFFOLDS,0.7,unidirectional,Modularity enables reversible changes
+REL-123,IN09,DE08,PARALLELS,0.7,bidirectional,Decision trees map reversible vs irreversible choices
+REL-124,IN09,IN13,SCAFFOLDS,0.8,unidirectional,Reversibility enables fast failure
+REL-125,IN09,CO12,SCAFFOLDS,0.9,unidirectional,Reversibility creates optionality
+REL-126,IN09,RE16,PARALLELS,0.8,bidirectional,Version control enables reversibility
+REL-127,IN10,DE01,REFINES,0.7,unidirectional,Negative space reasoning reveals hidden assumptions in root cause analysis
+REL-128,IN11,RE05,SCAFFOLDS,0.7,unidirectional,Lindy Effect shows compound survival advantage
+REL-129,IN13,RE03,SCAFFOLDS,0.9,unidirectional,Failing fast enables rapid iteration
+REL-130,IN13,RE04,SCAFFOLDS,0.7,unidirectional,Fast failure informs scaffolding removal
+REL-131,IN14,IN06,PARALLELS,0.7,bidirectional,Margin of safety contributes to antifragility
+REL-132,IN14,DE07,PARALLELS,0.7,bidirectional,Margin of safety accounts for probability ranges
+REL-133,IN15,RE02,SCAFFOLDS,0.8,unidirectional,Forcing functions automate measurement responses
+REL-134,IN15,SY04,SCAFFOLDS,0.7,unidirectional,Forcing functions are high-leverage interventions
+REL-135,IN15,RE09,PARALLELS,0.8,bidirectional,Forcing functions support habit formation
+REL-136,IN15,DE17,PARALLELS,0.6,bidirectional,Forcing functions weaken restraining forces
+REL-137,IN16,SY07,SCAFFOLDS,0.8,unidirectional,Red teaming finds single points of failure
+REL-138,IN17,SY01,SCAFFOLDS,0.7,unidirectional,Chesterton's Fence requires systems understanding
+REL-139,DE01,IN02,COMPOSES_WITH,0.9,bidirectional,Root cause analysis benefits from premortem inversion
+REL-140,DE01,SY19,SCAFFOLDS,0.9,unidirectional,Root cause must be identified before meta-model selection
+REL-141,DE01,P01,REFINES,0.8,bidirectional,First principles thinking deepens root cause analysis
+REL-142,DE01,RE01,COMPOSES_WITH,0.8,unidirectional,Pattern recognition follows root cause identification
+REL-143,DE02,CO05,SCAFFOLDS,0.9,unidirectional,Must identify components before designing integration
+REL-144,DE02,DE03,REFINES,0.8,unidirectional,Modularization deepens component identification
+REL-145,DE02,SY01,COMPOSES_WITH,0.7,unidirectional,Components become subsystems in meta-analysis
+REL-146,DE02,P03,REFINES,0.6,bidirectional,Multiple perspectives improve component boundaries
+REL-147,DE03,CO07,SCAFFOLDS,0.9,unidirectional,Modular design enables interface definition
+REL-148,DE03,DE02,REFINES,0.8,bidirectional,Component ID and modularization reinforce each other
+REL-149,DE03,RE09,COMPOSES_WITH,0.7,unidirectional,Modular structure enables iterative prototyping
+REL-150,DE03,IN03,CONTRASTS_WITH,0.5,bidirectional,Modularization vs integration - opposing forces
+REL-151,DE04,SY13,SCAFFOLDS,0.9,unidirectional,Constraints must be mapped before incentive design
+REL-152,DE04,P02,COMPOSES_WITH,0.8,bidirectional,Stakeholder mapping reveals constraint sources
+REL-153,DE04,CO01,CONFLICTS,0.7,bidirectional,Constraints limit composition options - inherent tension
+REL-154,DE04,RE05,REFINES,0.6,unidirectional,Constraint relaxation through iterative exploration
+REL-155,DE05,SY01,COMPOSES_WITH,0.9,unidirectional,Dependencies become links in system topology
+REL-156,DE05,CO02,SCAFFOLDS,0.8,unidirectional,Must trace dependencies before layering architecture
+REL-157,DE05,RE06,COMPOSES_WITH,0.7,bidirectional,Dependency loops create feedback cycles
+REL-158,DE05,IN01,REFINES,0.6,bidirectional,Inverting perspective reveals hidden dependencies
+REL-159,DE06,IN02,COMPOSES_WITH,0.9,bidirectional,Premortem directly generates failure modes
+REL-160,DE06,SY02,SCAFFOLDS,0.8,unidirectional,Failure modes must be identified before risk mitigation
+REL-161,DE06,RE07,COMPOSES_WITH,0.8,unidirectional,FMEA systematizes failure mode analysis
+REL-162,DE06,P04,REFINES,0.7,bidirectional,Adversarial perspective reveals overlooked failure modes
+REL-163,DE07,SY01,COMPOSES_WITH,0.9,unidirectional,Bottlenecks are constraint points in system topology
+REL-164,DE07,CO03,SCAFFOLDS,0.8,unidirectional,Must identify bottlenecks before pipeline optimization
+REL-165,DE07,RE10,COMPOSES_WITH,0.7,unidirectional,Iterative testing reveals bottlenecks through measurement
+REL-166,DE07,P02,REFINES,0.6,bidirectional,Stakeholder perspectives identify different bottlenecks
+REL-167,DE08,SY01,COMPOSES_WITH,0.9,unidirectional,Information flows are directed edges in system topology
+REL-168,DE08,CO04,SCAFFOLDS,0.8,unidirectional,Must trace flows before designing data pipelines
+REL-169,DE08,DE05,REFINES,0.7,bidirectional,Information flows reveal logical dependencies
+REL-170,DE08,RE06,COMPOSES_WITH,0.7,unidirectional,Circular information flows create feedback loops
+REL-171,DE09,SY03,COMPOSES_WITH,0.8,unidirectional,Complexity metrics inform system archetype classification
+REL-172,DE09,CO01,CONFLICTS,0.7,bidirectional,Composition increases complexity - inherent tension
+REL-173,DE09,RE09,REFINES,0.7,unidirectional,Iterative prototyping manages complexity through decomposition
+REL-174,DE09,IN04,CONTRASTS_WITH,0.6,bidirectional,Measuring complexity vs simplifying - opposite operations
+REL-175,DE10,SY13,SCAFFOLDS,0.9,unidirectional,Resource allocation must be mapped before incentive design
+REL-176,DE10,CO06,COMPOSES_WITH,0.8,unidirectional,Resource mapping informs service orchestration design
+REL-177,DE10,P02,REFINES,0.7,bidirectional,Stakeholder analysis reveals resource competition
+REL-178,DE10,DE04,REFINES,0.6,bidirectional,Resource limits are constraints - mutual reinforcement
+REL-179,IN01,P01,CONTRASTS_WITH,0.9,bidirectional,First principles vs inverted perspective - complementary opposites
+REL-180,IN01,DE05,REFINES,0.8,bidirectional,Inverting perspective reveals hidden dependencies
+REL-181,IN01,SY01,COMPOSES_WITH,0.7,unidirectional,Inverted views expose alternative system topologies
+REL-182,IN01,RE01,REFINES,0.6,bidirectional,Pattern recognition improves with perspective shifts
+REL-183,IN02,DE06,COMPOSES_WITH,0.9,bidirectional,Premortem directly generates failure modes
+REL-184,IN02,DE01,COMPOSES_WITH,0.8,bidirectional,Asking what went wrong reveals root causes
+REL-185,IN02,SY02,SCAFFOLDS,0.8,unidirectional,Premortem must precede risk mitigation planning
+REL-186,IN02,RE07,COMPOSES_WITH,0.7,unidirectional,FMEA systematizes premortem thinking
+REL-187,IN03,DE04,CONTRASTS_WITH,0.9,bidirectional,Mapping constraints vs inverting them - complementary operations
+REL-188,IN03,CO01,CONFLICTS,0.8,bidirectional,Removing constraints enables composition - inherent tension
+REL-189,IN03,RE05,COMPOSES_WITH,0.7,bidirectional,Constraint relaxation through iterative inversion
+REL-190,IN03,DE03,CONTRASTS_WITH,0.6,bidirectional,Constraint removal vs modularization - opposing forces
+REL-191,IN04,DE09,CONTRASTS_WITH,0.9,bidirectional,Complexity quantification vs simplification - opposite operations
+REL-192,IN04,CO01,CONFLICTS,0.8,bidirectional,Simplification vs composition - inherent trade-off
+REL-193,IN04,P01,REFINES,0.7,bidirectional,First principles thinking simplifies complex problems
+REL-194,IN04,RE09,COMPOSES_WITH,0.6,unidirectional,Iterative prototyping enables progressive simplification
+REL-195,IN05,P03,COMPOSES_WITH,0.8,bidirectional,Viewpoint shifting reveals what's missing
+REL-196,IN05,DE02,REFINES,0.7,bidirectional,Negative space shows component boundaries
+REL-197,IN05,SY01,COMPOSES_WITH,0.7,unidirectional,What's NOT connected reveals system structure
+REL-198,IN05,CO05,SCAFFOLDS,0.6,unidirectional,Must understand gaps before designing integration
+REL-199,IN06,SY04,COMPOSES_WITH,0.9,bidirectional,Second-order effects are cascading system behaviors
+REL-200,IN06,RE06,COMPOSES_WITH,0.8,bidirectional,Feedback loops create second-order effects
+REL-201,IN06,DE07,REFINES,0.7,unidirectional,Bottleneck analysis reveals second-order constraints
+REL-202,IN06,P04,REFINES,0.7,bidirectional,Adversarial thinking exposes hidden second-order risks
+REL-203,IN07,P01,COMPOSES_WITH,0.9,bidirectional,First principles and assumption inversion both strip to fundamentals
+REL-204,IN07,DE01,REFINES,0.8,bidirectional,Inverting assumptions reveals root causes
+REL-205,IN07,CO01,CONFLICTS,0.7,bidirectional,Questioning assumptions limits composition options
+REL-206,IN07,RE08,COMPOSES_WITH,0.6,unidirectional,Hypothesis testing systematizes assumption inversion
+REL-207,IN08,P02,COMPOSES_WITH,0.9,bidirectional,Role reversal is stakeholder perspective shifting
+REL-208,IN08,SY13,REFINES,0.8,bidirectional,Understanding reversed incentives improves system design
+REL-209,IN09,SY13,COMPOSES_WITH,0.9,bidirectional,Inverting incentives reveals system design flaws
+REL-210,IN09,P02,REFINES,0.8,bidirectional,Stakeholder mapping exposes misaligned incentives
+REL-211,IN09,DE04,COMPOSES_WITH,0.7,unidirectional,Constraint mapping reveals incentive distortions
+REL-212,IN09,CO06,CONFLICTS,0.6,bidirectional,Service orchestration vs incentive alignment - tension
+REL-213,IN10,RE01,COMPOSES_WITH,0.9,bidirectional,Pattern recognition works forward and backward in time
+REL-214,IN10,IN02,REFINES,0.8,bidirectional,Premortem is backward reasoning from future failure
+REL-215,IN10,SY05,COMPOSES_WITH,0.7,unidirectional,Path dependency analysis requires temporal reasoning
+REL-216,IN10,DE01,REFINES,0.7,bidirectional,Root cause analysis works backward from effects
+REL-217,CO01,DE03,SCAFFOLDS,0.9,bidirectional,Decomposition enables composition - complementary operations
+REL-218,CO01,IN04,CONFLICTS,0.8,bidirectional,Composition increases complexity vs simplification
+REL-219,CO01,SY01,COMPOSES_WITH,0.8,unidirectional,Composed systems create meta-system topology
+REL-220,CO01,RE09,REFINES,0.7,bidirectional,Iterative prototyping tests composition strategies
+REL-221,CO02,DE05,SCAFFOLDS,0.9,unidirectional,Dependency tracing must precede layering
+REL-222,CO02,SY01,COMPOSES_WITH,0.8,unidirectional,Layers are hierarchical system structure
+REL-223,CO02,CO07,REFINES,0.7,bidirectional,Interface design enables clean layering
+REL-224,CO02,P05,REFINES,0.6,bidirectional,Abstraction levels map to architectural layers
+REL-225,CO03,DE07,SCAFFOLDS,0.9,unidirectional,Bottleneck identification must precede pipeline optimization
+REL-226,CO03,DE08,COMPOSES_WITH,0.8,unidirectional,Information flow tracing defines pipeline structure
+REL-227,CO03,RE10,REFINES,0.7,bidirectional,A/B testing optimizes pipeline performance
+REL-228,CO03,SY04,COMPOSES_WITH,0.6,unidirectional,Pipeline cascades are system-level effects
+REL-229,CO04,DE08,SCAFFOLDS,0.9,unidirectional,Information flow tracing precedes data pipeline design
+REL-230,CO04,SY01,COMPOSES_WITH,0.8,unidirectional,Data pipelines are edge-weighted system graphs
+REL-231,CO04,RE06,REFINES,0.7,bidirectional,Feedback loops in data create pipeline cycles
+REL-232,CO04,CO03,REFINES,0.7,bidirectional,Data pipelines are specialized processing pipelines
+REL-233,CO05,DE02,SCAFFOLDS,0.9,unidirectional,Component identification must precede integration
+REL-234,CO05,CO07,COMPOSES_WITH,0.8,bidirectional,Interface design enables integration patterns
+REL-235,CO05,SY01,COMPOSES_WITH,0.7,unidirectional,Integration patterns define system connections
+REL-236,CO05,IN05,SCAFFOLDS,0.6,bidirectional,Negative space analysis reveals integration gaps
+REL-237,CO06,SY01,COMPOSES_WITH,0.9,unidirectional,Orchestration creates meta-system coordination
+REL-238,CO06,DE10,COMPOSES_WITH,0.8,unidirectional,Resource allocation determines orchestration strategy
+REL-239,CO06,RE06,REFINES,0.7,bidirectional,Feedback loops enable adaptive orchestration
+REL-240,CO06,IN09,CONFLICTS,0.6,bidirectional,Orchestration complexity vs incentive alignment - tension
+REL-241,CO07,DE03,SCAFFOLDS,0.9,unidirectional,Modularization must precede interface definition
+REL-242,CO07,CO05,COMPOSES_WITH,0.8,bidirectional,Interfaces enable integration patterns
+REL-243,CO07,P05,REFINES,0.7,bidirectional,Abstraction levels determine interface granularity
+REL-244,CO07,CO02,REFINES,0.7,bidirectional,Layer boundaries are interface definitions
+REL-245,CO08,RE06,COMPOSES_WITH,0.9,bidirectional,Events create feedback loops in systems
+REL-246,CO08,SY01,COMPOSES_WITH,0.8,unidirectional,Event flows define asynchronous system topology
+REL-247,CO08,DE08,REFINES,0.7,bidirectional,Information flow analysis informs event design
+REL-248,CO08,CO03,CONTRASTS_WITH,0.6,bidirectional,Event-driven vs pipeline - different composition models
+REL-249,CO09,DE03,SCAFFOLDS,0.9,unidirectional,Modularization enables microservice decomposition
+REL-250,CO09,SY01,COMPOSES_WITH,0.9,unidirectional,Microservices create distributed system topology
+REL-251,CO09,CO06,REFINES,0.8,bidirectional,Service orchestration manages microservice coordination
+REL-252,CO09,DE09,CONFLICTS,0.7,bidirectional,Microservices increase operational complexity
+REL-253,CO10,CO07,REFINES,0.9,bidirectional,APIs are contract-based interface definitions
+REL-254,CO10,P02,REFINES,0.8,bidirectional,Stakeholder needs define API surface
+REL-255,CO10,CO05,COMPOSES_WITH,0.7,unidirectional,API design enables integration patterns
+REL-256,CO10,DE02,SCAFFOLDS,0.7,unidirectional,Component identification informs API boundaries
+REL-257,CO11,RE06,COMPOSES_WITH,0.9,bidirectional,State transitions create feedback loops
+REL-258,CO11,DE08,COMPOSES_WITH,0.8,unidirectional,Information flow determines state dependencies
+REL-259,CO11,SY01,COMPOSES_WITH,0.7,unidirectional,State graphs are system topology representations
+REL-260,CO11,IN04,CONFLICTS,0.6,bidirectional,Stateful systems vs simplification - inherent tension
+REL-261,CO12,CO08,REFINES,0.9,bidirectional,Queues implement event-driven patterns
+REL-262,CO12,DE07,SCAFFOLDS,0.8,unidirectional,Bottleneck analysis guides queue placement
+REL-263,CO12,SY04,COMPOSES_WITH,0.7,unidirectional,Queue failures create cascade effects
+REL-264,CO12,RE06,COMPOSES_WITH,0.7,bidirectional,Queue backpressure creates feedback loops
+REL-265,CO13,DE07,SCAFFOLDS,0.9,unidirectional,Bottleneck identification determines cache placement
+REL-266,CO13,SY01,COMPOSES_WITH,0.8,unidirectional,Cache layers add system complexity
+REL-267,CO13,IN06,REFINES,0.7,bidirectional,Cache invalidation creates second-order effects
+REL-268,CO13,CO04,REFINES,0.6,bidirectional,Caching optimizes data pipeline performance
+REL-269,P01,DE01,REFINES,0.9,bidirectional,First principles and root cause both strip to fundamentals
+REL-270,P02,DE04,COMPOSES_WITH,0.8,bidirectional,Stakeholder mapping reveals constraint sources
+REL-271,P03,CO05,REFINES,0.7,bidirectional,Multiple viewpoints improve integration design
+REL-272,RE01,DE06,COMPOSES_WITH,0.9,bidirectional,Pattern recognition identifies recurring failure modes
+REL-273,RE06,SY01,COMPOSES_WITH,0.9,bidirectional,Feedback loops are circular system dependencies
+REL-274,RE07,DE06,COMPOSES_WITH,0.8,bidirectional,FMEA systematizes failure mode analysis
+REL-275,RE09,CO01,REFINES,0.7,bidirectional,Iterative prototyping tests composition strategies
+REL-276,SY01,DE05,COMPOSES_WITH,0.9,unidirectional,Dependencies are edges in system topology
+REL-277,SY13,DE10,SCAFFOLDS,0.9,bidirectional,Resource allocation must precede incentive design
+REL-278,SY19,DE01,SCAFFOLDS,0.9,unidirectional,Root cause analysis must precede meta-model selection
+REL-279,P01,IN07,COMPOSES_WITH,0.9,bidirectional,First principles and assumption inversion both strip to fundamentals
+REL-280,P01,SY19,SCAFFOLDS,0.8,unidirectional,First principles thinking must precede model selection
+REL-281,P01,RE01,REFINES,0.7,bidirectional,Pattern recognition improves with foundational understanding
+REL-282,P02,SY13,COMPOSES_WITH,0.9,unidirectional,Stakeholder analysis reveals incentive structures
+REL-283,P02,CO10,REFINES,0.7,bidirectional,Stakeholder needs drive API design decisions
+REL-284,P03,IN01,COMPOSES_WITH,0.9,bidirectional,Viewpoint shifting enables perspective inversion
+REL-285,P03,DE02,REFINES,0.7,bidirectional,Different viewpoints reveal different component boundaries
+REL-286,P03,SY01,COMPOSES_WITH,0.6,unidirectional,Multiple perspectives expose system topology variants
+REL-287,P04,DE06,REFINES,0.9,bidirectional,Adversarial thinking reveals failure modes
+REL-288,P04,IN06,COMPOSES_WITH,0.8,bidirectional,Attack scenarios expose second-order effects
+REL-289,P04,SY02,COMPOSES_WITH,0.7,unidirectional,Adversarial analysis informs risk mitigation
+REL-290,P05,DE03,COMPOSES_WITH,0.8,bidirectional,Abstraction layers map to modular decomposition
+REL-291,P05,SY01,COMPOSES_WITH,0.7,unidirectional,Abstraction hierarchy defines system levels
+REL-292,P06,DE01,REFINES,0.8,bidirectional,Analogical reasoning reveals hidden root causes
+REL-293,P06,RE01,COMPOSES_WITH,0.8,bidirectional,Analogies are cross-domain pattern recognition
+REL-294,P07,CO05,COMPOSES_WITH,0.8,unidirectional,Mental model alignment enables integration
+REL-295,P08,IN04,COMPOSES_WITH,0.7,bidirectional,Counterfactual reasoning tests simplification strategies
+REL-296,P09,SY01,COMPOSES_WITH,0.8,unidirectional,Time horizon analysis reveals system evolution
+REL-297,P10,DE04,REFINES,0.7,bidirectional,Scale perspective reveals constraint relativity
+REL-298,P10,CO09,COMPOSES_WITH,0.6,unidirectional,Scale analysis informs microservice granularity
+REL-299,RE01,SY03,COMPOSES_WITH,0.9,unidirectional,Pattern recognition identifies system archetypes
+REL-300,RE02,CO01,COMPOSES_WITH,0.8,bidirectional,Modular composition enables reusable patterns
+REL-301,RE02,DE03,COMPOSES_WITH,0.8,bidirectional,Module libraries implement pattern reuse
+REL-302,RE02,SY01,COMPOSES_WITH,0.7,unidirectional,Reusable patterns simplify system design
+REL-303,RE02,P06,REFINES,0.6,bidirectional,Analogies enable cross-domain pattern reuse
+REL-304,RE03,DE01,COMPOSES_WITH,0.9,bidirectional,Root cause pattern analysis reveals systematic issues
+REL-305,RE03,SY01,COMPOSES_WITH,0.8,unidirectional,System patterns indicate structural properties
+REL-306,RE03,IN02,COMPOSES_WITH,0.7,unidirectional,Failure pattern analysis strengthens premortem
+REL-307,RE03,CO01,REFINES,0.6,bidirectional,Composition patterns emerge from repeated integration
+REL-308,RE04,SY05,COMPOSES_WITH,0.9,bidirectional,Learning loops create path dependencies
+REL-309,RE04,RE06,REFINES,0.8,bidirectional,Learning loops are positive feedback mechanisms
+REL-310,RE04,CO11,COMPOSES_WITH,0.7,unidirectional,Learning requires state management
+REL-311,RE04,DE09,CONFLICTS,0.6,bidirectional,Learning increases system complexity
+REL-312,RE05,DE04,COMPOSES_WITH,0.8,bidirectional,Constraint relaxation iteratively expands solution space
+REL-313,RE05,IN03,COMPOSES_WITH,0.8,bidirectional,Iterative inversion progressively removes constraints
+REL-314,RE05,CO01,REFINES,0.6,unidirectional,Relaxing constraints enables new compositions
+REL-315,RE06,SY04,COMPOSES_WITH,0.9,bidirectional,Feedback loops create cascade amplification
+REL-316,RE08,IN07,COMPOSES_WITH,0.8,bidirectional,Hypothesis testing validates assumption inversions
+REL-317,RE09,DE03,COMPOSES_WITH,0.8,bidirectional,Prototyping tests modular decomposition strategies
+REL-318,RE10,DE07,COMPOSES_WITH,0.9,bidirectional,A/B testing identifies bottlenecks through iteration
+REL-319,SY01,P03,COMPOSES_WITH,0.8,bidirectional,System topology varies with perspective
+REL-320,SY02,IN02,SCAFFOLDS,0.9,bidirectional,Premortem must precede risk mitigation planning
+REL-321,SY03,RE01,COMPOSES_WITH,0.9,bidirectional,Archetype classification uses pattern recognition
+REL-322,SY04,CO03,COMPOSES_WITH,0.8,unidirectional,Pipeline cascades are system failure modes
+REL-323,SY05,IN10,COMPOSES_WITH,0.9,bidirectional,Path dependency requires temporal reasoning
+REL-324,SY06,RE06,COMPOSES_WITH,0.9,bidirectional,Tipping points emerge from feedback dynamics
+REL-325,SY07,DE07,COMPOSES_WITH,0.8,unidirectional,Leverage points often target bottlenecks
+REL-326,SY08,CO09,COMPOSES_WITH,0.7,unidirectional,Emergent behavior arises in distributed systems
+REL-327,SY09,CO02,COMPOSES_WITH,0.8,unidirectional,Nested hierarchies create layered systems
+REL-328,SY10,DE05,COMPOSES_WITH,0.8,unidirectional,Network effects amplify through dependencies
+REL-329,SY11,CO06,COMPOSES_WITH,0.9,unidirectional,Resilience engineering guides orchestration design
+REL-330,SY12,IN04,CONTRASTS_WITH,0.7,bidirectional,Complex adaptive systems resist simplification
+REL-331,SY13,P02,COMPOSES_WITH,0.9,bidirectional,Stakeholder incentives drive system architecture
+REL-332,SY14,CO01,SCAFFOLDS,0.8,unidirectional,Boundary definition must precede composition
+REL-333,SY19,P01,SCAFFOLDS,0.9,bidirectional,First principles and meta-model selection are mutually reinforcing

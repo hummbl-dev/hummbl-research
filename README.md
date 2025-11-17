@@ -168,10 +168,10 @@ Operators must score ≥7.0/10 on a 5-dimension utility rubric to achieve **VALI
 
 ### Phase 1 – Case Studies & Intelligence (In Progress)
 
+- [x] SY19 `recommend_models()` prototype ✅
 - [ ] Case Study 1: Multi-service AI system (Target: Jan 2026)
 - [ ] Case Study 2: Fitness transformation (Target: Dec 2025)
 - [ ] Case Study 3: Ozzy health protocol (Target: Dec 2025)
-- [ ] SY19 `recommend_models()` prototype
 - **Target:** January 2026 completion
 
 ---

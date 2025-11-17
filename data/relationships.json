@@ -1,0 +1,2999 @@
+[
+  {
+    "id": "REL-001",
+    "from": "P01",
+    "to": "P08",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "First Principles thinking enables effective reframing by revealing assumptions to question"
+  },
+  {
+    "id": "REL-002",
+    "from": "P01",
+    "to": "IN02",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Breaking down to fundamentals improves Premortem analysis quality"
+  },
+  {
+    "id": "REL-003",
+    "from": "P01",
+    "to": "DE01",
+    "type": "SCAFFOLDS",
+    "strength": 1.0,
+    "direction": "unidirectional",
+    "description": "First Principles is the foundation of First Principles Decomposition"
+  },
+  {
+    "id": "REL-004",
+    "from": "P01",
+    "to": "P06",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Both deal with understanding fundamental thinking patterns"
+  },
+  {
+    "id": "REL-005",
+    "from": "P01",
+    "to": "IN17",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Understanding first principles helps apply Chesterton's Fence properly"
+  },
+  {
+    "id": "REL-006",
+    "from": "P02",
+    "to": "P03",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Multiple perspectives include different timeframes as one perspective type"
+  },
+  {
+    "id": "REL-007",
+    "from": "P02",
+    "to": "P04",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Taking multiple perspectives reveals different reference frames"
+  },
+  {
+    "id": "REL-008",
+    "from": "P02",
+    "to": "P08",
+    "type": "PARALLELS",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Perspective-taking and reframing are complementary approaches"
+  },
+  {
+    "id": "REL-009",
+    "from": "P02",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Systems thinking requires multiple perspectives to understand interconnections"
+  },
+  {
+    "id": "REL-010",
+    "from": "P02",
+    "to": "P16",
+    "type": "SCAFFOLDS",
+    "strength": 0.6,
+    "direction": "unidirectional",
+    "description": "Understanding multiple perspectives helps recognize information asymmetries"
+  },
+  {
+    "id": "REL-011",
+    "from": "P02",
+    "to": "IN16",
+    "type": "SCAFFOLDS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Perspective-taking is essential for Red Team Thinking"
+  },
+  {
+    "id": "REL-012",
+    "from": "P02",
+    "to": "DE12",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Understanding customer perspective is core to Jobs-to-be-Done"
+  },
+  {
+    "id": "REL-013",
+    "from": "P02",
+    "to": "DE13",
+    "type": "SCAFFOLDS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Different abstraction levels are different perspectives"
+  },
+  {
+    "id": "REL-014",
+    "from": "P02",
+    "to": "SY11",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Boundary objects work by accommodating multiple perspectives"
+  },
+  {
+    "id": "REL-015",
+    "from": "P03",
+    "to": "RE05",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Long timeframe thinking is essential for understanding compound growth"
+  },
+  {
+    "id": "REL-016",
+    "from": "P03",
+    "to": "SY10",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Timeframe shifting reveals time delays between actions and consequences"
+  },
+  {
+    "id": "REL-017",
+    "from": "P03",
+    "to": "IN03",
+    "type": "PARALLELS",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Different timeframes reveal what should be subtracted vs added"
+  },
+  {
+    "id": "REL-018",
+    "from": "P03",
+    "to": "P09",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Timeframe shifting is essential for second-order thinking"
+  },
+  {
+    "id": "REL-019",
+    "from": "P03",
+    "to": "IN12",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Regret minimization requires long timeframe perspective"
+  },
+  {
+    "id": "REL-020",
+    "from": "P03",
+    "to": "DE16",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Understanding time is foundational to temporal decomposition"
+  },
+  {
+    "id": "REL-021",
+    "from": "P03",
+    "to": "RE20",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Timeframe thinking helps manage temporal discounting"
+  },
+  {
+    "id": "REL-022",
+    "from": "P04",
+    "to": "P05",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Reference frame affects how opportunity costs are perceived"
+  },
+  {
+    "id": "REL-023",
+    "from": "P04",
+    "to": "P08",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Changing reference frame is a form of reframing"
+  },
+  {
+    "id": "REL-024",
+    "from": "P04",
+    "to": "IN01",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Inversion changes the reference frame dramatically"
+  },
+  {
+    "id": "REL-025",
+    "from": "P04",
+    "to": "P11",
+    "type": "PARALLELS",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Anchoring bias is about reference frame dependence"
+  },
+  {
+    "id": "REL-026",
+    "from": "P05",
+    "to": "DE04",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Opportunity cost thinking clarifies critical path priorities"
+  },
+  {
+    "id": "REL-027",
+    "from": "P05",
+    "to": "DE05",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Understanding opportunity costs improves Pareto prioritization"
+  },
+  {
+    "id": "REL-028",
+    "from": "P05",
+    "to": "IN05",
+    "type": "PARALLELS",
+    "strength": 1.0,
+    "direction": "bidirectional",
+    "description": "Both examine the cost of choices through an opportunity lens"
+  },
+  {
+    "id": "REL-029",
+    "from": "P05",
+    "to": "IN04",
+    "type": "SCAFFOLDS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Understanding resource constraints helps see opportunity costs"
+  },
+  {
+    "id": "REL-030",
+    "from": "P05",
+    "to": "DE11",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Value chain analysis reveals opportunity costs of activities"
+  },
+  {
+    "id": "REL-031",
+    "from": "P05",
+    "to": "SY04",
+    "type": "PARALLELS",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Leverage points minimize opportunity costs"
+  },
+  {
+    "id": "REL-032",
+    "from": "P05",
+    "to": "IN18",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Killing darlings is accepting opportunity cost of attachment"
+  },
+  {
+    "id": "REL-033",
+    "from": "P06",
+    "to": "P07",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Understanding mental models helps distinguish map from territory"
+  },
+  {
+    "id": "REL-034",
+    "from": "P06",
+    "to": "SY19",
+    "type": "SCAFFOLDS",
+    "strength": 1.0,
+    "direction": "unidirectional",
+    "description": "Mental models foundation enables meta-model selection"
+  },
+  {
+    "id": "REL-035",
+    "from": "P06",
+    "to": "RE01",
+    "type": "PARALLELS",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Deliberate practice improves mental model application"
+  },
+  {
+    "id": "REL-036",
+    "from": "P06",
+    "to": "P17",
+    "type": "SCAFFOLDS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Understanding mental models helps recognize Dunning\u2013Kruger effect"
+  },
+  {
+    "id": "REL-037",
+    "from": "P06",
+    "to": "RE11",
+    "type": "PARALLELS",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Iterative deepening applies to learning mental models"
+  },
+  {
+    "id": "REL-038",
+    "from": "P06",
+    "to": "RE12",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Mental models framework enables meta-learning"
+  },
+  {
+    "id": "REL-039",
+    "from": "P06",
+    "to": "CO20",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Broad mental model library enables crossover innovation"
+  },
+  {
+    "id": "REL-040",
+    "from": "P07",
+    "to": "SY01",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Map\u2013territory distinction is essential for systems thinking"
+  },
+  {
+    "id": "REL-041",
+    "from": "P07",
+    "to": "DE01",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Both deal with distinguishing models from reality"
+  },
+  {
+    "id": "REL-042",
+    "from": "P07",
+    "to": "P14",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Map\u2013territory awareness helps understand observer effect"
+  },
+  {
+    "id": "REL-043",
+    "from": "P07",
+    "to": "P20",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Understanding representation is essential for simulacra levels"
+  },
+  {
+    "id": "REL-044",
+    "from": "P07",
+    "to": "CO08",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Layering creates maps at different abstraction levels"
+  },
+  {
+    "id": "REL-045",
+    "from": "P07",
+    "to": "DE20",
+    "type": "PARALLELS",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Boundary analysis defines the territory"
+  },
+  {
+    "id": "REL-046",
+    "from": "P07",
+    "to": "SY08",
+    "type": "PARALLELS",
+    "strength": 0.5,
+    "direction": "bidirectional",
+    "description": "Open/closed systems have different map\u2013territory relationships"
+  },
+  {
+    "id": "REL-047",
+    "from": "P08",
+    "to": "CO06",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Reframing enables synthesis of different perspectives"
+  },
+  {
+    "id": "REL-048",
+    "from": "P08",
+    "to": "IN01",
+    "type": "SCAFFOLDS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Reframing can include inverting the problem"
+  },
+  {
+    "id": "REL-049",
+    "from": "P08",
+    "to": "CO20",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Reframing enables seeing crossover possibilities"
+  },
+  {
+    "id": "REL-050",
+    "from": "P09",
+    "to": "SY10",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Second-order thinking reveals time delays"
+  },
+  {
+    "id": "REL-051",
+    "from": "P09",
+    "to": "SY01",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Thinking beyond first order is essential for systems thinking"
+  },
+  {
+    "id": "REL-052",
+    "from": "P09",
+    "to": "IN03",
+    "type": "PARALLELS",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Second-order effects reveal what to subtract"
+  },
+  {
+    "id": "REL-053",
+    "from": "P09",
+    "to": "P12",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Counterfactual thinking helps trace consequence chains"
+  },
+  {
+    "id": "REL-054",
+    "from": "P09",
+    "to": "CO18",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Emergence often appears as a second-order effect"
+  },
+  {
+    "id": "REL-055",
+    "from": "P09",
+    "to": "SY13",
+    "type": "PARALLELS",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Cascading failures are chains of consequences"
+  },
+  {
+    "id": "REL-056",
+    "from": "P09",
+    "to": "SY15",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Phase transitions show non-linear consequences"
+  },
+  {
+    "id": "REL-057",
+    "from": "P10",
+    "to": "SY05",
+    "type": "SCAFFOLDS",
+    "strength": 1.0,
+    "direction": "unidirectional",
+    "description": "Understanding incentives is core to designing incentive systems"
+  },
+  {
+    "id": "REL-058",
+    "from": "P10",
+    "to": "CO04",
+    "type": "SCAFFOLDS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Incentives create feedback loops in behavior"
+  },
+  {
+    "id": "REL-059",
+    "from": "P10",
+    "to": "P14",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Incentives explain observer effect on behavior"
+  },
+  {
+    "id": "REL-060",
+    "from": "P10",
+    "to": "P16",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Information asymmetry affects incentive alignment"
+  },
+  {
+    "id": "REL-061",
+    "from": "P10",
+    "to": "P18",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Skin in the game aligns incentives with outcomes"
+  },
+  {
+    "id": "REL-062",
+    "from": "P10",
+    "to": "IN8",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Incentive understanding is core to principal\u2013agent problem"
+  },
+  {
+    "id": "REL-063",
+    "from": "P10",
+    "to": "IN20",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Cunningham's Law exploits incentive to correct"
+  },
+  {
+    "id": "REL-064",
+    "from": "P10",
+    "to": "SY16",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Individual incentives drive tragedy of the commons"
+  },
+  {
+    "id": "REL-065",
+    "from": "P10",
+    "to": "SY17",
+    "type": "PARALLELS",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Preferential attachment creates incentive dynamics"
+  },
+  {
+    "id": "REL-066",
+    "from": "P10",
+    "to": "SY18",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Goodhart's Law is about incentive misalignment"
+  },
+  {
+    "id": "REL-067",
+    "from": "P11",
+    "to": "IN02",
+    "type": "SCAFFOLDS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Recognizing biases improves premortem quality"
+  },
+  {
+    "id": "REL-068",
+    "from": "P11",
+    "to": "P13",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Bias recognition helps properly use base rates"
+  },
+  {
+    "id": "REL-069",
+    "from": "P11",
+    "to": "P15",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Understanding bias helps recognize narrative fallacy"
+  },
+  {
+    "id": "REL-070",
+    "from": "P11",
+    "to": "P17",
+    "type": "SCAFFOLDS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Bias awareness includes Dunning\u2013Kruger effect"
+  },
+  {
+    "id": "REL-071",
+    "from": "P11",
+    "to": "DE07",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Probabilistic thinking counteracts cognitive biases"
+  },
+  {
+    "id": "REL-072",
+    "from": "P11",
+    "to": "RE20",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Temporal discounting is a cognitive bias"
+  },
+  {
+    "id": "REL-073",
+    "from": "P12",
+    "to": "IN02",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Counterfactual thinking strengthens premortems"
+  },
+  {
+    "id": "REL-074",
+    "from": "P12",
+    "to": "RE08",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Counterfactuals improve retrospective learning"
+  },
+  {
+    "id": "REL-075",
+    "from": "P12",
+    "to": "DE08",
+    "type": "PARALLELS",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Decision trees map counterfactual branches"
+  },
+  {
+    "id": "REL-076",
+    "from": "P13",
+    "to": "IN03",
+    "type": "SCAFFOLDS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Base rates reveal realistic expectations for premortems"
+  },
+  {
+    "id": "REL-077",
+    "from": "P13",
+    "to": "IN14",
+    "type": "PARALLELS",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Base rates inform margin of safety calculations"
+  },
+  {
+    "id": "REL-078",
+    "from": "P13",
+    "to": "P19",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Base rate thinking helps understand ergodicity"
+  },
+  {
+    "id": "REL-079",
+    "from": "P13",
+    "to": "IN11",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Lindy Effect is about empirical base rates"
+  },
+  {
+    "id": "REL-080",
+    "from": "P13",
+    "to": "DE07",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Base rates are foundation of probabilistic thinking"
+  },
+  {
+    "id": "REL-081",
+    "from": "P13",
+    "to": "IN19",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Null hypothesis testing requires base rate thinking"
+  },
+  {
+    "id": "REL-082",
+    "from": "P14",
+    "to": "SY05",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Observer effect is crucial for understanding incentive systems"
+  },
+  {
+    "id": "REL-083",
+    "from": "P14",
+    "to": "RE02",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Measurement affects the system being measured"
+  },
+  {
+    "id": "REL-084",
+    "from": "P14",
+    "to": "SY18",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Observer effect explains Goodhart's Law"
+  },
+  {
+    "id": "REL-085",
+    "from": "P15",
+    "to": "SY01",
+    "type": "SCAFFOLDS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Recognizing narrative fallacy improves systems thinking"
+  },
+  {
+    "id": "REL-086",
+    "from": "P15",
+    "to": "P20",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Narrative construction relates to simulacra levels"
+  },
+  {
+    "id": "REL-087",
+    "from": "P15",
+    "to": "RE08",
+    "type": "PARALLELS",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Retrospectives can fall victim to narrative fallacy"
+  },
+  {
+    "id": "REL-088",
+    "from": "P16",
+    "to": "SY09",
+    "type": "SCAFFOLDS",
+    "strength": 1.0,
+    "direction": "unidirectional",
+    "description": "Information asymmetry concept enables system-level analysis"
+  },
+  {
+    "id": "REL-089",
+    "from": "P16",
+    "to": "P18",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Skin in the game reduces information asymmetry"
+  },
+  {
+    "id": "REL-090",
+    "from": "P16",
+    "to": "IN8",
+    "type": "PARALLELS",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Information asymmetry is core to principal\u2013agent problem"
+  },
+  {
+    "id": "REL-091",
+    "from": "P17",
+    "to": "RE01",
+    "type": "SCAFFOLDS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Understanding competence helps design better practice"
+  },
+  {
+    "id": "REL-092",
+    "from": "P18",
+    "to": "SY05",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Skin in the game aligns incentive systems"
+  },
+  {
+    "id": "REL-093",
+    "from": "P19",
+    "to": "SY10",
+    "type": "SCAFFOLDS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Ergodicity affects how time delays compound"
+  },
+  {
+    "id": "REL-094",
+    "from": "P19",
+    "to": "IN6",
+    "type": "PARALLELS",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Antifragility deals with ergodic risk management"
+  },
+  {
+    "id": "REL-095",
+    "from": "P19",
+    "to": "IN7",
+    "type": "PARALLELS",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Barbell strategy respects ergodicity"
+  },
+  {
+    "id": "REL-096",
+    "from": "P19",
+    "to": "CO12",
+    "type": "PARALLELS",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Optionality manages non-ergodic risk"
+  },
+  {
+    "id": "REL-097",
+    "from": "P20",
+    "to": "SY19",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Understanding abstraction levels helps meta-model selection"
+  },
+  {
+    "id": "REL-098",
+    "from": "IN1",
+    "to": "IN2",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Inversion thinking enables premortem analysis"
+  },
+  {
+    "id": "REL-099",
+    "from": "IN1",
+    "to": "IN3",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Inversion reveals what should be subtracted"
+  },
+  {
+    "id": "REL-100",
+    "from": "IN1",
+    "to": "DE06",
+    "type": "PARALLELS",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Inversion helps separate concerns by negation"
+  },
+  {
+    "id": "REL-101",
+    "from": "IN1",
+    "to": "IN10",
+    "type": "PARALLELS",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Negative space is inverting focus from presence to absence"
+  },
+  {
+    "id": "REL-102",
+    "from": "IN1",
+    "to": "IN12",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Regret minimization inverts the decision question"
+  },
+  {
+    "id": "REL-103",
+    "from": "IN2",
+    "to": "IN3",
+    "type": "SCAFFOLDS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Premortems often reveal what to subtract"
+  },
+  {
+    "id": "REL-104",
+    "from": "IN2",
+    "to": "IN19",
+    "type": "PARALLELS",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Both start from a skeptical stance"
+  },
+  {
+    "id": "REL-105",
+    "from": "IN3",
+    "to": "DE03",
+    "type": "SCAFFOLDS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Subtraction reveals essential modules"
+  },
+  {
+    "id": "REL-106",
+    "from": "IN3",
+    "to": "IN18",
+    "type": "PARALLELS",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Kill your darlings is applied via negativa"
+  },
+  {
+    "id": "REL-107",
+    "from": "IN3",
+    "to": "CO17",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Creative destruction requires subtraction"
+  },
+  {
+    "id": "REL-108",
+    "from": "IN3",
+    "to": "DE14",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Information theory removes noise via negativa"
+  },
+  {
+    "id": "REL-109",
+    "from": "IN4",
+    "to": "DE05",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Constraints force prioritization (Pareto)"
+  },
+  {
+    "id": "REL-110",
+    "from": "IN4",
+    "to": "CO01",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Constraints drive MVP composition thinking"
+  },
+  {
+    "id": "REL-111",
+    "from": "IN4",
+    "to": "DE10",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Understanding constraints enables constraint analysis"
+  },
+  {
+    "id": "REL-112",
+    "from": "IN4",
+    "to": "IN15",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Constraints can be forcing functions"
+  },
+  {
+    "id": "REL-113",
+    "from": "IN5",
+    "to": "DE04",
+    "type": "SCAFFOLDS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Opportunity cost inversion clarifies critical path"
+  },
+  {
+    "id": "REL-114",
+    "from": "IN6",
+    "to": "SY06",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Antifragility creates resilient feedback structures"
+  },
+  {
+    "id": "REL-115",
+    "from": "IN6",
+    "to": "RE06",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Antifragile growth operates through feedback loops"
+  },
+  {
+    "id": "REL-116",
+    "from": "IN6",
+    "to": "IN7",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Antifragility concept enables barbell strategy"
+  },
+  {
+    "id": "REL-117",
+    "from": "IN6",
+    "to": "IN9",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Antifragility prefers reversible decisions"
+  },
+  {
+    "id": "REL-118",
+    "from": "IN6",
+    "to": "SY11",
+    "type": "PARALLELS",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Lindy Effect identifies antifragile ideas"
+  },
+  {
+    "id": "REL-119",
+    "from": "IN7",
+    "to": "CO12",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Barbell strategy creates an optionality structure"
+  },
+  {
+    "id": "REL-120",
+    "from": "IN8",
+    "to": "SY05",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Principal\u2013agent problem shapes incentive system design"
+  },
+  {
+    "id": "REL-121",
+    "from": "IN09",
+    "to": "RE03",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Reversibility enables safe iteration"
+  },
+  {
+    "id": "REL-122",
+    "from": "IN09",
+    "to": "CO07",
+    "type": "SCAFFOLDS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Modularity enables reversible changes"
+  },
+  {
+    "id": "REL-123",
+    "from": "IN09",
+    "to": "DE08",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Decision trees map reversible vs irreversible choices"
+  },
+  {
+    "id": "REL-124",
+    "from": "IN09",
+    "to": "IN13",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Reversibility enables fast failure"
+  },
+  {
+    "id": "REL-125",
+    "from": "IN09",
+    "to": "CO12",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Reversibility creates optionality"
+  },
+  {
+    "id": "REL-126",
+    "from": "IN09",
+    "to": "RE16",
+    "type": "PARALLELS",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Version control enables reversibility"
+  },
+  {
+    "id": "REL-127",
+    "from": "IN10",
+    "to": "DE01",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Negative space reasoning reveals hidden assumptions in root cause analysis"
+  },
+  {
+    "id": "REL-128",
+    "from": "IN11",
+    "to": "RE05",
+    "type": "SCAFFOLDS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Lindy Effect shows compound survival advantage"
+  },
+  {
+    "id": "REL-129",
+    "from": "IN13",
+    "to": "RE03",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Failing fast enables rapid iteration"
+  },
+  {
+    "id": "REL-130",
+    "from": "IN13",
+    "to": "RE04",
+    "type": "SCAFFOLDS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Fast failure informs scaffolding removal"
+  },
+  {
+    "id": "REL-131",
+    "from": "IN14",
+    "to": "IN06",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Margin of safety contributes to antifragility"
+  },
+  {
+    "id": "REL-132",
+    "from": "IN14",
+    "to": "DE07",
+    "type": "PARALLELS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Margin of safety accounts for probability ranges"
+  },
+  {
+    "id": "REL-133",
+    "from": "IN15",
+    "to": "RE02",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Forcing functions automate measurement responses"
+  },
+  {
+    "id": "REL-134",
+    "from": "IN15",
+    "to": "SY04",
+    "type": "SCAFFOLDS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Forcing functions are high-leverage interventions"
+  },
+  {
+    "id": "REL-135",
+    "from": "IN15",
+    "to": "RE09",
+    "type": "PARALLELS",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Forcing functions support habit formation"
+  },
+  {
+    "id": "REL-136",
+    "from": "IN15",
+    "to": "DE17",
+    "type": "PARALLELS",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Forcing functions weaken restraining forces"
+  },
+  {
+    "id": "REL-137",
+    "from": "IN16",
+    "to": "SY07",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Red teaming finds single points of failure"
+  },
+  {
+    "id": "REL-138",
+    "from": "IN17",
+    "to": "SY01",
+    "type": "SCAFFOLDS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Chesterton's Fence requires systems understanding"
+  },
+  {
+    "id": "REL-139",
+    "from": "DE01",
+    "to": "IN02",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Root cause analysis benefits from premortem inversion"
+  },
+  {
+    "id": "REL-140",
+    "from": "DE01",
+    "to": "SY19",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Root cause must be identified before meta-model selection"
+  },
+  {
+    "id": "REL-141",
+    "from": "DE01",
+    "to": "P01",
+    "type": "REFINES",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "First principles thinking deepens root cause analysis"
+  },
+  {
+    "id": "REL-142",
+    "from": "DE01",
+    "to": "RE01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Pattern recognition follows root cause identification"
+  },
+  {
+    "id": "REL-143",
+    "from": "DE02",
+    "to": "CO05",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Must identify components before designing integration"
+  },
+  {
+    "id": "REL-144",
+    "from": "DE02",
+    "to": "DE03",
+    "type": "REFINES",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Modularization deepens component identification"
+  },
+  {
+    "id": "REL-145",
+    "from": "DE02",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Components become subsystems in meta-analysis"
+  },
+  {
+    "id": "REL-146",
+    "from": "DE02",
+    "to": "P03",
+    "type": "REFINES",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Multiple perspectives improve component boundaries"
+  },
+  {
+    "id": "REL-147",
+    "from": "DE03",
+    "to": "CO07",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Modular design enables interface definition"
+  },
+  {
+    "id": "REL-148",
+    "from": "DE03",
+    "to": "DE02",
+    "type": "REFINES",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Component ID and modularization reinforce each other"
+  },
+  {
+    "id": "REL-149",
+    "from": "DE03",
+    "to": "RE09",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Modular structure enables iterative prototyping"
+  },
+  {
+    "id": "REL-150",
+    "from": "DE03",
+    "to": "IN03",
+    "type": "CONTRASTS_WITH",
+    "strength": 0.5,
+    "direction": "bidirectional",
+    "description": "Modularization vs integration - opposing forces"
+  },
+  {
+    "id": "REL-151",
+    "from": "DE04",
+    "to": "SY13",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Constraints must be mapped before incentive design"
+  },
+  {
+    "id": "REL-152",
+    "from": "DE04",
+    "to": "P02",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Stakeholder mapping reveals constraint sources"
+  },
+  {
+    "id": "REL-153",
+    "from": "DE04",
+    "to": "CO01",
+    "type": "CONFLICTS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Constraints limit composition options - inherent tension"
+  },
+  {
+    "id": "REL-154",
+    "from": "DE04",
+    "to": "RE05",
+    "type": "REFINES",
+    "strength": 0.6,
+    "direction": "unidirectional",
+    "description": "Constraint relaxation through iterative exploration"
+  },
+  {
+    "id": "REL-155",
+    "from": "DE05",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Dependencies become links in system topology"
+  },
+  {
+    "id": "REL-156",
+    "from": "DE05",
+    "to": "CO02",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Must trace dependencies before layering architecture"
+  },
+  {
+    "id": "REL-157",
+    "from": "DE05",
+    "to": "RE06",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Dependency loops create feedback cycles"
+  },
+  {
+    "id": "REL-158",
+    "from": "DE05",
+    "to": "IN01",
+    "type": "REFINES",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Inverting perspective reveals hidden dependencies"
+  },
+  {
+    "id": "REL-159",
+    "from": "DE06",
+    "to": "IN02",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Premortem directly generates failure modes"
+  },
+  {
+    "id": "REL-160",
+    "from": "DE06",
+    "to": "SY02",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Failure modes must be identified before risk mitigation"
+  },
+  {
+    "id": "REL-161",
+    "from": "DE06",
+    "to": "RE07",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "FMEA systematizes failure mode analysis"
+  },
+  {
+    "id": "REL-162",
+    "from": "DE06",
+    "to": "P04",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Adversarial perspective reveals overlooked failure modes"
+  },
+  {
+    "id": "REL-163",
+    "from": "DE07",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Bottlenecks are constraint points in system topology"
+  },
+  {
+    "id": "REL-164",
+    "from": "DE07",
+    "to": "CO03",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Must identify bottlenecks before pipeline optimization"
+  },
+  {
+    "id": "REL-165",
+    "from": "DE07",
+    "to": "RE10",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Iterative testing reveals bottlenecks through measurement"
+  },
+  {
+    "id": "REL-166",
+    "from": "DE07",
+    "to": "P02",
+    "type": "REFINES",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Stakeholder perspectives identify different bottlenecks"
+  },
+  {
+    "id": "REL-167",
+    "from": "DE08",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Information flows are directed edges in system topology"
+  },
+  {
+    "id": "REL-168",
+    "from": "DE08",
+    "to": "CO04",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Must trace flows before designing data pipelines"
+  },
+  {
+    "id": "REL-169",
+    "from": "DE08",
+    "to": "DE05",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Information flows reveal logical dependencies"
+  },
+  {
+    "id": "REL-170",
+    "from": "DE08",
+    "to": "RE06",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Circular information flows create feedback loops"
+  },
+  {
+    "id": "REL-171",
+    "from": "DE09",
+    "to": "SY03",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Complexity metrics inform system archetype classification"
+  },
+  {
+    "id": "REL-172",
+    "from": "DE09",
+    "to": "CO01",
+    "type": "CONFLICTS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Composition increases complexity - inherent tension"
+  },
+  {
+    "id": "REL-173",
+    "from": "DE09",
+    "to": "RE09",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Iterative prototyping manages complexity through decomposition"
+  },
+  {
+    "id": "REL-174",
+    "from": "DE09",
+    "to": "IN04",
+    "type": "CONTRASTS_WITH",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Measuring complexity vs simplifying - opposite operations"
+  },
+  {
+    "id": "REL-175",
+    "from": "DE10",
+    "to": "SY13",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Resource allocation must be mapped before incentive design"
+  },
+  {
+    "id": "REL-176",
+    "from": "DE10",
+    "to": "CO06",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Resource mapping informs service orchestration design"
+  },
+  {
+    "id": "REL-177",
+    "from": "DE10",
+    "to": "P02",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Stakeholder analysis reveals resource competition"
+  },
+  {
+    "id": "REL-178",
+    "from": "DE10",
+    "to": "DE04",
+    "type": "REFINES",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Resource limits are constraints - mutual reinforcement"
+  },
+  {
+    "id": "REL-179",
+    "from": "IN01",
+    "to": "P01",
+    "type": "CONTRASTS_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "First principles vs inverted perspective - complementary opposites"
+  },
+  {
+    "id": "REL-180",
+    "from": "IN01",
+    "to": "DE05",
+    "type": "REFINES",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Inverting perspective reveals hidden dependencies"
+  },
+  {
+    "id": "REL-181",
+    "from": "IN01",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Inverted views expose alternative system topologies"
+  },
+  {
+    "id": "REL-182",
+    "from": "IN01",
+    "to": "RE01",
+    "type": "REFINES",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Pattern recognition improves with perspective shifts"
+  },
+  {
+    "id": "REL-183",
+    "from": "IN02",
+    "to": "DE06",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Premortem directly generates failure modes"
+  },
+  {
+    "id": "REL-184",
+    "from": "IN02",
+    "to": "DE01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Asking what went wrong reveals root causes"
+  },
+  {
+    "id": "REL-185",
+    "from": "IN02",
+    "to": "SY02",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Premortem must precede risk mitigation planning"
+  },
+  {
+    "id": "REL-186",
+    "from": "IN02",
+    "to": "RE07",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "FMEA systematizes premortem thinking"
+  },
+  {
+    "id": "REL-187",
+    "from": "IN03",
+    "to": "DE04",
+    "type": "CONTRASTS_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Mapping constraints vs inverting them - complementary operations"
+  },
+  {
+    "id": "REL-188",
+    "from": "IN03",
+    "to": "CO01",
+    "type": "CONFLICTS",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Removing constraints enables composition - inherent tension"
+  },
+  {
+    "id": "REL-189",
+    "from": "IN03",
+    "to": "RE05",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Constraint relaxation through iterative inversion"
+  },
+  {
+    "id": "REL-190",
+    "from": "IN03",
+    "to": "DE03",
+    "type": "CONTRASTS_WITH",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Constraint removal vs modularization - opposing forces"
+  },
+  {
+    "id": "REL-191",
+    "from": "IN04",
+    "to": "DE09",
+    "type": "CONTRASTS_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Complexity quantification vs simplification - opposite operations"
+  },
+  {
+    "id": "REL-192",
+    "from": "IN04",
+    "to": "CO01",
+    "type": "CONFLICTS",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Simplification vs composition - inherent trade-off"
+  },
+  {
+    "id": "REL-193",
+    "from": "IN04",
+    "to": "P01",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "First principles thinking simplifies complex problems"
+  },
+  {
+    "id": "REL-194",
+    "from": "IN04",
+    "to": "RE09",
+    "type": "COMPOSES_WITH",
+    "strength": 0.6,
+    "direction": "unidirectional",
+    "description": "Iterative prototyping enables progressive simplification"
+  },
+  {
+    "id": "REL-195",
+    "from": "IN05",
+    "to": "P03",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Viewpoint shifting reveals what's missing"
+  },
+  {
+    "id": "REL-196",
+    "from": "IN05",
+    "to": "DE02",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Negative space shows component boundaries"
+  },
+  {
+    "id": "REL-197",
+    "from": "IN05",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "What's NOT connected reveals system structure"
+  },
+  {
+    "id": "REL-198",
+    "from": "IN05",
+    "to": "CO05",
+    "type": "SCAFFOLDS",
+    "strength": 0.6,
+    "direction": "unidirectional",
+    "description": "Must understand gaps before designing integration"
+  },
+  {
+    "id": "REL-199",
+    "from": "IN06",
+    "to": "SY04",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Second-order effects are cascading system behaviors"
+  },
+  {
+    "id": "REL-200",
+    "from": "IN06",
+    "to": "RE06",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Feedback loops create second-order effects"
+  },
+  {
+    "id": "REL-201",
+    "from": "IN06",
+    "to": "DE07",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Bottleneck analysis reveals second-order constraints"
+  },
+  {
+    "id": "REL-202",
+    "from": "IN06",
+    "to": "P04",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Adversarial thinking exposes hidden second-order risks"
+  },
+  {
+    "id": "REL-203",
+    "from": "IN07",
+    "to": "P01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "First principles and assumption inversion both strip to fundamentals"
+  },
+  {
+    "id": "REL-204",
+    "from": "IN07",
+    "to": "DE01",
+    "type": "REFINES",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Inverting assumptions reveals root causes"
+  },
+  {
+    "id": "REL-205",
+    "from": "IN07",
+    "to": "CO01",
+    "type": "CONFLICTS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Questioning assumptions limits composition options"
+  },
+  {
+    "id": "REL-206",
+    "from": "IN07",
+    "to": "RE08",
+    "type": "COMPOSES_WITH",
+    "strength": 0.6,
+    "direction": "unidirectional",
+    "description": "Hypothesis testing systematizes assumption inversion"
+  },
+  {
+    "id": "REL-207",
+    "from": "IN08",
+    "to": "P02",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Role reversal is stakeholder perspective shifting"
+  },
+  {
+    "id": "REL-208",
+    "from": "IN08",
+    "to": "SY13",
+    "type": "REFINES",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Understanding reversed incentives improves system design"
+  },
+  {
+    "id": "REL-209",
+    "from": "IN09",
+    "to": "SY13",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Inverting incentives reveals system design flaws"
+  },
+  {
+    "id": "REL-210",
+    "from": "IN09",
+    "to": "P02",
+    "type": "REFINES",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Stakeholder mapping exposes misaligned incentives"
+  },
+  {
+    "id": "REL-211",
+    "from": "IN09",
+    "to": "DE04",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Constraint mapping reveals incentive distortions"
+  },
+  {
+    "id": "REL-212",
+    "from": "IN09",
+    "to": "CO06",
+    "type": "CONFLICTS",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Service orchestration vs incentive alignment - tension"
+  },
+  {
+    "id": "REL-213",
+    "from": "IN10",
+    "to": "RE01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Pattern recognition works forward and backward in time"
+  },
+  {
+    "id": "REL-214",
+    "from": "IN10",
+    "to": "IN02",
+    "type": "REFINES",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Premortem is backward reasoning from future failure"
+  },
+  {
+    "id": "REL-215",
+    "from": "IN10",
+    "to": "SY05",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Path dependency analysis requires temporal reasoning"
+  },
+  {
+    "id": "REL-216",
+    "from": "IN10",
+    "to": "DE01",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Root cause analysis works backward from effects"
+  },
+  {
+    "id": "REL-217",
+    "from": "CO01",
+    "to": "DE03",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Decomposition enables composition - complementary operations"
+  },
+  {
+    "id": "REL-218",
+    "from": "CO01",
+    "to": "IN04",
+    "type": "CONFLICTS",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Composition increases complexity vs simplification"
+  },
+  {
+    "id": "REL-219",
+    "from": "CO01",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Composed systems create meta-system topology"
+  },
+  {
+    "id": "REL-220",
+    "from": "CO01",
+    "to": "RE09",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Iterative prototyping tests composition strategies"
+  },
+  {
+    "id": "REL-221",
+    "from": "CO02",
+    "to": "DE05",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Dependency tracing must precede layering"
+  },
+  {
+    "id": "REL-222",
+    "from": "CO02",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Layers are hierarchical system structure"
+  },
+  {
+    "id": "REL-223",
+    "from": "CO02",
+    "to": "CO07",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Interface design enables clean layering"
+  },
+  {
+    "id": "REL-224",
+    "from": "CO02",
+    "to": "P05",
+    "type": "REFINES",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Abstraction levels map to architectural layers"
+  },
+  {
+    "id": "REL-225",
+    "from": "CO03",
+    "to": "DE07",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Bottleneck identification must precede pipeline optimization"
+  },
+  {
+    "id": "REL-226",
+    "from": "CO03",
+    "to": "DE08",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Information flow tracing defines pipeline structure"
+  },
+  {
+    "id": "REL-227",
+    "from": "CO03",
+    "to": "RE10",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "A/B testing optimizes pipeline performance"
+  },
+  {
+    "id": "REL-228",
+    "from": "CO03",
+    "to": "SY04",
+    "type": "COMPOSES_WITH",
+    "strength": 0.6,
+    "direction": "unidirectional",
+    "description": "Pipeline cascades are system-level effects"
+  },
+  {
+    "id": "REL-229",
+    "from": "CO04",
+    "to": "DE08",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Information flow tracing precedes data pipeline design"
+  },
+  {
+    "id": "REL-230",
+    "from": "CO04",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Data pipelines are edge-weighted system graphs"
+  },
+  {
+    "id": "REL-231",
+    "from": "CO04",
+    "to": "RE06",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Feedback loops in data create pipeline cycles"
+  },
+  {
+    "id": "REL-232",
+    "from": "CO04",
+    "to": "CO03",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Data pipelines are specialized processing pipelines"
+  },
+  {
+    "id": "REL-233",
+    "from": "CO05",
+    "to": "DE02",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Component identification must precede integration"
+  },
+  {
+    "id": "REL-234",
+    "from": "CO05",
+    "to": "CO07",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Interface design enables integration patterns"
+  },
+  {
+    "id": "REL-235",
+    "from": "CO05",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Integration patterns define system connections"
+  },
+  {
+    "id": "REL-236",
+    "from": "CO05",
+    "to": "IN05",
+    "type": "SCAFFOLDS",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Negative space analysis reveals integration gaps"
+  },
+  {
+    "id": "REL-237",
+    "from": "CO06",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Orchestration creates meta-system coordination"
+  },
+  {
+    "id": "REL-238",
+    "from": "CO06",
+    "to": "DE10",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Resource allocation determines orchestration strategy"
+  },
+  {
+    "id": "REL-239",
+    "from": "CO06",
+    "to": "RE06",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Feedback loops enable adaptive orchestration"
+  },
+  {
+    "id": "REL-240",
+    "from": "CO06",
+    "to": "IN09",
+    "type": "CONFLICTS",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Orchestration complexity vs incentive alignment - tension"
+  },
+  {
+    "id": "REL-241",
+    "from": "CO07",
+    "to": "DE03",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Modularization must precede interface definition"
+  },
+  {
+    "id": "REL-242",
+    "from": "CO07",
+    "to": "CO05",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Interfaces enable integration patterns"
+  },
+  {
+    "id": "REL-243",
+    "from": "CO07",
+    "to": "P05",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Abstraction levels determine interface granularity"
+  },
+  {
+    "id": "REL-244",
+    "from": "CO07",
+    "to": "CO02",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Layer boundaries are interface definitions"
+  },
+  {
+    "id": "REL-245",
+    "from": "CO08",
+    "to": "RE06",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Events create feedback loops in systems"
+  },
+  {
+    "id": "REL-246",
+    "from": "CO08",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Event flows define asynchronous system topology"
+  },
+  {
+    "id": "REL-247",
+    "from": "CO08",
+    "to": "DE08",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Information flow analysis informs event design"
+  },
+  {
+    "id": "REL-248",
+    "from": "CO08",
+    "to": "CO03",
+    "type": "CONTRASTS_WITH",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Event-driven vs pipeline - different composition models"
+  },
+  {
+    "id": "REL-249",
+    "from": "CO09",
+    "to": "DE03",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Modularization enables microservice decomposition"
+  },
+  {
+    "id": "REL-250",
+    "from": "CO09",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Microservices create distributed system topology"
+  },
+  {
+    "id": "REL-251",
+    "from": "CO09",
+    "to": "CO06",
+    "type": "REFINES",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Service orchestration manages microservice coordination"
+  },
+  {
+    "id": "REL-252",
+    "from": "CO09",
+    "to": "DE09",
+    "type": "CONFLICTS",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Microservices increase operational complexity"
+  },
+  {
+    "id": "REL-253",
+    "from": "CO10",
+    "to": "CO07",
+    "type": "REFINES",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "APIs are contract-based interface definitions"
+  },
+  {
+    "id": "REL-254",
+    "from": "CO10",
+    "to": "P02",
+    "type": "REFINES",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Stakeholder needs define API surface"
+  },
+  {
+    "id": "REL-255",
+    "from": "CO10",
+    "to": "CO05",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "API design enables integration patterns"
+  },
+  {
+    "id": "REL-256",
+    "from": "CO10",
+    "to": "DE02",
+    "type": "SCAFFOLDS",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Component identification informs API boundaries"
+  },
+  {
+    "id": "REL-257",
+    "from": "CO11",
+    "to": "RE06",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "State transitions create feedback loops"
+  },
+  {
+    "id": "REL-258",
+    "from": "CO11",
+    "to": "DE08",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Information flow determines state dependencies"
+  },
+  {
+    "id": "REL-259",
+    "from": "CO11",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "State graphs are system topology representations"
+  },
+  {
+    "id": "REL-260",
+    "from": "CO11",
+    "to": "IN04",
+    "type": "CONFLICTS",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Stateful systems vs simplification - inherent tension"
+  },
+  {
+    "id": "REL-261",
+    "from": "CO12",
+    "to": "CO08",
+    "type": "REFINES",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Queues implement event-driven patterns"
+  },
+  {
+    "id": "REL-262",
+    "from": "CO12",
+    "to": "DE07",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Bottleneck analysis guides queue placement"
+  },
+  {
+    "id": "REL-263",
+    "from": "CO12",
+    "to": "SY04",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Queue failures create cascade effects"
+  },
+  {
+    "id": "REL-264",
+    "from": "CO12",
+    "to": "RE06",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Queue backpressure creates feedback loops"
+  },
+  {
+    "id": "REL-265",
+    "from": "CO13",
+    "to": "DE07",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Bottleneck identification determines cache placement"
+  },
+  {
+    "id": "REL-266",
+    "from": "CO13",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Cache layers add system complexity"
+  },
+  {
+    "id": "REL-267",
+    "from": "CO13",
+    "to": "IN06",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Cache invalidation creates second-order effects"
+  },
+  {
+    "id": "REL-268",
+    "from": "CO13",
+    "to": "CO04",
+    "type": "REFINES",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Caching optimizes data pipeline performance"
+  },
+  {
+    "id": "REL-269",
+    "from": "P01",
+    "to": "DE01",
+    "type": "REFINES",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "First principles and root cause both strip to fundamentals"
+  },
+  {
+    "id": "REL-270",
+    "from": "P02",
+    "to": "DE04",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Stakeholder mapping reveals constraint sources"
+  },
+  {
+    "id": "REL-271",
+    "from": "P03",
+    "to": "CO05",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Multiple viewpoints improve integration design"
+  },
+  {
+    "id": "REL-272",
+    "from": "RE01",
+    "to": "DE06",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Pattern recognition identifies recurring failure modes"
+  },
+  {
+    "id": "REL-273",
+    "from": "RE06",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Feedback loops are circular system dependencies"
+  },
+  {
+    "id": "REL-274",
+    "from": "RE07",
+    "to": "DE06",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "FMEA systematizes failure mode analysis"
+  },
+  {
+    "id": "REL-275",
+    "from": "RE09",
+    "to": "CO01",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Iterative prototyping tests composition strategies"
+  },
+  {
+    "id": "REL-276",
+    "from": "SY01",
+    "to": "DE05",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Dependencies are edges in system topology"
+  },
+  {
+    "id": "REL-277",
+    "from": "SY13",
+    "to": "DE10",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Resource allocation must precede incentive design"
+  },
+  {
+    "id": "REL-278",
+    "from": "SY19",
+    "to": "DE01",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Root cause analysis must precede meta-model selection"
+  },
+  {
+    "id": "REL-279",
+    "from": "P01",
+    "to": "IN07",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "First principles and assumption inversion both strip to fundamentals"
+  },
+  {
+    "id": "REL-280",
+    "from": "P01",
+    "to": "SY19",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "First principles thinking must precede model selection"
+  },
+  {
+    "id": "REL-281",
+    "from": "P01",
+    "to": "RE01",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Pattern recognition improves with foundational understanding"
+  },
+  {
+    "id": "REL-282",
+    "from": "P02",
+    "to": "SY13",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Stakeholder analysis reveals incentive structures"
+  },
+  {
+    "id": "REL-283",
+    "from": "P02",
+    "to": "CO10",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Stakeholder needs drive API design decisions"
+  },
+  {
+    "id": "REL-284",
+    "from": "P03",
+    "to": "IN01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Viewpoint shifting enables perspective inversion"
+  },
+  {
+    "id": "REL-285",
+    "from": "P03",
+    "to": "DE02",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Different viewpoints reveal different component boundaries"
+  },
+  {
+    "id": "REL-286",
+    "from": "P03",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.6,
+    "direction": "unidirectional",
+    "description": "Multiple perspectives expose system topology variants"
+  },
+  {
+    "id": "REL-287",
+    "from": "P04",
+    "to": "DE06",
+    "type": "REFINES",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Adversarial thinking reveals failure modes"
+  },
+  {
+    "id": "REL-288",
+    "from": "P04",
+    "to": "IN06",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Attack scenarios expose second-order effects"
+  },
+  {
+    "id": "REL-289",
+    "from": "P04",
+    "to": "SY02",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Adversarial analysis informs risk mitigation"
+  },
+  {
+    "id": "REL-290",
+    "from": "P05",
+    "to": "DE03",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Abstraction layers map to modular decomposition"
+  },
+  {
+    "id": "REL-291",
+    "from": "P05",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Abstraction hierarchy defines system levels"
+  },
+  {
+    "id": "REL-292",
+    "from": "P06",
+    "to": "DE01",
+    "type": "REFINES",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Analogical reasoning reveals hidden root causes"
+  },
+  {
+    "id": "REL-293",
+    "from": "P06",
+    "to": "RE01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Analogies are cross-domain pattern recognition"
+  },
+  {
+    "id": "REL-294",
+    "from": "P07",
+    "to": "CO05",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Mental model alignment enables integration"
+  },
+  {
+    "id": "REL-295",
+    "from": "P08",
+    "to": "IN04",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Counterfactual reasoning tests simplification strategies"
+  },
+  {
+    "id": "REL-296",
+    "from": "P09",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Time horizon analysis reveals system evolution"
+  },
+  {
+    "id": "REL-297",
+    "from": "P10",
+    "to": "DE04",
+    "type": "REFINES",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Scale perspective reveals constraint relativity"
+  },
+  {
+    "id": "REL-298",
+    "from": "P10",
+    "to": "CO09",
+    "type": "COMPOSES_WITH",
+    "strength": 0.6,
+    "direction": "unidirectional",
+    "description": "Scale analysis informs microservice granularity"
+  },
+  {
+    "id": "REL-299",
+    "from": "RE01",
+    "to": "SY03",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Pattern recognition identifies system archetypes"
+  },
+  {
+    "id": "REL-300",
+    "from": "RE02",
+    "to": "CO01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Modular composition enables reusable patterns"
+  },
+  {
+    "id": "REL-301",
+    "from": "RE02",
+    "to": "DE03",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Module libraries implement pattern reuse"
+  },
+  {
+    "id": "REL-302",
+    "from": "RE02",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Reusable patterns simplify system design"
+  },
+  {
+    "id": "REL-303",
+    "from": "RE02",
+    "to": "P06",
+    "type": "REFINES",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Analogies enable cross-domain pattern reuse"
+  },
+  {
+    "id": "REL-304",
+    "from": "RE03",
+    "to": "DE01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Root cause pattern analysis reveals systematic issues"
+  },
+  {
+    "id": "REL-305",
+    "from": "RE03",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "System patterns indicate structural properties"
+  },
+  {
+    "id": "REL-306",
+    "from": "RE03",
+    "to": "IN02",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Failure pattern analysis strengthens premortem"
+  },
+  {
+    "id": "REL-307",
+    "from": "RE03",
+    "to": "CO01",
+    "type": "REFINES",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Composition patterns emerge from repeated integration"
+  },
+  {
+    "id": "REL-308",
+    "from": "RE04",
+    "to": "SY05",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Learning loops create path dependencies"
+  },
+  {
+    "id": "REL-309",
+    "from": "RE04",
+    "to": "RE06",
+    "type": "REFINES",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Learning loops are positive feedback mechanisms"
+  },
+  {
+    "id": "REL-310",
+    "from": "RE04",
+    "to": "CO11",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Learning requires state management"
+  },
+  {
+    "id": "REL-311",
+    "from": "RE04",
+    "to": "DE09",
+    "type": "CONFLICTS",
+    "strength": 0.6,
+    "direction": "bidirectional",
+    "description": "Learning increases system complexity"
+  },
+  {
+    "id": "REL-312",
+    "from": "RE05",
+    "to": "DE04",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Constraint relaxation iteratively expands solution space"
+  },
+  {
+    "id": "REL-313",
+    "from": "RE05",
+    "to": "IN03",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Iterative inversion progressively removes constraints"
+  },
+  {
+    "id": "REL-314",
+    "from": "RE05",
+    "to": "CO01",
+    "type": "REFINES",
+    "strength": 0.6,
+    "direction": "unidirectional",
+    "description": "Relaxing constraints enables new compositions"
+  },
+  {
+    "id": "REL-315",
+    "from": "RE06",
+    "to": "SY04",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Feedback loops create cascade amplification"
+  },
+  {
+    "id": "REL-316",
+    "from": "RE08",
+    "to": "IN07",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Hypothesis testing validates assumption inversions"
+  },
+  {
+    "id": "REL-317",
+    "from": "RE09",
+    "to": "DE03",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "Prototyping tests modular decomposition strategies"
+  },
+  {
+    "id": "REL-318",
+    "from": "RE10",
+    "to": "DE07",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "A/B testing identifies bottlenecks through iteration"
+  },
+  {
+    "id": "REL-319",
+    "from": "SY01",
+    "to": "P03",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "bidirectional",
+    "description": "System topology varies with perspective"
+  },
+  {
+    "id": "REL-320",
+    "from": "SY02",
+    "to": "IN02",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Premortem must precede risk mitigation planning"
+  },
+  {
+    "id": "REL-321",
+    "from": "SY03",
+    "to": "RE01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Archetype classification uses pattern recognition"
+  },
+  {
+    "id": "REL-322",
+    "from": "SY04",
+    "to": "CO03",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Pipeline cascades are system failure modes"
+  },
+  {
+    "id": "REL-323",
+    "from": "SY05",
+    "to": "IN10",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Path dependency requires temporal reasoning"
+  },
+  {
+    "id": "REL-324",
+    "from": "SY06",
+    "to": "RE06",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Tipping points emerge from feedback dynamics"
+  },
+  {
+    "id": "REL-325",
+    "from": "SY07",
+    "to": "DE07",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Leverage points often target bottlenecks"
+  },
+  {
+    "id": "REL-326",
+    "from": "SY08",
+    "to": "CO09",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Emergent behavior arises in distributed systems"
+  },
+  {
+    "id": "REL-327",
+    "from": "SY09",
+    "to": "CO02",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Nested hierarchies create layered systems"
+  },
+  {
+    "id": "REL-328",
+    "from": "SY10",
+    "to": "DE05",
+    "type": "COMPOSES_WITH",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Network effects amplify through dependencies"
+  },
+  {
+    "id": "REL-329",
+    "from": "SY11",
+    "to": "CO06",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "unidirectional",
+    "description": "Resilience engineering guides orchestration design"
+  },
+  {
+    "id": "REL-330",
+    "from": "SY12",
+    "to": "IN04",
+    "type": "CONTRASTS_WITH",
+    "strength": 0.7,
+    "direction": "bidirectional",
+    "description": "Complex adaptive systems resist simplification"
+  },
+  {
+    "id": "REL-331",
+    "from": "SY13",
+    "to": "P02",
+    "type": "COMPOSES_WITH",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "Stakeholder incentives drive system architecture"
+  },
+  {
+    "id": "REL-332",
+    "from": "SY14",
+    "to": "CO01",
+    "type": "SCAFFOLDS",
+    "strength": 0.8,
+    "direction": "unidirectional",
+    "description": "Boundary definition must precede composition"
+  },
+  {
+    "id": "REL-333",
+    "from": "SY19",
+    "to": "P01",
+    "type": "SCAFFOLDS",
+    "strength": 0.9,
+    "direction": "bidirectional",
+    "description": "First principles and meta-model selection are mutually reinforcing"
+  }
+]
