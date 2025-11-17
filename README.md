@@ -51,27 +51,27 @@ TransformPurposeModelsStatus
 P - Perspective
 Change analytical frame
 20
-✅ Partially Developed (10 models fleshed)
+✅ Partially Developed (15 models fleshed)
 IN - Inversion
 Find failure modes
 20
-✅ Partially Developed (10 models fleshed)
+✅ Partially Developed (15 models fleshed)
 CO - Composition
 Combine components
 20
-✅ Partially Developed (10 models fleshed)
+✅ Partially Developed (15 models fleshed)
 DE - Decomposition
 Break into parts
 20
-✅ Validated + Partially Developed (10 models fleshed)
+✅ Validated + Partially Developed (15 models fleshed)
 RE - Recursion
 Iterative refinement
 20
-✅ Partially Developed (10 models fleshed)
+✅ Partially Developed (15 models fleshed)
 SY - Synthesis
 Meta-analysis
 20
-✅ Partially Developed (10 models fleshed)
+✅ Partially Developed (15 models fleshed)
 Explore all 120 models →
 
 ## Transformation Operator Status
