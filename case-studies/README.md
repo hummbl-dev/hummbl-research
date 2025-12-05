@@ -56,3 +56,24 @@ To add a case study:
 4. Open a PR or issue referencing the new case study.
 
 See `case-study1-multi-service-ai.md` (once added) for a reference example.
+
+---
+
+## Available Case Studies
+
+1. **HUMMBL Prototype Project Planning** (`hummbl-prototype-planning.md`)
+   - Context: Planning multi-week research project with validation gates
+   - Operator: DE (Decomposition)
+   - Results: 25-55 minutes saved, 95% completeness vs 75%
+   - Status: ✅ Complete
+
+2. **HUMMBL Analyzes HUMMBL** (`case-study-hummbl-analyzes-hummbl.md`)
+   - Context: Meta-analysis of HUMMBL framework itself
+   - Operators: P02 → SY01 → DE04 → IN01 → CO06 → RE05 → SY13 → SY19
+   - Results: Clear critical path identified, prioritized action plan, risk mitigation strategies
+   - Status: ✅ Complete (Draft)
+
+3. **Multi-Service AI System** (`case-study1-multi-service-ai.md`)
+   - Context: Multi-service AI recommendation system with bottlenecks and cascades
+   - Operators: P02 → DE07 → DE06 → DE08 → CO03 → CO12 → RE06 → SY04 → SY01 → SY19
+   - Status: 🔄 In Progress
