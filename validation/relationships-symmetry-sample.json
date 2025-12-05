@@ -1,0 +1,167 @@
+[
+  {
+    "id": "REL-004",
+    "from": "P01",
+    "to": "P06",
+    "type": "PARALLELS",
+    "direction": "bidirectional",
+    "strength": 0.7,
+    "description": "Both deal with understanding fundamental thinking patterns",
+    "issue": "Bidirectional relationship REL-004 (P01 \u2194 P06) has no reverse",
+    "recommendation": "Add reverse relationship or change direction to unidirectional"
+  },
+  {
+    "id": "REL-008",
+    "from": "P02",
+    "to": "P08",
+    "type": "PARALLELS",
+    "direction": "bidirectional",
+    "strength": 0.8,
+    "description": "Perspective-taking and reframing are complementary approaches",
+    "issue": "Bidirectional relationship REL-008 (P02 \u2194 P08) has no reverse",
+    "recommendation": "Add reverse relationship or change direction to unidirectional"
+  },
+  {
+    "id": "REL-009",
+    "from": "P02",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "direction": "bidirectional",
+    "strength": 0.7,
+    "description": "Systems thinking requires multiple perspectives to understand interconnections",
+    "issue": "Bidirectional relationship REL-009 (P02 \u2194 SY01) has no reverse",
+    "recommendation": "Add reverse relationship or change direction to unidirectional"
+  },
+  {
+    "id": "REL-017",
+    "from": "P03",
+    "to": "IN03",
+    "type": "PARALLELS",
+    "direction": "bidirectional",
+    "strength": 0.6,
+    "description": "Different timeframes reveal what should be subtracted vs added",
+    "issue": "Bidirectional relationship REL-017 (P03 \u2194 IN03) has no reverse",
+    "recommendation": "Add reverse relationship or change direction to unidirectional"
+  },
+  {
+    "id": "REL-024",
+    "from": "P04",
+    "to": "IN01",
+    "type": "PARALLELS",
+    "direction": "bidirectional",
+    "strength": 0.7,
+    "description": "Inversion changes the reference frame dramatically",
+    "issue": "Bidirectional relationship REL-024 (P04 \u2194 IN01) has no reverse",
+    "recommendation": "Add reverse relationship or change direction to unidirectional"
+  },
+  {
+    "id": "REL-025",
+    "from": "P04",
+    "to": "P11",
+    "type": "PARALLELS",
+    "direction": "bidirectional",
+    "strength": 0.8,
+    "description": "Anchoring bias is about reference frame dependence",
+    "issue": "Bidirectional relationship REL-025 (P04 \u2194 P11) has no reverse",
+    "recommendation": "Add reverse relationship or change direction to unidirectional"
+  },
+  {
+    "id": "REL-028",
+    "from": "P05",
+    "to": "IN05",
+    "type": "PARALLELS",
+    "direction": "bidirectional",
+    "strength": 1.0,
+    "description": "Both examine the cost of choices through an opportunity lens",
+    "issue": "Bidirectional relationship REL-028 (P05 \u2194 IN05) has no reverse",
+    "recommendation": "Add reverse relationship or change direction to unidirectional"
+  },
+  {
+    "id": "REL-030",
+    "from": "P05",
+    "to": "DE11",
+    "type": "PARALLELS",
+    "direction": "bidirectional",
+    "strength": 0.7,
+    "description": "Value chain analysis reveals opportunity costs of activities",
+    "issue": "Bidirectional relationship REL-030 (P05 \u2194 DE11) has no reverse",
+    "recommendation": "Add reverse relationship or change direction to unidirectional"
+  },
+  {
+    "id": "REL-031",
+    "from": "P05",
+    "to": "SY04",
+    "type": "PARALLELS",
+    "direction": "bidirectional",
+    "strength": 0.8,
+    "description": "Leverage points minimize opportunity costs",
+    "issue": "Bidirectional relationship REL-031 (P05 \u2194 SY04) has no reverse",
+    "recommendation": "Add reverse relationship or change direction to unidirectional"
+  },
+  {
+    "id": "REL-032",
+    "from": "P05",
+    "to": "IN18",
+    "type": "PARALLELS",
+    "direction": "bidirectional",
+    "strength": 0.7,
+    "description": "Killing darlings is accepting opportunity cost of attachment",
+    "issue": "Bidirectional relationship REL-032 (P05 \u2194 IN18) has no reverse",
+    "recommendation": "Add reverse relationship or change direction to unidirectional"
+  },
+  {
+    "id": "REL-035",
+    "from": "P06",
+    "to": "RE01",
+    "type": "PARALLELS",
+    "direction": "bidirectional",
+    "strength": 0.6,
+    "description": "Deliberate practice improves mental model application",
+    "issue": "Bidirectional relationship REL-035 (P06 \u2194 RE01) has no reverse",
+    "recommendation": "Add reverse relationship or change direction to unidirectional"
+  },
+  {
+    "id": "REL-037",
+    "from": "P06",
+    "to": "RE11",
+    "type": "PARALLELS",
+    "direction": "bidirectional",
+    "strength": 0.6,
+    "description": "Iterative deepening applies to learning mental models",
+    "issue": "Bidirectional relationship REL-037 (P06 \u2194 RE11) has no reverse",
+    "recommendation": "Add reverse relationship or change direction to unidirectional"
+  },
+  {
+    "id": "REL-041",
+    "from": "P07",
+    "to": "DE01",
+    "type": "PARALLELS",
+    "direction": "bidirectional",
+    "strength": 0.7,
+    "description": "Both deal with distinguishing models from reality",
+    "issue": "Bidirectional relationship REL-041 (P07 \u2194 DE01) has no reverse",
+    "recommendation": "Add reverse relationship or change direction to unidirectional"
+  },
+  {
+    "id": "REL-044",
+    "from": "P07",
+    "to": "CO08",
+    "type": "PARALLELS",
+    "direction": "bidirectional",
+    "strength": 0.7,
+    "description": "Layering creates maps at different abstraction levels",
+    "issue": "Bidirectional relationship REL-044 (P07 \u2194 CO08) has no reverse",
+    "recommendation": "Add reverse relationship or change direction to unidirectional"
+  },
+  {
+    "id": "REL-045",
+    "from": "P07",
+    "to": "DE20",
+    "type": "PARALLELS",
+    "direction": "bidirectional",
+    "strength": 0.6,
+    "description": "Boundary analysis defines the territory",
+    "issue": "Bidirectional relationship REL-045 (P07 \u2194 DE20) has no reverse",
+    "recommendation": "Add reverse relationship or change direction to unidirectional"
+  }
+]

@@ -1,0 +1,302 @@
+{
+  "validation_date": "2025-12-05",
+  "total_missing_candidates": 39,
+  "by_priority": {
+    "HIGH": 0,
+    "MEDIUM": 34,
+    "LOW": 5
+  },
+  "by_source": {
+    "model_files": 34,
+    "pattern_completion": 5
+  },
+  "missing_relationships": [
+    {
+      "source_model": "CO01",
+      "target_model": "DE08",
+      "source": "Model file CO01.md mentions DE08",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO01 to DE08"
+    },
+    {
+      "source_model": "CO02",
+      "target_model": "CO01",
+      "source": "Model file CO02.md mentions CO01",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO02 to CO01"
+    },
+    {
+      "source_model": "CO02",
+      "target_model": "RE09",
+      "source": "Model file CO02.md mentions RE09",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO02 to RE09"
+    },
+    {
+      "source_model": "CO03",
+      "target_model": "CO02",
+      "source": "Model file CO03.md mentions CO02",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO03 to CO02"
+    },
+    {
+      "source_model": "CO05",
+      "target_model": "DE01",
+      "source": "Model file CO05.md mentions DE01",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO05 to DE01"
+    },
+    {
+      "source_model": "CO05",
+      "target_model": "IN02",
+      "source": "Model file CO05.md mentions IN02",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO05 to IN02"
+    },
+    {
+      "source_model": "CO06",
+      "target_model": "CO02",
+      "source": "Model file CO06.md mentions CO02",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO06 to CO02"
+    },
+    {
+      "source_model": "CO06",
+      "target_model": "DE03",
+      "source": "Model file CO06.md mentions DE03",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO06 to DE03"
+    },
+    {
+      "source_model": "CO07",
+      "target_model": "CO01",
+      "source": "Model file CO07.md mentions CO01",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO07 to CO01"
+    },
+    {
+      "source_model": "CO07",
+      "target_model": "SY01",
+      "source": "Model file CO07.md mentions SY01",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO07 to SY01"
+    },
+    {
+      "source_model": "CO08",
+      "target_model": "IN08",
+      "source": "Model file CO08.md mentions IN08",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO08 to IN08"
+    },
+    {
+      "source_model": "CO09",
+      "target_model": "CO02",
+      "source": "Model file CO09.md mentions CO02",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO09 to CO02"
+    },
+    {
+      "source_model": "CO09",
+      "target_model": "CO03",
+      "source": "Model file CO09.md mentions CO03",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO09 to CO03"
+    },
+    {
+      "source_model": "CO10",
+      "target_model": "CO02",
+      "source": "Model file CO10.md mentions CO02",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO10 to CO02"
+    },
+    {
+      "source_model": "CO11",
+      "target_model": "CO08",
+      "source": "Model file CO11.md mentions CO08",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO11 to CO08"
+    },
+    {
+      "source_model": "CO11",
+      "target_model": "CO03",
+      "source": "Model file CO11.md mentions CO03",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO11 to CO03"
+    },
+    {
+      "source_model": "CO12",
+      "target_model": "CO07",
+      "source": "Model file CO12.md mentions CO07",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO12 to CO07"
+    },
+    {
+      "source_model": "CO12",
+      "target_model": "RE01",
+      "source": "Model file CO12.md mentions RE01",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO12 to RE01"
+    },
+    {
+      "source_model": "CO13",
+      "target_model": "CO06",
+      "source": "Model file CO13.md mentions CO06",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO13 to CO06"
+    },
+    {
+      "source_model": "CO13",
+      "target_model": "CO02",
+      "source": "Model file CO13.md mentions CO02",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO13 to CO02"
+    },
+    {
+      "source_model": "CO17",
+      "target_model": "CO02",
+      "source": "Model file CO17.md mentions CO02",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO17 to CO02"
+    },
+    {
+      "source_model": "CO17",
+      "target_model": "DE05",
+      "source": "Model file CO17.md mentions DE05",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO17 to DE05"
+    },
+    {
+      "source_model": "CO17",
+      "target_model": "RE05",
+      "source": "Model file CO17.md mentions RE05",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO17 to RE05"
+    },
+    {
+      "source_model": "CO18",
+      "target_model": "CO01",
+      "source": "Model file CO18.md mentions CO01",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO18 to CO01"
+    },
+    {
+      "source_model": "CO18",
+      "target_model": "SY07",
+      "source": "Model file CO18.md mentions SY07",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO18 to SY07"
+    },
+    {
+      "source_model": "CO18",
+      "target_model": "CO04",
+      "source": "Model file CO18.md mentions CO04",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO18 to CO04"
+    },
+    {
+      "source_model": "CO20",
+      "target_model": "SY09",
+      "source": "Model file CO20.md mentions SY09",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO20 to SY09"
+    },
+    {
+      "source_model": "CO20",
+      "target_model": "CO05",
+      "source": "Model file CO20.md mentions CO05",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from CO20 to CO05"
+    },
+    {
+      "source_model": "DE01",
+      "target_model": "IN01",
+      "source": "Model file DE01.md mentions IN01",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from DE01 to IN01"
+    },
+    {
+      "source_model": "DE02",
+      "target_model": "CO02",
+      "source": "Model file DE02.md mentions CO02",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from DE02 to CO02"
+    },
+    {
+      "source_model": "DE02",
+      "target_model": "DE08",
+      "source": "Model file DE02.md mentions DE08",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from DE02 to DE08"
+    },
+    {
+      "source_model": "DE03",
+      "target_model": "DE01",
+      "source": "Model file DE03.md mentions DE01",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from DE03 to DE01"
+    },
+    {
+      "source_model": "DE03",
+      "target_model": "SY01",
+      "source": "Model file DE03.md mentions SY01",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from DE03 to SY01"
+    },
+    {
+      "source_model": "DE04",
+      "target_model": "DE08",
+      "source": "Model file DE04.md mentions DE08",
+      "priority": "MEDIUM",
+      "recommendation": "Add relationship from DE04 to DE08"
+    },
+    {
+      "source_model": "SY01",
+      "target_models": [
+        "P",
+        "SY"
+      ],
+      "source": "Hub model SY01 missing connections to P, SY",
+      "priority": "LOW",
+      "recommendation": "Consider adding relationships from SY01 to models in P, SY"
+    },
+    {
+      "source_model": "P02",
+      "target_models": [
+        "P",
+        "RE"
+      ],
+      "source": "Hub model P02 missing connections to P, RE",
+      "priority": "LOW",
+      "recommendation": "Consider adding relationships from P02 to models in P, RE"
+    },
+    {
+      "source_model": "P03",
+      "target_models": [
+        "P"
+      ],
+      "source": "Hub model P03 missing connections to P",
+      "priority": "LOW",
+      "recommendation": "Consider adding relationships from P03 to models in P"
+    },
+    {
+      "source_model": "IN02",
+      "target_models": [
+        "P",
+        "CO"
+      ],
+      "source": "Hub model IN02 missing connections to P, CO",
+      "priority": "LOW",
+      "recommendation": "Consider adding relationships from IN02 to models in P, CO"
+    },
+    {
+      "source_model": "IN03",
+      "target_models": [
+        "P",
+        "SY"
+      ],
+      "source": "Hub model IN03 missing connections to P, SY",
+      "priority": "LOW",
+      "recommendation": "Consider adding relationships from IN03 to models in P, SY"
+    }
+  ]
+}

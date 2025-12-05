@@ -1,0 +1,600 @@
+{
+  "validation_date": "2025-12-05",
+  "total_relationships": 333,
+  "total_issues": 115,
+  "issues_by_category": {
+    "symmetry": 115,
+    "strength_consistency": 0,
+    "hub_validation": 0,
+    "pattern_validation": 0
+  },
+  "hub_models": {
+    "SY01": 28,
+    "P02": 19,
+    "IN02": 15,
+    "P03": 15,
+    "IN03": 15,
+    "CO01": 15,
+    "P01": 14,
+    "DE01": 14,
+    "IN04": 14,
+    "IN01": 13
+  },
+  "issues": [
+    {
+      "relationship": "REL-004",
+      "issue": "Bidirectional relationship REL-004 (P01 \u2194 P06) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-008",
+      "issue": "Bidirectional relationship REL-008 (P02 \u2194 P08) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-009",
+      "issue": "Bidirectional relationship REL-009 (P02 \u2194 SY01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-017",
+      "issue": "Bidirectional relationship REL-017 (P03 \u2194 IN03) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-024",
+      "issue": "Bidirectional relationship REL-024 (P04 \u2194 IN01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-025",
+      "issue": "Bidirectional relationship REL-025 (P04 \u2194 P11) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-028",
+      "issue": "Bidirectional relationship REL-028 (P05 \u2194 IN05) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-030",
+      "issue": "Bidirectional relationship REL-030 (P05 \u2194 DE11) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-031",
+      "issue": "Bidirectional relationship REL-031 (P05 \u2194 SY04) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-032",
+      "issue": "Bidirectional relationship REL-032 (P05 \u2194 IN18) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-035",
+      "issue": "Bidirectional relationship REL-035 (P06 \u2194 RE01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-037",
+      "issue": "Bidirectional relationship REL-037 (P06 \u2194 RE11) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-041",
+      "issue": "Bidirectional relationship REL-041 (P07 \u2194 DE01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-044",
+      "issue": "Bidirectional relationship REL-044 (P07 \u2194 CO08) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-045",
+      "issue": "Bidirectional relationship REL-045 (P07 \u2194 DE20) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-046",
+      "issue": "Bidirectional relationship REL-046 (P07 \u2194 SY08) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-049",
+      "issue": "Bidirectional relationship REL-049 (P08 \u2194 CO20) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-052",
+      "issue": "Bidirectional relationship REL-052 (P09 \u2194 IN03) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-053",
+      "issue": "Bidirectional relationship REL-053 (P09 \u2194 P12) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-054",
+      "issue": "Bidirectional relationship REL-054 (P09 \u2194 CO18) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-055",
+      "issue": "Bidirectional relationship REL-055 (P09 \u2194 SY13) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-056",
+      "issue": "Bidirectional relationship REL-056 (P09 \u2194 SY15) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-063",
+      "issue": "Bidirectional relationship REL-063 (P10 \u2194 IN20) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-065",
+      "issue": "Bidirectional relationship REL-065 (P10 \u2194 SY17) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-071",
+      "issue": "Bidirectional relationship REL-071 (P11 \u2194 DE07) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-072",
+      "issue": "Bidirectional relationship REL-072 (P11 \u2194 RE20) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-075",
+      "issue": "Bidirectional relationship REL-075 (P12 \u2194 DE08) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-077",
+      "issue": "Bidirectional relationship REL-077 (P13 \u2194 IN14) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-079",
+      "issue": "Bidirectional relationship REL-079 (P13 \u2194 IN11) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-087",
+      "issue": "Bidirectional relationship REL-087 (P15 \u2194 RE08) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-089",
+      "issue": "Bidirectional relationship REL-089 (P16 \u2194 P18) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-090",
+      "issue": "Bidirectional relationship REL-090 (P16 \u2194 IN8) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-094",
+      "issue": "Bidirectional relationship REL-094 (P19 \u2194 IN6) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-095",
+      "issue": "Bidirectional relationship REL-095 (P19 \u2194 IN7) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-096",
+      "issue": "Bidirectional relationship REL-096 (P19 \u2194 CO12) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-100",
+      "issue": "Bidirectional relationship REL-100 (IN1 \u2194 DE06) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-101",
+      "issue": "Bidirectional relationship REL-101 (IN1 \u2194 IN10) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-102",
+      "issue": "Bidirectional relationship REL-102 (IN1 \u2194 IN12) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-104",
+      "issue": "Bidirectional relationship REL-104 (IN2 \u2194 IN19) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-106",
+      "issue": "Bidirectional relationship REL-106 (IN3 \u2194 IN18) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-107",
+      "issue": "Bidirectional relationship REL-107 (IN3 \u2194 CO17) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-108",
+      "issue": "Bidirectional relationship REL-108 (IN3 \u2194 DE14) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-117",
+      "issue": "Bidirectional relationship REL-117 (IN6 \u2194 IN9) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-118",
+      "issue": "Bidirectional relationship REL-118 (IN6 \u2194 SY11) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-123",
+      "issue": "Bidirectional relationship REL-123 (IN09 \u2194 DE08) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-126",
+      "issue": "Bidirectional relationship REL-126 (IN09 \u2194 RE16) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-131",
+      "issue": "Bidirectional relationship REL-131 (IN14 \u2194 IN06) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-132",
+      "issue": "Bidirectional relationship REL-132 (IN14 \u2194 DE07) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-135",
+      "issue": "Bidirectional relationship REL-135 (IN15 \u2194 RE09) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-136",
+      "issue": "Bidirectional relationship REL-136 (IN15 \u2194 DE17) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-153",
+      "issue": "Bidirectional relationship REL-153 (DE04 \u2194 CO01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-157",
+      "issue": "Bidirectional relationship REL-157 (DE05 \u2194 RE06) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-166",
+      "issue": "Bidirectional relationship REL-166 (DE07 \u2194 P02) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-169",
+      "issue": "Bidirectional relationship REL-169 (DE08 \u2194 DE05) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-172",
+      "issue": "Bidirectional relationship REL-172 (DE09 \u2194 CO01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-177",
+      "issue": "Bidirectional relationship REL-177 (DE10 \u2194 P02) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-178",
+      "issue": "Bidirectional relationship REL-178 (DE10 \u2194 DE04) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-179",
+      "issue": "Bidirectional relationship REL-179 (IN01 \u2194 P01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-182",
+      "issue": "Bidirectional relationship REL-182 (IN01 \u2194 RE01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-187",
+      "issue": "Bidirectional relationship REL-187 (IN03 \u2194 DE04) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-188",
+      "issue": "Bidirectional relationship REL-188 (IN03 \u2194 CO01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-193",
+      "issue": "Bidirectional relationship REL-193 (IN04 \u2194 P01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-195",
+      "issue": "Bidirectional relationship REL-195 (IN05 \u2194 P03) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-196",
+      "issue": "Bidirectional relationship REL-196 (IN05 \u2194 DE02) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-199",
+      "issue": "Bidirectional relationship REL-199 (IN06 \u2194 SY04) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-200",
+      "issue": "Bidirectional relationship REL-200 (IN06 \u2194 RE06) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-204",
+      "issue": "Bidirectional relationship REL-204 (IN07 \u2194 DE01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-205",
+      "issue": "Bidirectional relationship REL-205 (IN07 \u2194 CO01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-207",
+      "issue": "Bidirectional relationship REL-207 (IN08 \u2194 P02) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-208",
+      "issue": "Bidirectional relationship REL-208 (IN08 \u2194 SY13) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-209",
+      "issue": "Bidirectional relationship REL-209 (IN09 \u2194 SY13) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-210",
+      "issue": "Bidirectional relationship REL-210 (IN09 \u2194 P02) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-213",
+      "issue": "Bidirectional relationship REL-213 (IN10 \u2194 RE01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-214",
+      "issue": "Bidirectional relationship REL-214 (IN10 \u2194 IN02) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-216",
+      "issue": "Bidirectional relationship REL-216 (IN10 \u2194 DE01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-217",
+      "issue": "Bidirectional relationship REL-217 (CO01 \u2194 DE03) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-224",
+      "issue": "Bidirectional relationship REL-224 (CO02 \u2194 P05) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-227",
+      "issue": "Bidirectional relationship REL-227 (CO03 \u2194 RE10) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-231",
+      "issue": "Bidirectional relationship REL-231 (CO04 \u2194 RE06) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-232",
+      "issue": "Bidirectional relationship REL-232 (CO04 \u2194 CO03) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-239",
+      "issue": "Bidirectional relationship REL-239 (CO06 \u2194 RE06) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-243",
+      "issue": "Bidirectional relationship REL-243 (CO07 \u2194 P05) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-245",
+      "issue": "Bidirectional relationship REL-245 (CO08 \u2194 RE06) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-247",
+      "issue": "Bidirectional relationship REL-247 (CO08 \u2194 DE08) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-248",
+      "issue": "Bidirectional relationship REL-248 (CO08 \u2194 CO03) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-251",
+      "issue": "Bidirectional relationship REL-251 (CO09 \u2194 CO06) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-252",
+      "issue": "Bidirectional relationship REL-252 (CO09 \u2194 DE09) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-253",
+      "issue": "Bidirectional relationship REL-253 (CO10 \u2194 CO07) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-257",
+      "issue": "Bidirectional relationship REL-257 (CO11 \u2194 RE06) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-260",
+      "issue": "Bidirectional relationship REL-260 (CO11 \u2194 IN04) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-261",
+      "issue": "Bidirectional relationship REL-261 (CO12 \u2194 CO08) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-264",
+      "issue": "Bidirectional relationship REL-264 (CO12 \u2194 RE06) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-267",
+      "issue": "Bidirectional relationship REL-267 (CO13 \u2194 IN06) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-268",
+      "issue": "Bidirectional relationship REL-268 (CO13 \u2194 CO04) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-271",
+      "issue": "Bidirectional relationship REL-271 (P03 \u2194 CO05) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-272",
+      "issue": "Bidirectional relationship REL-272 (RE01 \u2194 DE06) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-273",
+      "issue": "Bidirectional relationship REL-273 (RE06 \u2194 SY01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-281",
+      "issue": "Bidirectional relationship REL-281 (P01 \u2194 RE01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-284",
+      "issue": "Bidirectional relationship REL-284 (P03 \u2194 IN01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-290",
+      "issue": "Bidirectional relationship REL-290 (P05 \u2194 DE03) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-292",
+      "issue": "Bidirectional relationship REL-292 (P06 \u2194 DE01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-293",
+      "issue": "Bidirectional relationship REL-293 (P06 \u2194 RE01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-295",
+      "issue": "Bidirectional relationship REL-295 (P08 \u2194 IN04) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-297",
+      "issue": "Bidirectional relationship REL-297 (P10 \u2194 DE04) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-300",
+      "issue": "Bidirectional relationship REL-300 (RE02 \u2194 CO01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-301",
+      "issue": "Bidirectional relationship REL-301 (RE02 \u2194 DE03) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-303",
+      "issue": "Bidirectional relationship REL-303 (RE02 \u2194 P06) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-304",
+      "issue": "Bidirectional relationship REL-304 (RE03 \u2194 DE01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-307",
+      "issue": "Bidirectional relationship REL-307 (RE03 \u2194 CO01) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-308",
+      "issue": "Bidirectional relationship REL-308 (RE04 \u2194 SY05) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-309",
+      "issue": "Bidirectional relationship REL-309 (RE04 \u2194 RE06) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-311",
+      "issue": "Bidirectional relationship REL-311 (RE04 \u2194 DE09) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-315",
+      "issue": "Bidirectional relationship REL-315 (RE06 \u2194 SY04) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-324",
+      "issue": "Bidirectional relationship REL-324 (SY06 \u2194 RE06) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    },
+    {
+      "relationship": "REL-330",
+      "issue": "Bidirectional relationship REL-330 (SY12 \u2194 IN04) has no reverse",
+      "recommendation": "Add reverse relationship or change direction to unidirectional"
+    }
+  ]
+}

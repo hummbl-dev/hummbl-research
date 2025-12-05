@@ -158,10 +158,11 @@ Operators must score ≥7.0/10 on a 5-dimension utility rubric to achieve **VALI
 ### Phase 0 – Operator Baselines & Relationship Graph ✅ COMPLETE
 
 - [x] 6 transformation operators validated (baseline or better)
-- [x] 333 relationship classifications complete
+- [x] **367 relationship classifications complete** (validated December 5, 2025)
 - [x] Comprehensive validation studies across all operators
 - [x] Production infrastructure deployed
 - [x] **120/120 mental models fully developed** (November 16, 2025)
+- [x] **Relationship graph 100% validated** (December 5, 2025)
 - **Status:** `v0.1.0` released November 2025 – **FULLY DEVELOPED**
 
 ---

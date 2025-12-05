@@ -1,0 +1,322 @@
+[
+  {
+    "id": "REL-006",
+    "batch": 1,
+    "from": "P02",
+    "to": "P03",
+    "type": "PARALLELS",
+    "direction": "unidirectional",
+    "strength": 0.7,
+    "description": "Multiple perspectives include different timeframes as one perspective type",
+    "issues": [
+      "Direction 'unidirectional' may be incorrect for type 'PARALLELS'. Expected: ['bidirectional']"
+    ],
+    "recommendations": [
+      "Consider changing direction to: bidirectional"
+    ]
+  },
+  {
+    "id": "REL-141",
+    "batch": 3,
+    "from": "DE01",
+    "to": "P01",
+    "type": "REFINES",
+    "direction": "bidirectional",
+    "strength": 0.8,
+    "description": "First principles thinking deepens root cause analysis",
+    "issues": [
+      "Direction 'bidirectional' may be incorrect for type 'REFINES'. Expected: ['unidirectional']"
+    ],
+    "recommendations": [
+      "Consider changing direction to: unidirectional"
+    ]
+  },
+  {
+    "id": "REL-146",
+    "batch": 3,
+    "from": "DE02",
+    "to": "P03",
+    "type": "REFINES",
+    "direction": "bidirectional",
+    "strength": 0.6,
+    "description": "Multiple perspectives improve component boundaries",
+    "issues": [
+      "Direction 'bidirectional' may be incorrect for type 'REFINES'. Expected: ['unidirectional']"
+    ],
+    "recommendations": [
+      "Consider changing direction to: unidirectional"
+    ]
+  },
+  {
+    "id": "REL-148",
+    "batch": 3,
+    "from": "DE03",
+    "to": "DE02",
+    "type": "REFINES",
+    "direction": "bidirectional",
+    "strength": 0.8,
+    "description": "Component ID and modularization reinforce each other",
+    "issues": [
+      "Direction 'bidirectional' may be incorrect for type 'REFINES'. Expected: ['unidirectional']"
+    ],
+    "recommendations": [
+      "Consider changing direction to: unidirectional"
+    ]
+  },
+  {
+    "id": "REL-158",
+    "batch": 4,
+    "from": "DE05",
+    "to": "IN01",
+    "type": "REFINES",
+    "direction": "bidirectional",
+    "strength": 0.6,
+    "description": "Inverting perspective reveals hidden dependencies",
+    "issues": [
+      "Direction 'bidirectional' may be incorrect for type 'REFINES'. Expected: ['unidirectional']"
+    ],
+    "recommendations": [
+      "Consider changing direction to: unidirectional"
+    ]
+  },
+  {
+    "id": "REL-162",
+    "batch": 4,
+    "from": "DE06",
+    "to": "P04",
+    "type": "REFINES",
+    "direction": "bidirectional",
+    "strength": 0.7,
+    "description": "Adversarial perspective reveals overlooked failure modes",
+    "issues": [
+      "Direction 'bidirectional' may be incorrect for type 'REFINES'. Expected: ['unidirectional']"
+    ],
+    "recommendations": [
+      "Consider changing direction to: unidirectional"
+    ]
+  },
+  {
+    "id": "REL-166",
+    "batch": 4,
+    "from": "DE07",
+    "to": "P02",
+    "type": "REFINES",
+    "direction": "bidirectional",
+    "strength": 0.6,
+    "description": "Stakeholder perspectives identify different bottlenecks",
+    "issues": [
+      "Direction 'bidirectional' may be incorrect for type 'REFINES'. Expected: ['unidirectional']"
+    ],
+    "recommendations": [
+      "Consider changing direction to: unidirectional"
+    ]
+  },
+  {
+    "id": "REL-169",
+    "batch": 4,
+    "from": "DE08",
+    "to": "DE05",
+    "type": "REFINES",
+    "direction": "bidirectional",
+    "strength": 0.7,
+    "description": "Information flows reveal logical dependencies",
+    "issues": [
+      "Direction 'bidirectional' may be incorrect for type 'REFINES'. Expected: ['unidirectional']"
+    ],
+    "recommendations": [
+      "Consider changing direction to: unidirectional"
+    ]
+  },
+  {
+    "id": "REL-177",
+    "batch": 4,
+    "from": "DE10",
+    "to": "P02",
+    "type": "REFINES",
+    "direction": "bidirectional",
+    "strength": 0.7,
+    "description": "Stakeholder analysis reveals resource competition",
+    "issues": [
+      "Direction 'bidirectional' may be incorrect for type 'REFINES'. Expected: ['unidirectional']"
+    ],
+    "recommendations": [
+      "Consider changing direction to: unidirectional"
+    ]
+  },
+  {
+    "id": "REL-178",
+    "batch": 4,
+    "from": "DE10",
+    "to": "DE04",
+    "type": "REFINES",
+    "direction": "bidirectional",
+    "strength": 0.6,
+    "description": "Resource limits are constraints - mutual reinforcement",
+    "issues": [
+      "Direction 'bidirectional' may be incorrect for type 'REFINES'. Expected: ['unidirectional']"
+    ],
+    "recommendations": [
+      "Consider changing direction to: unidirectional"
+    ]
+  },
+  {
+    "id": "REL-180",
+    "batch": 4,
+    "from": "IN01",
+    "to": "DE05",
+    "type": "REFINES",
+    "direction": "bidirectional",
+    "strength": 0.8,
+    "description": "Inverting perspective reveals hidden dependencies",
+    "issues": [
+      "Direction 'bidirectional' may be incorrect for type 'REFINES'. Expected: ['unidirectional']"
+    ],
+    "recommendations": [
+      "Consider changing direction to: unidirectional"
+    ]
+  },
+  {
+    "id": "REL-182",
+    "batch": 4,
+    "from": "IN01",
+    "to": "RE01",
+    "type": "REFINES",
+    "direction": "bidirectional",
+    "strength": 0.6,
+    "description": "Pattern recognition improves with perspective shifts",
+    "issues": [
+      "Direction 'bidirectional' may be incorrect for type 'REFINES'. Expected: ['unidirectional']"
+    ],
+    "recommendations": [
+      "Consider changing direction to: unidirectional"
+    ]
+  },
+  {
+    "id": "REL-193",
+    "batch": 4,
+    "from": "IN04",
+    "to": "P01",
+    "type": "REFINES",
+    "direction": "bidirectional",
+    "strength": 0.7,
+    "description": "First principles thinking simplifies complex problems",
+    "issues": [
+      "Direction 'bidirectional' may be incorrect for type 'REFINES'. Expected: ['unidirectional']"
+    ],
+    "recommendations": [
+      "Consider changing direction to: unidirectional"
+    ]
+  },
+  {
+    "id": "REL-196",
+    "batch": 4,
+    "from": "IN05",
+    "to": "DE02",
+    "type": "REFINES",
+    "direction": "bidirectional",
+    "strength": 0.7,
+    "description": "Negative space shows component boundaries",
+    "issues": [
+      "Direction 'bidirectional' may be incorrect for type 'REFINES'. Expected: ['unidirectional']"
+    ],
+    "recommendations": [
+      "Consider changing direction to: unidirectional"
+    ]
+  },
+  {
+    "id": "REL-202",
+    "batch": 5,
+    "from": "IN06",
+    "to": "P04",
+    "type": "REFINES",
+    "direction": "bidirectional",
+    "strength": 0.7,
+    "description": "Adversarial thinking exposes hidden second-order risks",
+    "issues": [
+      "Direction 'bidirectional' may be incorrect for type 'REFINES'. Expected: ['unidirectional']"
+    ],
+    "recommendations": [
+      "Consider changing direction to: unidirectional"
+    ]
+  },
+  {
+    "id": "REL-204",
+    "batch": 5,
+    "from": "IN07",
+    "to": "DE01",
+    "type": "REFINES",
+    "direction": "bidirectional",
+    "strength": 0.8,
+    "description": "Inverting assumptions reveals root causes",
+    "issues": [
+      "Direction 'bidirectional' may be incorrect for type 'REFINES'. Expected: ['unidirectional']"
+    ],
+    "recommendations": [
+      "Consider changing direction to: unidirectional"
+    ]
+  },
+  {
+    "id": "REL-208",
+    "batch": 5,
+    "from": "IN08",
+    "to": "SY13",
+    "type": "REFINES",
+    "direction": "bidirectional",
+    "strength": 0.8,
+    "description": "Understanding reversed incentives improves system design",
+    "issues": [
+      "Direction 'bidirectional' may be incorrect for type 'REFINES'. Expected: ['unidirectional']"
+    ],
+    "recommendations": [
+      "Consider changing direction to: unidirectional"
+    ]
+  },
+  {
+    "id": "REL-210",
+    "batch": 5,
+    "from": "IN09",
+    "to": "P02",
+    "type": "REFINES",
+    "direction": "bidirectional",
+    "strength": 0.8,
+    "description": "Stakeholder mapping exposes misaligned incentives",
+    "issues": [
+      "Direction 'bidirectional' may be incorrect for type 'REFINES'. Expected: ['unidirectional']"
+    ],
+    "recommendations": [
+      "Consider changing direction to: unidirectional"
+    ]
+  },
+  {
+    "id": "REL-214",
+    "batch": 5,
+    "from": "IN10",
+    "to": "IN02",
+    "type": "REFINES",
+    "direction": "bidirectional",
+    "strength": 0.8,
+    "description": "Premortem is backward reasoning from future failure",
+    "issues": [
+      "Direction 'bidirectional' may be incorrect for type 'REFINES'. Expected: ['unidirectional']"
+    ],
+    "recommendations": [
+      "Consider changing direction to: unidirectional"
+    ]
+  },
+  {
+    "id": "REL-216",
+    "batch": 5,
+    "from": "IN10",
+    "to": "DE01",
+    "type": "REFINES",
+    "direction": "bidirectional",
+    "strength": 0.7,
+    "description": "Root cause analysis works backward from effects",
+    "issues": [
+      "Direction 'bidirectional' may be incorrect for type 'REFINES'. Expected: ['unidirectional']"
+    ],
+    "recommendations": [
+      "Consider changing direction to: unidirectional"
+    ]
+  }
+]

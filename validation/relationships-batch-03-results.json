@@ -1,0 +1,502 @@
+[
+  {
+    "id": "REL-101",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-102",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-103",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-104",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-105",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-106",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-107",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-108",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-109",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-110",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-111",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-112",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-113",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-114",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-115",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-116",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-117",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-118",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-119",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-120",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-121",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-122",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-123",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-124",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-125",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-126",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-127",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-128",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-129",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-130",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-131",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-132",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-133",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-134",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-135",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-136",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-137",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-138",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-139",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-140",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-141",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-142",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-143",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-144",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-145",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-146",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-147",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-148",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-149",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  },
+  {
+    "id": "REL-150",
+    "status": "VALIDATED",
+    "confidence": "HIGH",
+    "validation_date": "2025-12-05",
+    "validator": "agent-v1",
+    "issues": [],
+    "recommendations": [],
+    "notes": "Relationship type, direction, strength, and description all validated"
+  }
+]

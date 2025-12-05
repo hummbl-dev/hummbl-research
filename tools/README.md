@@ -50,16 +50,17 @@ python tools/relationships_centrality.py data/relationships.json
 - **Communities**: Detected model clusters
 
 **Top Hubs** (highest degree centrality):
-- `SY01` - System Topology (0.237)
-- `P02` - Multiple Perspectives (0.167)
-- `P03` - Timeframe Shifting (0.132)
-- `CO01` - Composition (0.132)
-- `P01` - First Principles (0.114)
+- `SY01` - System Topology (33 connections)
+- `P02` - Multiple Perspectives (26 connections)
+- `CO01` - Composition (26 connections)
+- `P03` - Timeframe Shifting (20 connections)
+- `P01` - First Principles (18 connections)
 
 **Key Metrics:**
-- 333 relationships across 120 models
-- Average relationships per model: ~5.55
-- Network density: ~0.023 (sparse, well-structured)
+- 367 relationships across 115 models (validated 2025-12-05)
+- Average relationships per model: ~6.4
+- Network density: ~0.028 (sparse, well-structured)
+- Validation status: ✅ 100% validated
 
 ---
 
@@ -76,6 +77,8 @@ All dependencies listed in `../requirements.txt`.
 ### `sy19_recommend.py`
 
 Meta-model selection tool - Recommends HUMMBL models based on problem description.
+
+**Status:** ✅ Updated to use validated 367 relationships (2025-12-05)
 
 **Usage:**
 ```bash
@@ -122,10 +125,37 @@ python tools/sy19_recommend.py "problem" --top 10 --max-hops 3 --output recommen
 
 ---
 
+### `visualize_relationships.py`
+
+Creates interactive HTML visualization of the relationship graph.
+
+**Usage:**
+```bash
+python tools/visualize_relationships.py
+python tools/visualize_relationships.py --output graph.html --height 1000px
+```
+
+**Features:**
+- Interactive network visualization (pyvis)
+- Color-coded by transformation (P/IN/CO/DE/RE/SY)
+- Node size based on centrality
+- Edge width based on relationship strength
+- Click to explore connections
+
+**Requirements:**
+```bash
+pip install networkx pyvis
+```
+
+**Status:** ✅ Available (requires pyvis installation)
+
+---
+
 ## Notes
 
 - The CSV format expects a title row that will be skipped automatically
 - JSON format uses keys: `id`, `from`, `to`, `type`, `strength`, `direction`, `description`
 - Relationship types: `SCAFFOLDS`, `COMPOSES_WITH`, `REFINES`, `PARALLELS`, `CONTRASTS_WITH`, `CONFLICTS`
 - Strength values range from 0.0 to 1.0
+- **Current relationship count:** 367 (validated 2025-12-05)
 

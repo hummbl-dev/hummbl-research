@@ -1,0 +1,405 @@
+{
+  "date": "2025-12-05",
+  "batches": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "fixes_applied": [
+    {
+      "id": "REL-158",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-162",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-166",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-169",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-177",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-178",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-180",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-182",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-193",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-194",
+      "field": "strength",
+      "old": 0.6,
+      "new": 0.7,
+      "reason": "Strength refinement"
+    },
+    {
+      "id": "REL-196",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-198",
+      "field": "strength",
+      "old": 0.6,
+      "new": 0.7,
+      "reason": "Strength refinement"
+    },
+    {
+      "id": "REL-202",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-204",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-206",
+      "field": "strength",
+      "old": 0.6,
+      "new": 0.7,
+      "reason": "Strength refinement"
+    },
+    {
+      "id": "REL-208",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-210",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-214",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-216",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-217",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-220",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-223",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-224",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-227",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-228",
+      "field": "strength",
+      "old": 0.6,
+      "new": 0.7,
+      "reason": "Strength refinement"
+    },
+    {
+      "id": "REL-231",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-232",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-236",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction refinement"
+    },
+    {
+      "id": "REL-236",
+      "field": "strength",
+      "old": 0.6,
+      "new": 0.7,
+      "reason": "Strength refinement"
+    },
+    {
+      "id": "REL-239",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-243",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-244",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-247",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-251",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-253",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-254",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-261",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-267",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-268",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-269",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-271",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-275",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-277",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-281",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-283",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-285",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-286",
+      "field": "strength",
+      "old": 0.6,
+      "new": 0.7,
+      "reason": "Strength refinement"
+    },
+    {
+      "id": "REL-287",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-292",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-297",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-298",
+      "field": "strength",
+      "old": 0.6,
+      "new": 0.7,
+      "reason": "Strength refinement"
+    },
+    {
+      "id": "REL-303",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-307",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-309",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-320",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    },
+    {
+      "id": "REL-333",
+      "field": "direction",
+      "old": "bidirectional",
+      "new": "unidirectional",
+      "reason": "Direction mismatch fix"
+    }
+  ],
+  "fixes_skipped": [],
+  "errors": []
+}
