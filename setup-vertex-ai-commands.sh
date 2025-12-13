@@ -1,0 +1,42 @@
+#!/bin/bash
+# Vertex AI Setup Commands
+# Run these commands one at a time in your terminal
+
+# Add gcloud to PATH
+export PATH="/usr/local/Caskroom/gcloud-cli/548.0.0/google-cloud-sdk/bin:$PATH"
+
+echo "============================================================"
+echo "VERTEX AI SETUP - STEP BY STEP"
+echo "============================================================"
+echo ""
+echo "STEP 1: Authenticate (this will open a browser)"
+echo "Run: gcloud auth login"
+echo "Then: gcloud auth application-default login"
+echo ""
+echo "STEP 2: Create or select a project"
+echo "Run: gcloud projects list"
+echo "Then either:"
+echo "  - Create new: gcloud projects create hummbl-vertex-ai-UNIQUE-ID --name='HUMMBL Vertex AI'"
+echo "  - Use existing: gcloud config set project YOUR-PROJECT-ID"
+echo ""
+echo "STEP 3: Set environment variable"
+echo "Run: export GOOGLE_CLOUD_PROJECT=YOUR-PROJECT-ID"
+echo ""
+echo "STEP 4: Enable billing (via console)"
+echo "Visit: https://console.cloud.google.com/billing"
+echo "Link billing account to your project"
+echo ""
+echo "STEP 5: Enable Vertex AI API"
+echo "Run: gcloud services enable aiplatform.googleapis.com --project=\$GOOGLE_CLOUD_PROJECT"
+echo ""
+echo "STEP 6: Install Python packages"
+echo "Run: pip install google-cloud-aiplatform vertexai"
+echo ""
+echo "STEP 7: Verify setup"
+echo "Run: python tools/vertex_ai_setup.py --check"
+echo "Run: python tools/vertex_ai_setup.py --test"
+echo ""
+echo "============================================================"
+echo "Full guide: docs/vertex-ai-setup-steps.md"
+echo "============================================================"
+
