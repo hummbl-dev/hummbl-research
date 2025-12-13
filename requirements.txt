@@ -6,3 +6,8 @@ networkx>=3.0
 numpy>=1.20.0
 scipy>=1.7.0
 
+# Vertex AI (optional - for enhanced SY19 and AI features)
+google-cloud-aiplatform>=1.38.0
+vertexai>=1.38.0
+google-generativeai>=0.3.0
+

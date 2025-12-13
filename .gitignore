@@ -44,6 +44,11 @@ ENV/
 *.sav
 *.tmp
 
+# Backup/temporary relationship files
+data/relationships*.json.backup
+data/relationships *.*
+data/*relationships*.json~
+
 # Logs
 *.log
 npm-debug.log*
