@@ -10,25 +10,31 @@ researcher: Reuben Bowlby
 
 ## 1. Context
 
-**System:** AI-powered content recommendation feature integrated into an existing product.  
+**System:** StreamFlow AI - AI-powered content streaming recommendation platform  
+**Type:** Video streaming service recommendation system (Netflix/YouTube-style)  
+**Scale:** 50M+ users, 10M+ content items, peak traffic 8PM-11PM daily
+
 **Architecture:** Multi-service system with:
 
-- API Gateway  
-- Auth service  
-- Content ingestion pipeline  
-- Vector DB (embeddings)  
-- LLM processing service  
-- Recommendation engine  
-- Caching layer (Redis or similar)  
-- Logging / monitoring
+- API Gateway (Kong) - Rate limiting, routing, SSL termination
+- Auth service (Node.js) - JWT token validation
+- Content ingestion pipeline (Python/Kafka) - Processes new content, generates embeddings
+- Vector DB (Pinecone) - Stores 10M+ content embeddings for similarity search
+- LLM processing service (OpenAI API) - Generates descriptions, analyzes preferences
+- Recommendation engine (Python/TensorFlow) - ML model for personalized recommendations
+- Caching layer (Redis Cluster) - Caches recommendations, profiles, content
+- User Profile Service (Go/PostgreSQL) - Stores user preferences, watch history
+- Content Service (Python/FastAPI) - Serves content metadata
+- Analytics Service (Python/ClickHouse) - Tracks engagement, A/B tests
+- Notification Service (Node.js/RabbitMQ) - Sends recommendations via email/push
 
 **Current symptoms:**
 
-- Latency spikes during peak traffic.  
-- Requests intermittently fail or time out.  
-- When the LLM service degrades or rate limits, multiple downstream services start failing.  
-- Cache invalidation events sometimes cause thundering herd behavior.  
-- Operators have a vague sense that "there are cascades" but no clear map.
+- **Latency spikes during peak traffic (8PM-11PM)**: Response time increases from 200ms to 800ms-2s, 95th percentile from 500ms to 3s
+- **Intermittent failures and timeouts**: Gateway timeouts (504) at 2-3%, Engine timeouts at 1-2%, LLM timeouts at 0.5-1%
+- **LLM service degradation cascades**: When LLM hits rate limit (500 req/min), Recommendation Engine waits indefinitely, queue fills (1000+), CPU saturates, new requests timeout, Gateway returns 504s
+- **Cache invalidation thundering herd**: When popular content added, cache invalidation broadcast causes cache hit rate to drop from 80% to 20%, flooding Vector DB and Engine with requests
+- **Vague sense of cascades**: Operators know "when LLM is slow, everything is slow" and "cache invalidation causes problems" but don't have clear cascade maps or intervention priorities
 
 **Goal for this session:**
 
