@@ -1,0 +1,614 @@
+{
+  "P": [
+    {
+      "code": "P01",
+      "name": "First Principles",
+      "description": "First Principles thinking involves breaking down complex problems into their most basic, fundamental..."
+    },
+    {
+      "code": "P02",
+      "name": "Outside View",
+      "description": "The Outside View involves looking at a problem from a broader, statistical standpoint, using data fr..."
+    },
+    {
+      "code": "P03",
+      "name": "Second-Order Thinking",
+      "description": "Second-Order Thinking goes beyond first-order consequences to anticipate cascading impacts. It asks:..."
+    },
+    {
+      "code": "P04",
+      "name": "Systems Thinking",
+      "description": "Systems Thinking emphasizes relationships, feedback loops, and emergent behaviors within a whole sys..."
+    },
+    {
+      "code": "P05",
+      "name": "Opportunity Cost",
+      "description": "Opportunity Cost frames decisions by considering the value of the next best alternative foregone. It..."
+    },
+    {
+      "code": "P06",
+      "name": "Mental Models",
+      "description": "Mental Models involves applying established frameworks, analogies, or heuristics to shift perspectiv..."
+    },
+    {
+      "code": "P07",
+      "name": "Historical Analogy",
+      "description": "Historical Analogy reframes problems by comparing them to analogous historical situations. It helps ..."
+    },
+    {
+      "code": "P08",
+      "name": "Future Backwards",
+      "description": "Future Backwards reframes planning by envisioning success and reverse-engineering the steps needed. ..."
+    },
+    {
+      "code": "P09",
+      "name": "Lateral Thinking",
+      "description": "Lateral Thinking encourages creative, non-linear problem-solving by challenging assumptions and expl..."
+    },
+    {
+      "code": "P10",
+      "name": "Abstraction Ladders",
+      "description": "Abstraction Ladders reframes problems by climbing to higher-level concepts (e.g., \"Why does this mat..."
+    },
+    {
+      "code": "P11",
+      "name": "Cognitive Biases Awareness",
+      "description": "Cognitive Biases Awareness reframes decisions by identifying common biases (e.g., confirmation bias,..."
+    },
+    {
+      "code": "P12",
+      "name": "Stakeholder Mapping",
+      "description": "Stakeholder Mapping reframes problems by visualizing interests, influence, and impacts of involved p..."
+    },
+    {
+      "code": "P13",
+      "name": "Long-Term vs Short-Term",
+      "description": "Long-Term vs Short-Term reframes choices by weighing temporal trade-offs, prioritizing sustainabilit..."
+    },
+    {
+      "code": "P14",
+      "name": "Ethical Framing",
+      "description": "Ethical Framing reframes problems by considering fairness, harm, and societal impact, ensuring respo..."
+    },
+    {
+      "code": "P15",
+      "name": "Cultural Context",
+      "description": "Cultural Context reframes issues by accounting for diverse backgrounds, avoiding ethnocentric biases..."
+    },
+    {
+      "code": "P16",
+      "name": "Scenario Planning",
+      "description": "Scenario Planning involves creating detailed narratives of different plausible future states to help..."
+    },
+    {
+      "code": "P17",
+      "name": "Stakeholder Mapping",
+      "description": "Stakeholder Mapping is a mental model for systematically identifying all individuals, groups, or org..."
+    },
+    {
+      "code": "P18",
+      "name": "Systems Thinking",
+      "description": "Systems Thinking is a mental model that emphasizes understanding the relationships, feedback loops, ..."
+    },
+    {
+      "code": "P19",
+      "name": "Opportunity Cost Analysis",
+      "description": "Opportunity Cost Analysis is a mental model that focuses on the true cost of any decision by calcula..."
+    },
+    {
+      "code": "P20",
+      "name": "Long-term vs Short-term Thinking",
+      "description": "Long-term vs Short-term Thinking is a mental model that helps evaluate decisions by considering both..."
+    }
+  ],
+  "IN": [
+    {
+      "code": "IN01",
+      "name": "Premortem Analysis",
+      "description": "Premortem Analysis flips the perspective by assuming failure has occurred and then diagnosing the ca..."
+    },
+    {
+      "code": "IN02",
+      "name": "Inversion",
+      "description": "Inversion involves flipping the problem to focus on preventing negatives rather than achieving posit..."
+    },
+    {
+      "code": "IN03",
+      "name": "Murphy's Law Application",
+      "description": "Murphy's Law Application systematically anticipates worst-case scenarios by assuming failures will o..."
+    },
+    {
+      "code": "IN04",
+      "name": "Regret Minimization",
+      "description": "Regret Minimization inverts decision-making by focusing on avoiding future disappointment. It evalua..."
+    },
+    {
+      "code": "IN05",
+      "name": "Black Swan Preparation",
+      "description": "Black Swan Preparation inverts normal risk assessment by focusing on outlier events\u2014those that are u..."
+    },
+    {
+      "code": "IN06",
+      "name": "Devil's Advocate",
+      "description": "Devil's Advocate involves deliberately taking the opposing viewpoint to challenge assumptions and un..."
+    },
+    {
+      "code": "IN07",
+      "name": "Negative Visualization",
+      "description": "Negative Visualization inverts optimism by vividly picturing failures, losses, or setbacks. It build..."
+    },
+    {
+      "code": "IN08",
+      "name": "Failure Mode Effects Analysis",
+      "description": "Failure Mode Effects Analysis (FMEA) inverts success by listing every way a system can fail, rating ..."
+    },
+    {
+      "code": "IN09",
+      "name": "Red Teaming",
+      "description": "Red Teaming inverts defensive thinking by role-playing as an attacker to exploit weaknesses. It unco..."
+    },
+    {
+      "code": "IN10",
+      "name": "Antifragility Assessment",
+      "description": "Antifragility Assessment inverts resilience by checking if volatility improves the system (antifragi..."
+    },
+    {
+      "code": "IN11",
+      "name": "Pre-Mortem for Teams",
+      "description": "Pre-Mortem for Teams inverts success by having the group imagine project failure and brainstorm caus..."
+    },
+    {
+      "code": "IN12",
+      "name": "Risk Inversion",
+      "description": "Risk Inversion flips probability by treating risks as inevitable, forcing detailed contingency plann..."
+    },
+    {
+      "code": "IN13",
+      "name": "Cost-Benefit Inversion",
+      "description": "Cost-Benefit Inversion inverts analysis by prioritizing downsides, ensuring conservative estimates a..."
+    },
+    {
+      "code": "IN14",
+      "name": "Assumption Inversion",
+      "description": "Assumption Inversion tests beliefs by negating them, revealing hidden dependencies and alternative p..."
+    },
+    {
+      "code": "IN15",
+      "name": "Outcome Inversion",
+      "description": "Outcome Inversion focuses on avoiding failures by defining bad results and engineering away from the..."
+    },
+    {
+      "code": "IN16",
+      "name": "Inverse Design",
+      "description": "Inverse Design is a mental model that starts with the end goal and works backwards to determine the ..."
+    },
+    {
+      "code": "IN17",
+      "name": "Assumption Inversion",
+      "description": "Assumption Inversion involves taking core assumptions and deliberately inverting them to test their ..."
+    },
+    {
+      "code": "IN18",
+      "name": "Inverse Innovation",
+      "description": "Inverse Innovation is a mental model that looks for opportunities by doing the opposite of what ever..."
+    },
+    {
+      "code": "IN19",
+      "name": "Failure Inversion",
+      "description": "Failure Inversion takes the principles of failure analysis (like FMEA or premortem) and applies them..."
+    },
+    {
+      "code": "IN20",
+      "name": "Inverse Metrics",
+      "description": "Inverse Metrics is a mental model that focuses measurement on negative outcomes to drive improvement..."
+    }
+  ],
+  "CO": [
+    {
+      "code": "CO01",
+      "name": "Composition Planning",
+      "description": "Composition Planning focuses on how parts fit together to form greater systems. It evaluates couplin..."
+    },
+    {
+      "code": "CO02",
+      "name": "Modular Design",
+      "description": "Modular Design emphasizes creating components that can be mixed, matched, and reused without tight d..."
+    },
+    {
+      "code": "CO03",
+      "name": "Interface Design",
+      "description": "Interface Design focuses on the \"handshake\" between system parts\u2014APIs, protocols, and standards that..."
+    },
+    {
+      "code": "CO04",
+      "name": "Emergent Properties",
+      "description": "Emergent Properties recognizes that the whole can exhibit traits not present in individual parts. Co..."
+    },
+    {
+      "code": "CO05",
+      "name": "Constraint-Based Assembly",
+      "description": "Constraint-Based Assembly uses limitations as design guides, composing solutions that work within bo..."
+    },
+    {
+      "code": "CO06",
+      "name": "Layered Architecture",
+      "description": "Layered Architecture composes systems into abstraction layers (e.g., presentation, logic, data), ens..."
+    },
+    {
+      "code": "CO07",
+      "name": "Component Orchestration",
+      "description": "Component Orchestration focuses on how components interact and synchronize to produce emergent behav..."
+    },
+    {
+      "code": "CO08",
+      "name": "Integration Testing",
+      "description": "Integration Testing composes validation by checking how components work together, not in isolation. ..."
+    },
+    {
+      "code": "CO09",
+      "name": "Coupling Minimization",
+      "description": "Coupling Minimization composes systems with loose connections, using abstractions or contracts to al..."
+    },
+    {
+      "code": "CO10",
+      "name": "Cohesion Maximization",
+      "description": "Cohesion Maximization composes components that are highly focused on a single responsibility, improv..."
+    },
+    {
+      "code": "CO11",
+      "name": "API Design",
+      "description": "API Design composes systems by creating standardized contracts (APIs) that allow components to inter..."
+    },
+    {
+      "code": "CO12",
+      "name": "Event-Driven Composition",
+      "description": "Event-Driven Composition uses events to decouple components, enabling reactive and scalable architec..."
+    },
+    {
+      "code": "CO13",
+      "name": "Microservices Architecture",
+      "description": "Microservices Architecture composes complex apps from loosely coupled services, each handling a spec..."
+    },
+    {
+      "code": "CO14",
+      "name": "Plugin Systems",
+      "description": "Plugin Systems compose core functionality with optional add-ons, allowing users to customize without..."
+    },
+    {
+      "code": "CO15",
+      "name": "Composite Patterns",
+      "description": "Composite Patterns compose hierarchies where leaves and branches share interfaces, simplifying compl..."
+    },
+    {
+      "code": "CO16",
+      "name": "Emergent Design",
+      "description": "Emergent Design is a mental model for creating systems where complex, adaptive behaviors arise from ..."
+    },
+    {
+      "code": "CO17",
+      "name": "Orchestration Patterns",
+      "description": "Orchestration Patterns is a mental model for designing and managing complex workflows that coordinat..."
+    },
+    {
+      "code": "CO18",
+      "name": "Interface Composition",
+      "description": "Interface Composition is a mental model for constructing user interfaces and APIs by combining reusa..."
+    },
+    {
+      "code": "CO19",
+      "name": "Service Mesh Design",
+      "description": "Service Mesh Design is a mental model for managing the complex networking, security, and observabili..."
+    },
+    {
+      "code": "CO20",
+      "name": "Ecosystem Composition",
+      "description": "Ecosystem Composition is a mental model for designing platforms that grow through network effects an..."
+    }
+  ],
+  "DE": [
+    {
+      "code": "DE01",
+      "name": "Root Cause Analysis",
+      "description": "Root Cause Analysis systematically decomposes problems to identify underlying factors, not just symp..."
+    },
+    {
+      "code": "DE02",
+      "name": "Functional Decomposition",
+      "description": "Functional Decomposition divides complex systems into smaller, purpose-driven functions. Each unit h..."
+    },
+    {
+      "code": "DE03",
+      "name": "Hierarchical Breakdown",
+      "description": "Hierarchical Breakdown structures systems in layers, from high-level goals to low-level details. Thi..."
+    },
+    {
+      "code": "DE04",
+      "name": "Dependency Mapping",
+      "description": "Dependency Mapping decomposes systems by charting how elements rely on each other. It reveals bottle..."
+    },
+    {
+      "code": "DE05",
+      "name": "Bottleneck Identification",
+      "description": "Bottleneck Identification decomposes systems to pinpoint the slowest or most constrained component. ..."
+    },
+    {
+      "code": "DE06",
+      "name": "Process Mapping",
+      "description": "Process Mapping decomposes operations into visual flowcharts, revealing inefficiencies, redundancies..."
+    },
+    {
+      "code": "DE07",
+      "name": "Cause-Effect Diagrams",
+      "description": "Cause-Effect Diagrams (Ishikawa diagrams) decompose problems into categories of causes (e.g., people..."
+    },
+    {
+      "code": "DE08",
+      "name": "Information Flow Analysis",
+      "description": "Information Flow Analysis decomposes data pathways, mapping sources, transformations, and sinks. It ..."
+    },
+    {
+      "code": "DE09",
+      "name": "Work Breakdown Structure",
+      "description": "Work Breakdown Structure (WBS) decomposes complex projects into deliverables and subtasks, using a t..."
+    },
+    {
+      "code": "DE10",
+      "name": "Subsystem Isolation",
+      "description": "Subsystem Isolation decomposes large systems by treating parts as black boxes, focusing on interface..."
+    },
+    {
+      "code": "DE11",
+      "name": "Value Stream Mapping",
+      "description": "Value Stream Mapping decomposes workflows by visualizing value-adding vs. non-value-adding steps, ta..."
+    },
+    {
+      "code": "DE12",
+      "name": "Critical Path Analysis",
+      "description": "Critical Path Analysis decomposes projects into tasks with dependencies, highlighting the longest pa..."
+    },
+    {
+      "code": "DE13",
+      "name": "Functional Analysis",
+      "description": "Functional Analysis decomposes systems by functions (what they do), evaluating efficiency and intera..."
+    },
+    {
+      "code": "DE14",
+      "name": "Morphological Analysis",
+      "description": "Morphological Analysis decomposes problems into dimensions, then combines variations to generate sol..."
+    },
+    {
+      "code": "DE15",
+      "name": "Chunking",
+      "description": "Chunking decomposes overwhelming data by organizing it into meaningful groups, improving comprehensi..."
+    },
+    {
+      "code": "DE16",
+      "name": "Functional Decomposition",
+      "description": "Functional Decomposition is a mental model for analyzing complex systems by breaking them down into ..."
+    },
+    {
+      "code": "DE17",
+      "name": "Data Flow Decomposition",
+      "description": "Data Flow Decomposition is a mental model for understanding systems by mapping how information flows..."
+    },
+    {
+      "code": "DE18",
+      "name": "Temporal Decomposition",
+      "description": "Temporal Decomposition is a mental model for analyzing dynamic systems by separating them into seque..."
+    },
+    {
+      "code": "DE19",
+      "name": "Responsibility Decomposition",
+      "description": "Responsibility Decomposition is a mental model for designing systems by clearly defining and separat..."
+    },
+    {
+      "code": "DE20",
+      "name": "Failure Mode Decomposition",
+      "description": "Failure Mode Decomposition is a mental model for proactively identifying potential failure points in..."
+    }
+  ],
+  "RE": [
+    {
+      "code": "RE01",
+      "name": "Feedback Loops",
+      "description": "Feedback Loops apply recursion by incorporating results back into the process. Positive loops amplif..."
+    },
+    {
+      "code": "RE02",
+      "name": "Incremental Improvement",
+      "description": "Incremental Improvement uses recursion for gradual progress, avoiding overwhelm by focusing on margi..."
+    },
+    {
+      "code": "RE03",
+      "name": "Prototyping Cycles",
+      "description": "Prototyping Cycles apply recursion through build-measure-learn loops. Each cycle refines based on re..."
+    },
+    {
+      "code": "RE04",
+      "name": "Adaptive Planning",
+      "description": "Adaptive Planning uses recursion to update strategies as conditions change. It embraces uncertainty ..."
+    },
+    {
+      "code": "RE05",
+      "name": "Evolutionary Algorithms",
+      "description": "Evolutionary Algorithms apply recursion by generating variants, testing fitness, and iterating survi..."
+    },
+    {
+      "code": "RE06",
+      "name": "Iterative Design",
+      "description": "Iterative Design applies recursion by building prototypes, gathering feedback, and improving. It emb..."
+    },
+    {
+      "code": "RE07",
+      "name": "Spiral Development",
+      "description": "Spiral Development uses recursive spirals to manage risk, starting small and expanding scope with ea..."
+    },
+    {
+      "code": "RE08",
+      "name": "Agile Sprints",
+      "description": "Agile Sprints apply recursion through 1-4 week cycles of planning, execution, review, and retrospect..."
+    },
+    {
+      "code": "RE09",
+      "name": "Prototyping Loops",
+      "description": "Prototyping Loops use recursive build-test-learn cycles to validate assumptions cheaply. They reduce..."
+    },
+    {
+      "code": "RE10",
+      "name": "Continuous Improvement",
+      "description": "Continuous Improvement (Kaizen) applies recursion for perpetual progress, using PDCA (Plan-Do-Check-..."
+    },
+    {
+      "code": "RE11",
+      "name": "Bootstrapping",
+      "description": "Bootstrapping uses recursion to start small and compound gains, leveraging outputs as inputs for gro..."
+    },
+    {
+      "code": "RE12",
+      "name": "Self-Referential Systems",
+      "description": "Self-Referential Systems apply recursion where the system reflects on and alters its own behavior, e..."
+    },
+    {
+      "code": "RE13",
+      "name": "Fractal Scaling",
+      "description": "Fractal Scaling uses recursion to replicate structures at different levels, creating self-similar sy..."
+    },
+    {
+      "code": "RE14",
+      "name": "Recursive Optimization",
+      "description": "Recursive Optimization applies improvements iteratively to nested levels, ensuring local optima cont..."
+    },
+    {
+      "code": "RE15",
+      "name": "Evolutionary Computation",
+      "description": "Evolutionary Computation simulates natural selection through recursive generations of variation, sel..."
+    },
+    {
+      "code": "RE16",
+      "name": "Recursive Optimization",
+      "description": "Recursive Optimization is a mental model for continuous improvement where optimization processes the..."
+    },
+    {
+      "code": "RE17",
+      "name": "Fractal Organization",
+      "description": "Fractal Organization is a mental model for designing systems where patterns repeat at different scal..."
+    },
+    {
+      "code": "RE18",
+      "name": "Meta-Learning",
+      "description": "Meta-Learning is a mental model for developing more effective learning strategies by studying the le..."
+    },
+    {
+      "code": "RE19",
+      "name": "Bootstrapping Loops",
+      "description": "Bootstrapping Loops is a mental model for building systems that grow exponentially by using their ow..."
+    },
+    {
+      "code": "RE20",
+      "name": "Self-Improving Systems",
+      "description": "Self-Improving Systems is a mental model for creating autonomous systems that learn from their exper..."
+    }
+  ],
+  "SY": [
+    {
+      "code": "SY01",
+      "name": "System-of-Systems View",
+      "description": "System-of-Systems View synthesizes multiple systems into a higher-order whole, revealing interdepend..."
+    },
+    {
+      "code": "SY02",
+      "name": "Pattern Recognition",
+      "description": "Pattern Recognition synthesizes information by finding commonalities and trends. It connects dots to..."
+    },
+    {
+      "code": "SY03",
+      "name": "Holistic Integration",
+      "description": "Holistic Integration synthesizes fragmented knowledge into a complete picture. It bridges gaps, reso..."
+    },
+    {
+      "code": "SY04",
+      "name": "Meta-Analysis",
+      "description": "Meta-Analysis synthesizes multiple studies or models to draw overarching conclusions. It accounts fo..."
+    },
+    {
+      "code": "SY05",
+      "name": "Convergence Thinking",
+      "description": "Convergence Thinking synthesizes multiple approaches to identify common endpoints. It reveals univer..."
+    },
+    {
+      "code": "SY06",
+      "name": "Cross-Disciplinary Integration",
+      "description": "Cross-Disciplinary Integration synthesizes knowledge from diverse domains (e.g., biology + engineeri..."
+    },
+    {
+      "code": "SY07",
+      "name": "Theory Building",
+      "description": "Theory Building synthesizes data into coherent theories, using induction to generalize patterns into..."
+    },
+    {
+      "code": "SY08",
+      "name": "Model Fusion",
+      "description": "Model Fusion synthesizes disparate models (e.g., economic + psychological) into hybrids, capturing c..."
+    },
+    {
+      "code": "SY09",
+      "name": "Insight Synthesis",
+      "description": "Insight Synthesis weaves individual findings into overarching narratives, revealing hidden connectio..."
+    },
+    {
+      "code": "SY10",
+      "name": "Grand Unification",
+      "description": "Grand Unification synthesizes fragmented knowledge into universal laws or frameworks, pursuing elega..."
+    },
+    {
+      "code": "SY11",
+      "name": "Abductive Reasoning",
+      "description": "Abductive Reasoning synthesizes hypotheses from evidence, selecting the most likely explanation amon..."
+    },
+    {
+      "code": "SY12",
+      "name": "Integrative Thinking",
+      "description": "Integrative Thinking synthesizes conflicting perspectives into superior solutions, avoiding compromi..."
+    },
+    {
+      "code": "SY13",
+      "name": "Systems Integration",
+      "description": "Systems Integration synthesizes components into unified systems, ensuring compatibility and function..."
+    },
+    {
+      "code": "SY14",
+      "name": "Creative Synthesis",
+      "description": "Creative Synthesis combines unrelated concepts to generate innovation, leveraging serendipity."
+    },
+    {
+      "code": "SY15",
+      "name": "Transdisciplinary Synthesis",
+      "description": "Transdisciplinary Synthesis transcends fields to address complex problems, fostering unified approac..."
+    },
+    {
+      "code": "SY16",
+      "name": "Cross-Domain Synthesis",
+      "description": "Cross-Domain Synthesis is a mental model for discovering breakthrough innovations by connecting conc..."
+    },
+    {
+      "code": "SY17",
+      "name": "Paradox Resolution",
+      "description": "Paradox Resolution is a mental model for addressing situations where traditional either/or thinking ..."
+    },
+    {
+      "code": "SY18",
+      "name": "Holistic Integration",
+      "description": "Holistic Integration is a mental model for seeing systems as integrated wholes where the performance..."
+    },
+    {
+      "code": "SY19",
+      "name": "Meta-Model Selection",
+      "description": "SY19 is a meta-model that recommends which HUMMBL models to use for a given problem. It uses the rel..."
+    },
+    {
+      "code": "SY20",
+      "name": "Wisdom Synthesis",
+      "description": "Wisdom Synthesis is a mental model for converting accumulated knowledge into actionable wisdom. It g..."
+    }
+  ]
+}
