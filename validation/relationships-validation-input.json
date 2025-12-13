@@ -50,7 +50,7 @@
     "to": "P03",
     "type": "PARALLELS",
     "strength": 0.7,
-    "direction": "unidirectional",
+    "direction": "bidirectional",
     "description": "Multiple perspectives include different timeframes as one perspective type"
   },
   {
@@ -85,7 +85,7 @@
     "from": "P02",
     "to": "P16",
     "type": "SCAFFOLDS",
-    "strength": 0.6,
+    "strength": 0.7,
     "direction": "unidirectional",
     "description": "Understanding multiple perspectives helps recognize information asymmetries"
   },
@@ -1265,7 +1265,7 @@
     "to": "P01",
     "type": "REFINES",
     "strength": 0.8,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "First principles thinking deepens root cause analysis"
   },
   {
@@ -1310,7 +1310,7 @@
     "to": "P03",
     "type": "REFINES",
     "strength": 0.6,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Multiple perspectives improve component boundaries"
   },
   {
@@ -1328,7 +1328,7 @@
     "to": "DE02",
     "type": "REFINES",
     "strength": 0.8,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Component ID and modularization reinforce each other"
   },
   {
@@ -1418,7 +1418,7 @@
     "to": "IN01",
     "type": "REFINES",
     "strength": 0.6,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Inverting perspective reveals hidden dependencies"
   },
   {
@@ -1454,7 +1454,7 @@
     "to": "P04",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Adversarial perspective reveals overlooked failure modes"
   },
   {
@@ -1490,7 +1490,7 @@
     "to": "P02",
     "type": "REFINES",
     "strength": 0.6,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Stakeholder perspectives identify different bottlenecks"
   },
   {
@@ -1517,7 +1517,7 @@
     "to": "DE05",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Information flows reveal logical dependencies"
   },
   {
@@ -1589,7 +1589,7 @@
     "to": "P02",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Stakeholder analysis reveals resource competition"
   },
   {
@@ -1598,7 +1598,7 @@
     "to": "DE04",
     "type": "REFINES",
     "strength": 0.6,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Resource limits are constraints - mutual reinforcement"
   },
   {
@@ -1616,7 +1616,7 @@
     "to": "DE05",
     "type": "REFINES",
     "strength": 0.8,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Inverting perspective reveals hidden dependencies"
   },
   {
@@ -1634,7 +1634,7 @@
     "to": "RE01",
     "type": "REFINES",
     "strength": 0.6,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Pattern recognition improves with perspective shifts"
   },
   {
@@ -1733,7 +1733,7 @@
     "to": "P01",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "First principles thinking simplifies complex problems"
   },
   {
@@ -1741,7 +1741,7 @@
     "from": "IN04",
     "to": "RE09",
     "type": "COMPOSES_WITH",
-    "strength": 0.6,
+    "strength": 0.7,
     "direction": "unidirectional",
     "description": "Iterative prototyping enables progressive simplification"
   },
@@ -1760,7 +1760,7 @@
     "to": "DE02",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Negative space shows component boundaries"
   },
   {
@@ -1777,7 +1777,7 @@
     "from": "IN05",
     "to": "CO05",
     "type": "SCAFFOLDS",
-    "strength": 0.6,
+    "strength": 0.7,
     "direction": "unidirectional",
     "description": "Must understand gaps before designing integration"
   },
@@ -1814,7 +1814,7 @@
     "to": "P04",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Adversarial thinking exposes hidden second-order risks"
   },
   {
@@ -1832,7 +1832,7 @@
     "to": "DE01",
     "type": "REFINES",
     "strength": 0.8,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Inverting assumptions reveals root causes"
   },
   {
@@ -1849,7 +1849,7 @@
     "from": "IN07",
     "to": "RE08",
     "type": "COMPOSES_WITH",
-    "strength": 0.6,
+    "strength": 0.7,
     "direction": "unidirectional",
     "description": "Hypothesis testing systematizes assumption inversion"
   },
@@ -1868,7 +1868,7 @@
     "to": "SY13",
     "type": "REFINES",
     "strength": 0.8,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Understanding reversed incentives improves system design"
   },
   {
@@ -1886,7 +1886,7 @@
     "to": "P02",
     "type": "REFINES",
     "strength": 0.8,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Stakeholder mapping exposes misaligned incentives"
   },
   {
@@ -1922,7 +1922,7 @@
     "to": "IN02",
     "type": "REFINES",
     "strength": 0.8,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Premortem is backward reasoning from future failure"
   },
   {
@@ -1940,7 +1940,7 @@
     "to": "DE01",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Root cause analysis works backward from effects"
   },
   {
@@ -1949,7 +1949,7 @@
     "to": "DE03",
     "type": "SCAFFOLDS",
     "strength": 0.9,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Decomposition enables composition - complementary operations"
   },
   {
@@ -1976,7 +1976,7 @@
     "to": "RE09",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Iterative prototyping tests composition strategies"
   },
   {
@@ -2003,7 +2003,7 @@
     "to": "CO07",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Interface design enables clean layering"
   },
   {
@@ -2012,7 +2012,7 @@
     "to": "P05",
     "type": "REFINES",
     "strength": 0.6,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Abstraction levels map to architectural layers"
   },
   {
@@ -2039,7 +2039,7 @@
     "to": "RE10",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "A/B testing optimizes pipeline performance"
   },
   {
@@ -2047,7 +2047,7 @@
     "from": "CO03",
     "to": "SY04",
     "type": "COMPOSES_WITH",
-    "strength": 0.6,
+    "strength": 0.7,
     "direction": "unidirectional",
     "description": "Pipeline cascades are system-level effects"
   },
@@ -2075,7 +2075,7 @@
     "to": "RE06",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Feedback loops in data create pipeline cycles"
   },
   {
@@ -2084,7 +2084,7 @@
     "to": "CO03",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Data pipelines are specialized processing pipelines"
   },
   {
@@ -2119,8 +2119,8 @@
     "from": "CO05",
     "to": "IN05",
     "type": "SCAFFOLDS",
-    "strength": 0.6,
-    "direction": "bidirectional",
+    "strength": 0.7,
+    "direction": "unidirectional",
     "description": "Negative space analysis reveals integration gaps"
   },
   {
@@ -2147,7 +2147,7 @@
     "to": "RE06",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Feedback loops enable adaptive orchestration"
   },
   {
@@ -2183,7 +2183,7 @@
     "to": "P05",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Abstraction levels determine interface granularity"
   },
   {
@@ -2192,7 +2192,7 @@
     "to": "CO02",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Layer boundaries are interface definitions"
   },
   {
@@ -2219,7 +2219,7 @@
     "to": "DE08",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Information flow analysis informs event design"
   },
   {
@@ -2255,7 +2255,7 @@
     "to": "CO06",
     "type": "REFINES",
     "strength": 0.8,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Service orchestration manages microservice coordination"
   },
   {
@@ -2273,7 +2273,7 @@
     "to": "CO07",
     "type": "REFINES",
     "strength": 0.9,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "APIs are contract-based interface definitions"
   },
   {
@@ -2282,7 +2282,7 @@
     "to": "P02",
     "type": "REFINES",
     "strength": 0.8,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Stakeholder needs define API surface"
   },
   {
@@ -2345,7 +2345,7 @@
     "to": "CO08",
     "type": "REFINES",
     "strength": 0.9,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Queues implement event-driven patterns"
   },
   {
@@ -2399,7 +2399,7 @@
     "to": "IN06",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Cache invalidation creates second-order effects"
   },
   {
@@ -2408,7 +2408,7 @@
     "to": "CO04",
     "type": "REFINES",
     "strength": 0.6,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Caching optimizes data pipeline performance"
   },
   {
@@ -2417,7 +2417,7 @@
     "to": "DE01",
     "type": "REFINES",
     "strength": 0.9,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "First principles and root cause both strip to fundamentals"
   },
   {
@@ -2435,7 +2435,7 @@
     "to": "CO05",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Multiple viewpoints improve integration design"
   },
   {
@@ -2471,7 +2471,7 @@
     "to": "CO01",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Iterative prototyping tests composition strategies"
   },
   {
@@ -2489,7 +2489,7 @@
     "to": "DE10",
     "type": "SCAFFOLDS",
     "strength": 0.9,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Resource allocation must precede incentive design"
   },
   {
@@ -2525,7 +2525,7 @@
     "to": "RE01",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Pattern recognition improves with foundational understanding"
   },
   {
@@ -2543,7 +2543,7 @@
     "to": "CO10",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Stakeholder needs drive API design decisions"
   },
   {
@@ -2561,7 +2561,7 @@
     "to": "DE02",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Different viewpoints reveal different component boundaries"
   },
   {
@@ -2569,7 +2569,7 @@
     "from": "P03",
     "to": "SY01",
     "type": "COMPOSES_WITH",
-    "strength": 0.6,
+    "strength": 0.7,
     "direction": "unidirectional",
     "description": "Multiple perspectives expose system topology variants"
   },
@@ -2579,7 +2579,7 @@
     "to": "DE06",
     "type": "REFINES",
     "strength": 0.9,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Adversarial thinking reveals failure modes"
   },
   {
@@ -2624,7 +2624,7 @@
     "to": "DE01",
     "type": "REFINES",
     "strength": 0.8,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Analogical reasoning reveals hidden root causes"
   },
   {
@@ -2669,7 +2669,7 @@
     "to": "DE04",
     "type": "REFINES",
     "strength": 0.7,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Scale perspective reveals constraint relativity"
   },
   {
@@ -2677,7 +2677,7 @@
     "from": "P10",
     "to": "CO09",
     "type": "COMPOSES_WITH",
-    "strength": 0.6,
+    "strength": 0.7,
     "direction": "unidirectional",
     "description": "Scale analysis informs microservice granularity"
   },
@@ -2723,7 +2723,7 @@
     "to": "P06",
     "type": "REFINES",
     "strength": 0.6,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Analogies enable cross-domain pattern reuse"
   },
   {
@@ -2759,7 +2759,7 @@
     "to": "CO01",
     "type": "REFINES",
     "strength": 0.6,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Composition patterns emerge from repeated integration"
   },
   {
@@ -2777,7 +2777,7 @@
     "to": "RE06",
     "type": "REFINES",
     "strength": 0.8,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Learning loops are positive feedback mechanisms"
   },
   {
@@ -2876,7 +2876,7 @@
     "to": "IN02",
     "type": "SCAFFOLDS",
     "strength": 0.9,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "Premortem must precede risk mitigation planning"
   },
   {
@@ -2993,7 +2993,313 @@
     "to": "P01",
     "type": "SCAFFOLDS",
     "strength": 0.9,
-    "direction": "bidirectional",
+    "direction": "unidirectional",
     "description": "First principles and meta-model selection are mutually reinforcing"
+  },
+  {
+    "id": "REL-334",
+    "from": "CO01",
+    "to": "DE08",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO01 to DE08 (added from model file reference)"
+  },
+  {
+    "id": "REL-335",
+    "from": "CO02",
+    "to": "CO01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO02 to CO01 (added from model file reference)"
+  },
+  {
+    "id": "REL-336",
+    "from": "CO02",
+    "to": "RE09",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO02 to RE09 (added from model file reference)"
+  },
+  {
+    "id": "REL-337",
+    "from": "CO03",
+    "to": "CO02",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO03 to CO02 (added from model file reference)"
+  },
+  {
+    "id": "REL-338",
+    "from": "CO05",
+    "to": "DE01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO05 to DE01 (added from model file reference)"
+  },
+  {
+    "id": "REL-339",
+    "from": "CO05",
+    "to": "IN02",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO05 to IN02 (added from model file reference)"
+  },
+  {
+    "id": "REL-340",
+    "from": "CO06",
+    "to": "CO02",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO06 to CO02 (added from model file reference)"
+  },
+  {
+    "id": "REL-341",
+    "from": "CO06",
+    "to": "DE03",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO06 to DE03 (added from model file reference)"
+  },
+  {
+    "id": "REL-342",
+    "from": "CO07",
+    "to": "CO01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO07 to CO01 (added from model file reference)"
+  },
+  {
+    "id": "REL-343",
+    "from": "CO07",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO07 to SY01 (added from model file reference)"
+  },
+  {
+    "id": "REL-344",
+    "from": "CO08",
+    "to": "IN08",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO08 to IN08 (added from model file reference)"
+  },
+  {
+    "id": "REL-345",
+    "from": "CO09",
+    "to": "CO02",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO09 to CO02 (added from model file reference)"
+  },
+  {
+    "id": "REL-346",
+    "from": "CO09",
+    "to": "CO03",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO09 to CO03 (added from model file reference)"
+  },
+  {
+    "id": "REL-347",
+    "from": "CO10",
+    "to": "CO02",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO10 to CO02 (added from model file reference)"
+  },
+  {
+    "id": "REL-348",
+    "from": "CO11",
+    "to": "CO08",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO11 to CO08 (added from model file reference)"
+  },
+  {
+    "id": "REL-349",
+    "from": "CO11",
+    "to": "CO03",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO11 to CO03 (added from model file reference)"
+  },
+  {
+    "id": "REL-350",
+    "from": "CO12",
+    "to": "CO07",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO12 to CO07 (added from model file reference)"
+  },
+  {
+    "id": "REL-351",
+    "from": "CO12",
+    "to": "RE01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO12 to RE01 (added from model file reference)"
+  },
+  {
+    "id": "REL-352",
+    "from": "CO13",
+    "to": "CO06",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO13 to CO06 (added from model file reference)"
+  },
+  {
+    "id": "REL-353",
+    "from": "CO13",
+    "to": "CO02",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO13 to CO02 (added from model file reference)"
+  },
+  {
+    "id": "REL-354",
+    "from": "CO17",
+    "to": "CO02",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO17 to CO02 (added from model file reference)"
+  },
+  {
+    "id": "REL-355",
+    "from": "CO17",
+    "to": "DE05",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO17 to DE05 (added from model file reference)"
+  },
+  {
+    "id": "REL-356",
+    "from": "CO17",
+    "to": "RE05",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO17 to RE05 (added from model file reference)"
+  },
+  {
+    "id": "REL-357",
+    "from": "CO18",
+    "to": "CO01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO18 to CO01 (added from model file reference)"
+  },
+  {
+    "id": "REL-358",
+    "from": "CO18",
+    "to": "SY07",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO18 to SY07 (added from model file reference)"
+  },
+  {
+    "id": "REL-359",
+    "from": "CO18",
+    "to": "CO04",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO18 to CO04 (added from model file reference)"
+  },
+  {
+    "id": "REL-360",
+    "from": "CO20",
+    "to": "SY09",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO20 to SY09 (added from model file reference)"
+  },
+  {
+    "id": "REL-361",
+    "from": "CO20",
+    "to": "CO05",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from CO20 to CO05 (added from model file reference)"
+  },
+  {
+    "id": "REL-362",
+    "from": "DE01",
+    "to": "IN01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from DE01 to IN01 (added from model file reference)"
+  },
+  {
+    "id": "REL-363",
+    "from": "DE02",
+    "to": "CO02",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from DE02 to CO02 (added from model file reference)"
+  },
+  {
+    "id": "REL-364",
+    "from": "DE02",
+    "to": "DE08",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from DE02 to DE08 (added from model file reference)"
+  },
+  {
+    "id": "REL-365",
+    "from": "DE03",
+    "to": "DE01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from DE03 to DE01 (added from model file reference)"
+  },
+  {
+    "id": "REL-366",
+    "from": "DE03",
+    "to": "SY01",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from DE03 to SY01 (added from model file reference)"
+  },
+  {
+    "id": "REL-367",
+    "from": "DE04",
+    "to": "DE08",
+    "type": "COMPOSES_WITH",
+    "strength": 0.7,
+    "direction": "unidirectional",
+    "description": "Relationship from DE04 to DE08 (added from model file reference)"
   }
 ]
