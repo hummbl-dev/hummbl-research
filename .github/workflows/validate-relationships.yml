@@ -1,0 +1,35 @@
+name: Validate Relationships
+
+on:
+  push:
+    paths:
+      - 'data/relationships.json'
+      - 'tools/validate_relationships.py'
+      - '.github/workflows/validate-relationships.yml'
+  pull_request:
+    paths:
+      - 'data/relationships.json'
+      - 'tools/validate_relationships.py'
+      - '.github/workflows/validate-relationships.yml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Validate relationships.json
+        run: |
+          python tools/validate_relationships_json.py data/relationships.json
+

@@ -201,15 +201,12 @@ Explore all 120 models →
 | **Meta-Systems** | SY | ⚠️ BASELINE | 8.0/10 | **Strong baseline:** Use for system-level analysis and meta-patterns. Very close to validated, safe for most use cases. | [hummbl-prototype](https://github.com/hummbl-dev/hummbl-prototype) | [`validation/meta-systems-study-2025.md`](validation/meta-systems-study-2025.md) |
 
 **Status Guide:**
-- ✅ **VALIDATED (≥7.0)**: Production-ready, safe to use in production
-- ⚠️ **BASELINE (≥7.0 but not yet VALIDATED)**: Functional and near-production-ready, minor refinements may be needed
-- ⚠️ **BASELINE (<7.0)**: Functional but experimental, use with caution, not recommended for production
-
-**Note:** Operators scoring ≥7.0/10 are production-ready but may be marked BASELINE if they haven't completed the full validation process. P (7.8), RE (8.0), and SY (8.0) are strong baselines very close to VALIDATED status.
+- ✅ **VALIDATED**: Operators that have scored ≥7.0/10 and completed the full validation process. Production-ready, safe to use in production.
+- ⚠️ **BASELINE**: Operators that are functional but either score <7.0/10 or have not yet completed the full validation process. Use with appropriate caution based on score.
 
 ### Validation Criteria
 
-Operators must score ≥7.0/10 on a 5-dimension utility rubric to achieve **VALIDATED** status:
+Operators must **both** score ≥7.0/10 on a 5-dimension utility rubric **and** complete the full validation process to achieve **VALIDATED** status:
 1. Finds meaningful insights/components/failure modes  
 2. Useful for analysis/debugging  
 3. Catches things you'd miss mentally  
@@ -293,8 +290,8 @@ Operators must score ≥7.0/10 on a 5-dimension utility rubric to achieve **VALI
 
 - [x] SY19 `recommend_models()` prototype ✅
 - [ ] Case Study 1: Multi-service AI system (Target: Jan 2026)
-- [ ] Case Study 2: Project Planning & Architecture (In Progress)
-- [ ] Case Study 3: API/Product Surface Design (In Progress)
+- [x] Case Study 2: Project Planning & Architecture (In Progress)
+- [x] Case Study 3: API/Product Surface Design (In Progress)
 - **Target:** January 2026 completion
 
 ---
