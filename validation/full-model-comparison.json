@@ -1,0 +1,962 @@
+{
+  "repo_models": {
+    "P01": "First Principles",
+    "P02": "Outside View",
+    "P03": "Second-Order Thinking",
+    "P04": "Systems Thinking",
+    "P05": "Opportunity Cost",
+    "P06": "Mental Models",
+    "P07": "Historical Analogy",
+    "P08": "Future Backwards",
+    "P09": "Lateral Thinking",
+    "P10": "Abstraction Ladders",
+    "P11": "Cognitive Biases Awareness",
+    "P12": "Stakeholder Mapping",
+    "P13": "Long-Term vs Short-Term",
+    "P14": "Ethical Framing",
+    "P15": "Cultural Context",
+    "P16": "Scenario Planning",
+    "P17": "Stakeholder Mapping",
+    "P18": "Systems Thinking",
+    "P19": "Opportunity Cost Analysis",
+    "P20": "Long-term vs Short-term Thinking",
+    "IN01": "Premortem Analysis",
+    "IN02": "Inversion",
+    "IN03": "Murphy's Law Application",
+    "IN04": "Regret Minimization",
+    "IN05": "Black Swan Preparation",
+    "IN06": "Devil's Advocate",
+    "IN07": "Negative Visualization",
+    "IN08": "Failure Mode Effects Analysis",
+    "IN09": "Red Teaming",
+    "IN10": "Antifragility Assessment",
+    "IN11": "Pre-Mortem for Teams",
+    "IN12": "Risk Inversion",
+    "IN13": "Cost-Benefit Inversion",
+    "IN14": "Assumption Inversion",
+    "IN15": "Outcome Inversion",
+    "IN16": "Inverse Design",
+    "IN17": "Assumption Inversion",
+    "IN18": "Inverse Innovation",
+    "IN19": "Failure Inversion",
+    "IN20": "Inverse Metrics",
+    "CO01": "Composition Planning",
+    "CO02": "Modular Design",
+    "CO03": "Interface Design",
+    "CO04": "Emergent Properties",
+    "CO05": "Constraint-Based Assembly",
+    "CO06": "Layered Architecture",
+    "CO07": "Component Orchestration",
+    "CO08": "Integration Testing",
+    "CO09": "Coupling Minimization",
+    "CO10": "Cohesion Maximization",
+    "CO11": "API Design",
+    "CO12": "Event-Driven Composition",
+    "CO13": "Microservices Architecture",
+    "CO14": "Plugin Systems",
+    "CO15": "Composite Patterns",
+    "CO16": "Emergent Design",
+    "CO17": "Orchestration Patterns",
+    "CO18": "Interface Composition",
+    "CO19": "Service Mesh Design",
+    "CO20": "Ecosystem Composition",
+    "DE01": "Root Cause Analysis",
+    "DE02": "Functional Decomposition",
+    "DE03": "Hierarchical Breakdown",
+    "DE04": "Dependency Mapping",
+    "DE05": "Bottleneck Identification",
+    "DE06": "Process Mapping",
+    "DE07": "Cause-Effect Diagrams",
+    "DE08": "Information Flow Analysis",
+    "DE09": "Work Breakdown Structure",
+    "DE10": "Subsystem Isolation",
+    "DE11": "Value Stream Mapping",
+    "DE12": "Critical Path Analysis",
+    "DE13": "Functional Analysis",
+    "DE14": "Morphological Analysis",
+    "DE15": "Chunking",
+    "DE16": "Functional Decomposition",
+    "DE17": "Data Flow Decomposition",
+    "DE18": "Temporal Decomposition",
+    "DE19": "Responsibility Decomposition",
+    "DE20": "Failure Mode Decomposition",
+    "RE01": "Feedback Loops",
+    "RE02": "Incremental Improvement",
+    "RE03": "Prototyping Cycles",
+    "RE04": "Adaptive Planning",
+    "RE05": "Evolutionary Algorithms",
+    "RE06": "Iterative Design",
+    "RE07": "Spiral Development",
+    "RE08": "Agile Sprints",
+    "RE09": "Prototyping Loops",
+    "RE10": "Continuous Improvement",
+    "RE11": "Bootstrapping",
+    "RE12": "Self-Referential Systems",
+    "RE13": "Fractal Scaling",
+    "RE14": "Recursive Optimization",
+    "RE15": "Evolutionary Computation",
+    "RE16": "Recursive Optimization",
+    "RE17": "Fractal Organization",
+    "RE18": "Meta-Learning",
+    "RE19": "Bootstrapping Loops",
+    "RE20": "Self-Improving Systems",
+    "SY01": "System-of-Systems View",
+    "SY02": "Pattern Recognition",
+    "SY03": "Holistic Integration",
+    "SY04": "Meta-Analysis",
+    "SY05": "Convergence Thinking",
+    "SY06": "Cross-Disciplinary Integration",
+    "SY07": "Theory Building",
+    "SY08": "Model Fusion",
+    "SY09": "Insight Synthesis",
+    "SY10": "Grand Unification",
+    "SY11": "Abductive Reasoning",
+    "SY12": "Integrative Thinking",
+    "SY13": "Systems Integration",
+    "SY14": "Creative Synthesis",
+    "SY15": "Transdisciplinary Synthesis",
+    "SY16": "Cross-Domain Synthesis",
+    "SY17": "Paradox Resolution",
+    "SY18": "Holistic Integration",
+    "SY19": "Meta-Model Selection",
+    "SY20": "Wisdom Synthesis"
+  },
+  "official_models": {
+    "P01": "First Principles Framing",
+    "P02": "Stakeholder Mapping",
+    "P03": "Identity Stack",
+    "P04": "Lens Shifting",
+    "P05": "Empathy Mapping",
+    "P06": "Point-of-View Anchoring",
+    "P07": "Perspective Switching",
+    "P08": "Narrative Framing",
+    "P09": "Cultural Lens Shifting",
+    "P10": "Context Windowing",
+    "P11": "Role Perspective-Taking",
+    "P12": "Temporal Framing",
+    "P13": "Spatial Framing",
+    "P14": "Reference Class Framing",
+    "P15": "Assumption Surfacing",
+    "P16": "Identity-Context Reciprocity",
+    "P17": "Frame Control & Reframing",
+    "P18": "Boundary Object Selection",
+    "P19": "Sensemaking Canvases",
+    "P20": "Worldview Articulation",
+    "IN1": "Subtractive Thinking",
+    "IN2": "Premortem Analysis",
+    "IN3": "Problem Reversal",
+    "IN4": "Contra-Logic",
+    "IN5": "Negative Space Framing",
+    "IN6": "Inverse/Proof by Contradiction",
+    "IN7": "Boundary Testing",
+    "IN8": "Contrapositive Reasoning",
+    "IN9": "Backward Induction",
+    "IN10": "Red Teaming",
+    "IN11": "Devil's Advocate Protocol",
+    "IN12": "Failure First Design",
+    "IN13": "Opportunity Cost Focus",
+    "IN14": "Second-Order Effects (Inverted)",
+    "IN15": "Constraint Reversal",
+    "IN16": "Inverse Optimization",
+    "IN17": "Counterfactual Negation",
+    "IN18": "Kill-Criteria & Stop Rules",
+    "IN19": "Harm Minimization (Via Negativa)",
+    "IN20": "Antigoals & Anti-Patterns Catalog",
+    "CO1": "Synergy Principle",
+    "CO2": "Chunking",
+    "CO3": "Functional Composition",
+    "CO4": "Interdisciplinary Synthesis",
+    "CO5": "Emergence",
+    "CO6": "Gestalt Integration",
+    "CO7": "Network Effects",
+    "CO8": "Layered Abstraction",
+    "CO9": "Interface Contracts",
+    "CO10": "Pipeline Orchestration",
+    "CO11": "Pattern Composition (Tiling)",
+    "CO12": "Modular Interoperability",
+    "CO13": "Cross-Domain Analogy",
+    "CO14": "Platformization",
+    "CO15": "Combinatorial Design",
+    "CO16": "System Integration Testing",
+    "CO17": "Orchestration vs Choreography",
+    "CO18": "Knowledge Graphing",
+    "CO19": "Multi-Modal Integration",
+    "CO20": "Holistic Integration",
+    "DE1": "Root Cause Analysis (5 Whys)",
+    "DE2": "Factorization",
+    "DE3": "Modularization",
+    "DE4": "Layered Breakdown",
+    "DE5": "Dimensional Reduction",
+    "DE6": "Taxonomy/Classification",
+    "DE7": "Pareto Decomposition (80/20)",
+    "DE8": "Work Breakdown Structure",
+    "DE9": "Signal Separation",
+    "DE10": "Abstraction Laddering",
+    "DE11": "Scope Delimitation",
+    "DE12": "Constraint Isolation",
+    "DE13": "Failure Mode Analysis (FMEA)",
+    "DE14": "Variable Control & Isolation",
+    "DE15": "Decision Tree Expansion",
+    "DE16": "Hypothesis Disaggregation",
+    "DE17": "Orthogonalization",
+    "DE18": "Scenario Decomposition",
+    "DE19": "Critical Path Unwinding",
+    "DE20": "Partition-and-Conquer",
+    "RE1": "Recursive Improvement (Kaizen)",
+    "RE2": "Feedback Loops",
+    "RE3": "Meta-Learning (Learn-to-Learn)",
+    "RE4": "Nested Narratives",
+    "RE5": "Fractal Reasoning",
+    "RE6": "Recursive Framing",
+    "RE7": "Self-Referential Logic",
+    "RE8": "Bootstrapping",
+    "RE9": "Iterative Prototyping",
+    "RE10": "Compounding Cycles",
+    "RE11": "Calibration Loops",
+    "RE12": "Bayesian Updating in Practice",
+    "RE13": "Gradient Descent Heuristic",
+    "RE14": "Spiral Learning",
+    "RE15": "Convergence-Divergence Cycling",
+    "RE16": "Retrospective\u2192Prospective Loop",
+    "RE17": "Versioning & Diff",
+    "RE18": "Anti-Catastrophic Forgetting",
+    "RE19": "Auto-Refactor",
+    "RE20": "Recursive Governance (Guardrails that Learn)",
+    "SY1": "Leverage Points",
+    "SY2": "System Boundaries",
+    "SY3": "Stocks & Flows",
+    "SY4": "Requisite Variety",
+    "SY5": "Systems Archetypes",
+    "SY6": "Feedback Structure Mapping",
+    "SY7": "Path Dependence",
+    "SY8": "Homeostasis/Dynamic Equilibrium",
+    "SY9": "Phase Transitions & Tipping Points",
+    "SY10": "Causal Loop Diagrams",
+    "SY11": "Governance Patterns",
+    "SY12": "Protocol/Interface Standards",
+    "SY13": "Incentive Architecture",
+    "SY14": "Risk & Resilience Engineering",
+    "SY15": "Multi-Scale Alignment",
+    "SY16": "Ecosystem Strategy",
+    "SY17": "Policy Feedbacks",
+    "SY18": "Measurement & Telemetry",
+    "SY19": "Meta-Model Selection",
+    "SY20": "Systems-of-Systems Coordination"
+  },
+  "mismatches": [
+    {
+      "code": "CO01",
+      "repo_name": "Composition Planning",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "CO02",
+      "repo_name": "Modular Design",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "CO03",
+      "repo_name": "Interface Design",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "CO04",
+      "repo_name": "Emergent Properties",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "CO05",
+      "repo_name": "Constraint-Based Assembly",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "CO06",
+      "repo_name": "Layered Architecture",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "CO07",
+      "repo_name": "Component Orchestration",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "CO08",
+      "repo_name": "Integration Testing",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "CO09",
+      "repo_name": "Coupling Minimization",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "CO10",
+      "repo_name": "Cohesion Maximization",
+      "official_name": "Pipeline Orchestration",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "CO11",
+      "repo_name": "API Design",
+      "official_name": "Pattern Composition (Tiling)",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "CO12",
+      "repo_name": "Event-Driven Composition",
+      "official_name": "Modular Interoperability",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "CO13",
+      "repo_name": "Microservices Architecture",
+      "official_name": "Cross-Domain Analogy",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "CO14",
+      "repo_name": "Plugin Systems",
+      "official_name": "Platformization",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "CO15",
+      "repo_name": "Composite Patterns",
+      "official_name": "Combinatorial Design",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "CO16",
+      "repo_name": "Emergent Design",
+      "official_name": "System Integration Testing",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "CO17",
+      "repo_name": "Orchestration Patterns",
+      "official_name": "Orchestration vs Choreography",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "CO18",
+      "repo_name": "Interface Composition",
+      "official_name": "Knowledge Graphing",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "CO19",
+      "repo_name": "Service Mesh Design",
+      "official_name": "Multi-Modal Integration",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "CO20",
+      "repo_name": "Ecosystem Composition",
+      "official_name": "Holistic Integration",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "DE01",
+      "repo_name": "Root Cause Analysis",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "DE02",
+      "repo_name": "Functional Decomposition",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "DE03",
+      "repo_name": "Hierarchical Breakdown",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "DE04",
+      "repo_name": "Dependency Mapping",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "DE05",
+      "repo_name": "Bottleneck Identification",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "DE06",
+      "repo_name": "Process Mapping",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "DE07",
+      "repo_name": "Cause-Effect Diagrams",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "DE08",
+      "repo_name": "Information Flow Analysis",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "DE09",
+      "repo_name": "Work Breakdown Structure",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "DE10",
+      "repo_name": "Subsystem Isolation",
+      "official_name": "Abstraction Laddering",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "DE11",
+      "repo_name": "Value Stream Mapping",
+      "official_name": "Scope Delimitation",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "DE12",
+      "repo_name": "Critical Path Analysis",
+      "official_name": "Constraint Isolation",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "DE13",
+      "repo_name": "Functional Analysis",
+      "official_name": "Failure Mode Analysis (FMEA)",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "DE14",
+      "repo_name": "Morphological Analysis",
+      "official_name": "Variable Control & Isolation",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "DE15",
+      "repo_name": "Chunking",
+      "official_name": "Decision Tree Expansion",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "DE16",
+      "repo_name": "Functional Decomposition",
+      "official_name": "Hypothesis Disaggregation",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "DE17",
+      "repo_name": "Data Flow Decomposition",
+      "official_name": "Orthogonalization",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "DE18",
+      "repo_name": "Temporal Decomposition",
+      "official_name": "Scenario Decomposition",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "DE19",
+      "repo_name": "Responsibility Decomposition",
+      "official_name": "Critical Path Unwinding",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "DE20",
+      "repo_name": "Failure Mode Decomposition",
+      "official_name": "Partition-and-Conquer",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "IN01",
+      "repo_name": "Premortem Analysis",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "IN02",
+      "repo_name": "Inversion",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "IN03",
+      "repo_name": "Murphy's Law Application",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "IN04",
+      "repo_name": "Regret Minimization",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "IN05",
+      "repo_name": "Black Swan Preparation",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "IN06",
+      "repo_name": "Devil's Advocate",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "IN07",
+      "repo_name": "Negative Visualization",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "IN08",
+      "repo_name": "Failure Mode Effects Analysis",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "IN09",
+      "repo_name": "Red Teaming",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "IN10",
+      "repo_name": "Antifragility Assessment",
+      "official_name": "Red Teaming",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "IN11",
+      "repo_name": "Pre-Mortem for Teams",
+      "official_name": "Devil's Advocate Protocol",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "IN12",
+      "repo_name": "Risk Inversion",
+      "official_name": "Failure First Design",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "IN13",
+      "repo_name": "Cost-Benefit Inversion",
+      "official_name": "Opportunity Cost Focus",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "IN14",
+      "repo_name": "Assumption Inversion",
+      "official_name": "Second-Order Effects (Inverted)",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "IN15",
+      "repo_name": "Outcome Inversion",
+      "official_name": "Constraint Reversal",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "IN16",
+      "repo_name": "Inverse Design",
+      "official_name": "Inverse Optimization",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "IN17",
+      "repo_name": "Assumption Inversion",
+      "official_name": "Counterfactual Negation",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "IN18",
+      "repo_name": "Inverse Innovation",
+      "official_name": "Kill-Criteria & Stop Rules",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "IN19",
+      "repo_name": "Failure Inversion",
+      "official_name": "Harm Minimization (Via Negativa)",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "IN20",
+      "repo_name": "Inverse Metrics",
+      "official_name": "Antigoals & Anti-Patterns Catalog",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "P01",
+      "repo_name": "First Principles",
+      "official_name": "First Principles Framing",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "P02",
+      "repo_name": "Outside View",
+      "official_name": "Stakeholder Mapping",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "P03",
+      "repo_name": "Second-Order Thinking",
+      "official_name": "Identity Stack",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "P04",
+      "repo_name": "Systems Thinking",
+      "official_name": "Lens Shifting",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "P05",
+      "repo_name": "Opportunity Cost",
+      "official_name": "Empathy Mapping",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "P06",
+      "repo_name": "Mental Models",
+      "official_name": "Point-of-View Anchoring",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "P07",
+      "repo_name": "Historical Analogy",
+      "official_name": "Perspective Switching",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "P08",
+      "repo_name": "Future Backwards",
+      "official_name": "Narrative Framing",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "P09",
+      "repo_name": "Lateral Thinking",
+      "official_name": "Cultural Lens Shifting",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "P10",
+      "repo_name": "Abstraction Ladders",
+      "official_name": "Context Windowing",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "P11",
+      "repo_name": "Cognitive Biases Awareness",
+      "official_name": "Role Perspective-Taking",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "P12",
+      "repo_name": "Stakeholder Mapping",
+      "official_name": "Temporal Framing",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "P13",
+      "repo_name": "Long-Term vs Short-Term",
+      "official_name": "Spatial Framing",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "P14",
+      "repo_name": "Ethical Framing",
+      "official_name": "Reference Class Framing",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "P15",
+      "repo_name": "Cultural Context",
+      "official_name": "Assumption Surfacing",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "P16",
+      "repo_name": "Scenario Planning",
+      "official_name": "Identity-Context Reciprocity",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "P17",
+      "repo_name": "Stakeholder Mapping",
+      "official_name": "Frame Control & Reframing",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "P18",
+      "repo_name": "Systems Thinking",
+      "official_name": "Boundary Object Selection",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "P19",
+      "repo_name": "Opportunity Cost Analysis",
+      "official_name": "Sensemaking Canvases",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "P20",
+      "repo_name": "Long-term vs Short-term Thinking",
+      "official_name": "Worldview Articulation",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "RE01",
+      "repo_name": "Feedback Loops",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "RE02",
+      "repo_name": "Incremental Improvement",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "RE03",
+      "repo_name": "Prototyping Cycles",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "RE04",
+      "repo_name": "Adaptive Planning",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "RE05",
+      "repo_name": "Evolutionary Algorithms",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "RE06",
+      "repo_name": "Iterative Design",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "RE07",
+      "repo_name": "Spiral Development",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "RE08",
+      "repo_name": "Agile Sprints",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "RE09",
+      "repo_name": "Prototyping Loops",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "RE10",
+      "repo_name": "Continuous Improvement",
+      "official_name": "Compounding Cycles",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "RE11",
+      "repo_name": "Bootstrapping",
+      "official_name": "Calibration Loops",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "RE12",
+      "repo_name": "Self-Referential Systems",
+      "official_name": "Bayesian Updating in Practice",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "RE13",
+      "repo_name": "Fractal Scaling",
+      "official_name": "Gradient Descent Heuristic",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "RE14",
+      "repo_name": "Recursive Optimization",
+      "official_name": "Spiral Learning",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "RE15",
+      "repo_name": "Evolutionary Computation",
+      "official_name": "Convergence-Divergence Cycling",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "RE16",
+      "repo_name": "Recursive Optimization",
+      "official_name": "Retrospective\u2192Prospective Loop",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "RE17",
+      "repo_name": "Fractal Organization",
+      "official_name": "Versioning & Diff",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "RE18",
+      "repo_name": "Meta-Learning",
+      "official_name": "Anti-Catastrophic Forgetting",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "RE19",
+      "repo_name": "Bootstrapping Loops",
+      "official_name": "Auto-Refactor",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "RE20",
+      "repo_name": "Self-Improving Systems",
+      "official_name": "Recursive Governance (Guardrails that Learn)",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "SY01",
+      "repo_name": "System-of-Systems View",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "SY02",
+      "repo_name": "Pattern Recognition",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "SY03",
+      "repo_name": "Holistic Integration",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "SY04",
+      "repo_name": "Meta-Analysis",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "SY05",
+      "repo_name": "Convergence Thinking",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "SY06",
+      "repo_name": "Cross-Disciplinary Integration",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "SY07",
+      "repo_name": "Theory Building",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "SY08",
+      "repo_name": "Model Fusion",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "SY09",
+      "repo_name": "Insight Synthesis",
+      "official_name": "NOT FOUND",
+      "issue": "Missing in official list"
+    },
+    {
+      "code": "SY10",
+      "repo_name": "Grand Unification",
+      "official_name": "Causal Loop Diagrams",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "SY11",
+      "repo_name": "Abductive Reasoning",
+      "official_name": "Governance Patterns",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "SY12",
+      "repo_name": "Integrative Thinking",
+      "official_name": "Protocol/Interface Standards",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "SY13",
+      "repo_name": "Systems Integration",
+      "official_name": "Incentive Architecture",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "SY14",
+      "repo_name": "Creative Synthesis",
+      "official_name": "Risk & Resilience Engineering",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "SY15",
+      "repo_name": "Transdisciplinary Synthesis",
+      "official_name": "Multi-Scale Alignment",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "SY16",
+      "repo_name": "Cross-Domain Synthesis",
+      "official_name": "Ecosystem Strategy",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "SY17",
+      "repo_name": "Paradox Resolution",
+      "official_name": "Policy Feedbacks",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "SY18",
+      "repo_name": "Holistic Integration",
+      "official_name": "Measurement & Telemetry",
+      "issue": "Name mismatch"
+    },
+    {
+      "code": "SY20",
+      "repo_name": "Wisdom Synthesis",
+      "official_name": "Systems-of-Systems Coordination",
+      "issue": "Name mismatch"
+    }
+  ]
+}

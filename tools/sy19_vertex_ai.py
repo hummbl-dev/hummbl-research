@@ -210,31 +210,57 @@ Do not include explanations or other text."""
         self,
         problem_text: str,
         primaries: Optional[List[str]] = None,
-        top_k: int = 7,
-        max_hops: int = 2,
-        use_llm: bool = True
+        top_k: Optional[int] = None,
+        max_hops: Optional[int] = None,
+        use_llm: bool = True,
+        detail_level: str = 'medium'
     ) -> List[Dict]:
         """
-        Recommend models with optional Vertex AI enhancement.
-        
+        Recommend models with optional Vertex AI enhancement and granularity control.
+
         Args:
             problem_text: Problem description
             primaries: Optional explicit primaries (overrides detection)
-            top_k: Number of recommendations
-            max_hops: Maximum graph distance
+            top_k: Number of recommendations (auto-set based on detail_level if None)
+            max_hops: Maximum graph distance (auto-set based on detail_level if None)
             use_llm: Use Vertex AI for primary detection (default: True)
+            detail_level: 'low' (3 recs, 1 hop), 'medium' (7 recs, 2 hops), 'high' (15 recs, 3 hops)
         """
+        # Set parameters based on detail_level for granularity control
+        if detail_level == 'low':
+            top_k = top_k or 3
+            max_hops = max_hops or 1
+        elif detail_level == 'medium':
+            top_k = top_k or 7
+            max_hops = max_hops or 2
+        elif detail_level == 'high':
+            top_k = top_k or 15
+            max_hops = max_hops or 3
+        else:
+            top_k = top_k or 7
+            max_hops = max_hops or 2
+
         # Detect primaries using LLM if requested
         if primaries is None and use_llm:
             primaries = self._detect_primaries_llm(problem_text)
-        
-        # Fall back to parent class method
-        return super().recommend_models(
+
+        # Get base recommendations
+        recommendations = super().recommend_models(
             problem_text=problem_text,
             primaries=primaries,
             top_k=top_k,
             max_hops=max_hops
         )
+
+        # Add confidence calibration
+        for rec in recommendations:
+            # Confidence based on score normalized to 0-1, with calibration for conservative estimates
+            score = rec['score']
+            # Improved calibration: higher scores get higher confidence, but cap at 0.9 for caution
+            confidence = min(0.9, score / 15.0) if score > 0 else 0.1
+            rec['confidence'] = round(confidence, 2)
+
+        return recommendations
     
     def explain_recommendation(self, model_code: str, problem_text: str, relationships: Optional[List[Dict]] = None) -> str:
         """Use Vertex AI to generate explanation for why a model is recommended."""
@@ -405,8 +431,13 @@ def main():
     parser.add_argument(
         "--top", "-k",
         type=int,
-        default=7,
-        help="Number of recommendations (default: 7)"
+        help="Number of recommendations (auto-set by --detail-level if not specified)"
+    )
+    parser.add_argument(
+        "--detail-level",
+        choices=['low', 'medium', 'high'],
+        default='medium',
+        help="Granularity level: low (3 recs, 1 hop), medium (7 recs, 2 hops), high (15 recs, 3 hops) (default: medium)"
     )
     parser.add_argument(
         "--relationships", "-r",
@@ -463,7 +494,8 @@ def main():
             problem_text=args.problem,
             primaries=args.primaries,
             top_k=args.top,
-            use_llm=not args.no_llm
+            use_llm=not args.no_llm,
+            detail_level=args.detail_level
         )
         
         # Get recommended model codes
@@ -505,7 +537,8 @@ def main():
         
         for i, rec in enumerate(recommendations, 1):
             primary_tag = " 🔹 Primary" if rec['is_primary'] else ""
-            lines.append(f"{i}. **{rec['model']}** (score: {rec['score']:.3f}){primary_tag}")
+            confidence = rec.get('confidence', 0.5)
+            lines.append(f"{i}. **{rec['model']}** (score: {rec['score']:.3f}, confidence: {confidence:.2f}){primary_tag}")
             lines.append(f"   - Centrality: {rec['centrality']} connections")
             
             # Add LLM explanation if available

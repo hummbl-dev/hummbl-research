@@ -1,0 +1,3763 @@
+{
+  "total": 120,
+  "models": [
+    {
+      "code": "P01",
+      "name": "First Principles Framing",
+      "transformation": "P",
+      "definition": "First Principles thinking involves breaking down complex problems into their mos",
+      "description": "First Principles thinking involves breaking down complex problems into their most basic, fundamental elements and building up from there. Instead of relying on analogies or existing solutions, question every assumption to uncover the true essence of the problem. This mental model is particularly useful for innovation and avoiding incremental thinking.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "When designing a new transportation system, instead of copying existing models (e.g., cars or trains), ask: What is the fundamental need? (Moving people efficiently.) What are the core constraints? (Physics, energy, safety.) This might lead to radical ideas like hyperloops or autonomous pods, unconstrained by historical precedents.",
+      "related_models": [
+        "DE01",
+        "IN02"
+      ],
+      "priority": 1,
+      "relationships": {
+        "incoming_count": 5,
+        "outgoing_count": 9,
+        "total_count": 14,
+        "by_type": {
+          "SCAFFOLDS": 5,
+          "COMPOSES_WITH": 3,
+          "PARALLELS": 1,
+          "REFINES": 4,
+          "CONTRASTS_WITH": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 1.0,
+          "avg": 0.84
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "P02",
+      "name": "Stakeholder Mapping",
+      "transformation": "P",
+      "definition": "The Outside View involves looking at a problem from a broader, statistical stand",
+      "description": "The Outside View involves looking at a problem from a broader, statistical standpoint, using data from similar situations rather than focusing on unique details of the current case. This counters optimism bias and planning fallacy by emphasizing base rates and historical outcomes over personal intuition.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "When estimating project timelines, instead of thinking \"This project is special because of our expert team,\" use the Outside View: \"Historically, 70% of similar projects overrun by 20%.\" This leads to more realistic planning and risk assessment.",
+      "related_models": [
+        "SY19",
+        "IN02"
+      ],
+      "priority": 1,
+      "relationships": {
+        "incoming_count": 7,
+        "outgoing_count": 12,
+        "total_count": 19,
+        "by_type": {
+          "PARALLELS": 2,
+          "SCAFFOLDS": 6,
+          "COMPOSES_WITH": 6,
+          "REFINES": 5
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.77
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "P03",
+      "name": "Identity Stack",
+      "transformation": "P",
+      "definition": "Second-Order Thinking goes beyond first-order consequences to anticipate cascadi",
+      "description": "Second-Order Thinking goes beyond first-order consequences to anticipate cascading impacts. It asks: \"And then what?\" repeatedly, revealing hidden feedback loops, unintended consequences, and long-term dynamics that first-order thinking misses.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In pricing strategy, a first-order thought is \"Lower prices to attract customers.\" Second-order: \"Lower prices increase volume, but might erode margins, leading to quality cuts, which could harm reputation and reduce long-term demand.\" This prevents shortsighted decisions.",
+      "related_models": [
+        "IN02",
+        "RE09"
+      ],
+      "priority": 1,
+      "relationships": {
+        "incoming_count": 4,
+        "outgoing_count": 11,
+        "total_count": 15,
+        "by_type": {
+          "PARALLELS": 2,
+          "SCAFFOLDS": 5,
+          "COMPOSES_WITH": 5,
+          "REFINES": 3
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.77
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "P04",
+      "name": "Lens Shifting",
+      "transformation": "P",
+      "definition": "Systems Thinking emphasizes relationships, feedback loops, and emergent behavior",
+      "description": "Systems Thinking emphasizes relationships, feedback loops, and emergent behaviors within a whole system. It shifts focus from individual components to how they interact, revealing leverage points and unintended consequences that linear thinking overlooks.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In supply chain management, instead of optimizing one factory, consider the entire ecosystem: Supplier delays affect production, which impacts customer satisfaction, creating feedback loops. This might reveal that investing in supplier relationships yields better overall results than local efficiencies.",
+      "related_models": [
+        "SY01",
+        "DE08"
+      ],
+      "priority": 1,
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 7,
+        "total_count": 10,
+        "by_type": {
+          "SCAFFOLDS": 2,
+          "COMPOSES_WITH": 3,
+          "PARALLELS": 2,
+          "REFINES": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.76
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "P05",
+      "name": "Empathy Mapping",
+      "transformation": "P",
+      "definition": "Opportunity Cost frames decisions by considering the value of the next best alte",
+      "description": "Opportunity Cost frames decisions by considering the value of the next best alternative foregone. It shifts perspective from absolute gains to relative trade-offs, highlighting hidden costs and encouraging prioritization.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "When choosing between two projects, don't just compare their direct benefits. Ask: \"What else could we do with those resources?\" If Project A yields $100K but Project B (foregone) would yield $80K, the true cost of A is $80K in missed opportunity.",
+      "related_models": [
+        "IN02",
+        "CO01"
+      ],
+      "priority": 1,
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 9,
+        "total_count": 12,
+        "by_type": {
+          "COMPOSES_WITH": 5,
+          "PARALLELS": 4,
+          "SCAFFOLDS": 1,
+          "REFINES": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 1.0,
+          "avg": 0.76
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "P06",
+      "name": "Point-of-View Anchoring",
+      "transformation": "P",
+      "definition": "Mental Models involves applying established frameworks, analogies, or heuristics",
+      "description": "Mental Models involves applying established frameworks, analogies, or heuristics to shift perspective on a problem. It draws from cognitive tools like checklists or metaphors to reveal hidden patterns and simplify complexity.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "When debugging a software issue, use the \"rubber duck debugging\" analogy: Explain the problem to an inanimate object to gain clarity, reframing it as a communication exercise rather than pure logic.",
+      "related_models": [
+        "SY02"
+      ],
+      "priority": 1,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 9,
+        "total_count": 11,
+        "by_type": {
+          "PARALLELS": 3,
+          "SCAFFOLDS": 5,
+          "REFINES": 2,
+          "COMPOSES_WITH": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 1.0,
+          "avg": 0.76
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "P07",
+      "name": "Perspective Switching",
+      "transformation": "P",
+      "definition": "Historical Analogy reframes problems by comparing them to analogous historical s",
+      "description": "Historical Analogy reframes problems by comparing them to analogous historical situations. It helps anticipate outcomes by learning from precedents, but requires careful consideration of differences to avoid false parallels.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In product strategy, compare launching a new app to the rise of smartphones: Just as early adopters drove iPhone success, focus on user-centric features to build momentum.",
+      "related_models": [
+        "SY04"
+      ],
+      "priority": 1,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 8,
+        "total_count": 9,
+        "by_type": {
+          "SCAFFOLDS": 4,
+          "PARALLELS": 4,
+          "COMPOSES_WITH": 1
+        },
+        "strength": {
+          "min": 0.5,
+          "max": 0.9,
+          "avg": 0.74
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "P08",
+      "name": "Narrative Framing",
+      "transformation": "P",
+      "definition": "Future Backwards reframes planning by envisioning success and reverse-engineerin",
+      "description": "Future Backwards reframes planning by envisioning success and reverse-engineering the steps needed. It counters present-bias by focusing on long-term goals, revealing obstacles and milestones.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "For career planning, imagine \"I'm a CTO in 10 years.\" Work backwards: What skills/experiences are needed? This might highlight the need for leadership training now.",
+      "related_models": [
+        "IN01",
+        "RE04"
+      ],
+      "priority": 1,
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 4,
+        "total_count": 7,
+        "by_type": {
+          "SCAFFOLDS": 4,
+          "PARALLELS": 2,
+          "COMPOSES_WITH": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.77
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "P09",
+      "name": "Cultural Lens Shifting",
+      "transformation": "P",
+      "definition": "Lateral Thinking encourages creative, non-linear problem-solving by challenging ",
+      "description": "Lateral Thinking encourages creative, non-linear problem-solving by challenging assumptions and exploring indirect paths. It uses techniques like random stimuli or provocation to break mental ruts.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Stuck on a design problem? Ask \"What if the product was invisible?\" This lateral shift might inspire minimalist features or new use cases.",
+      "related_models": [
+        "IN02"
+      ],
+      "priority": 1,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 8,
+        "total_count": 9,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "PARALLELS": 5,
+          "COMPOSES_WITH": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.78
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "P10",
+      "name": "Context Windowing",
+      "transformation": "P",
+      "definition": "Abstraction Ladders reframes problems by climbing to higher-level concepts (e.g.",
+      "description": "Abstraction Ladders reframes problems by climbing to higher-level concepts (e.g., \"Why does this matter?\") or descending to specifics (e.g., \"What's the exact mechanism?\"). It prevents getting stuck in one viewpoint.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Debugging code: Abstract up (\"This is a data flow issue\") to see patterns, then descend (\"Check this variable assignment\") for fixes.",
+      "related_models": [
+        "DE03",
+        "SY01"
+      ],
+      "priority": 1,
+      "relationships": {
+        "incoming_count": 0,
+        "outgoing_count": 12,
+        "total_count": 12,
+        "by_type": {
+          "SCAFFOLDS": 8,
+          "PARALLELS": 2,
+          "REFINES": 1,
+          "COMPOSES_WITH": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 1.0,
+          "avg": 0.8
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "P11",
+      "name": "Role Perspective-Taking",
+      "transformation": "P",
+      "definition": "Cognitive Biases Awareness reframes decisions by identifying common biases (e.g.",
+      "description": "Cognitive Biases Awareness reframes decisions by identifying common biases (e.g., confirmation bias, anchoring), allowing conscious correction for more objective analysis.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In hiring: Bias towards \"similar-to-me\" candidates. Awareness prompts diverse shortlists, improving team balance.",
+      "related_models": [
+        "IN02"
+      ],
+      "priority": 1,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 6,
+        "total_count": 7,
+        "by_type": {
+          "PARALLELS": 3,
+          "SCAFFOLDS": 4
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.8,
+          "avg": 0.74
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "P12",
+      "name": "Temporal Framing",
+      "transformation": "P",
+      "definition": "Stakeholder Mapping reframes problems by visualizing interests, influence, and i",
+      "description": "Stakeholder Mapping reframes problems by visualizing interests, influence, and impacts of involved parties, ensuring balanced and inclusive solutions.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Product launch: Map customers (high interest), competitors (high influence), regulators (low interest). Tailor strategy accordingly.",
+      "related_models": [
+        "SY01"
+      ],
+      "priority": 1,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 3,
+        "total_count": 4,
+        "by_type": {
+          "PARALLELS": 2,
+          "SCAFFOLDS": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.8,
+          "avg": 0.72
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "P13",
+      "name": "Spatial Framing",
+      "transformation": "P",
+      "definition": "Long-Term vs Short-Term reframes choices by weighing temporal trade-offs, priori",
+      "description": "Long-Term vs Short-Term reframes choices by weighing temporal trade-offs, prioritizing sustainability over quick wins.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Sustainability: Short-term cost-cutting vs. long-term brand damage from poor practices. Choose eco-friendly options for enduring value.",
+      "priority": 1,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 6,
+        "total_count": 7,
+        "by_type": {
+          "SCAFFOLDS": 5,
+          "PARALLELS": 2
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.79
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "P14",
+      "name": "Reference Class Framing",
+      "transformation": "P",
+      "definition": "Ethical Framing reframes problems by considering fairness, harm, and societal im",
+      "description": "Ethical Framing reframes problems by considering fairness, harm, and societal impact, ensuring responsible outcomes.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "AI development: Beyond profit, frame as \"Does this reduce bias or increase inequality?\" Guides ethical design choices.",
+      "related_models": [
+        "IN04"
+      ],
+      "priority": 1,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 3,
+        "total_count": 5,
+        "by_type": {
+          "SCAFFOLDS": 5
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 0.9,
+          "avg": 0.82
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "P15",
+      "name": "Assumption Surfacing",
+      "transformation": "P",
+      "definition": "Cultural Context reframes issues by accounting for diverse backgrounds, avoiding",
+      "description": "Cultural Context reframes issues by accounting for diverse backgrounds, avoiding ethnocentric biases and fostering inclusive solutions.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Global product: US focus on individualism vs. collectivist cultures. Adapt features for cultural fit, like group-sharing options.",
+      "related_models": [
+        "SY06"
+      ],
+      "priority": 1,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 3,
+        "total_count": 4,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.8,
+          "avg": 0.72
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "P16",
+      "name": "Identity-Context Reciprocity",
+      "transformation": "P",
+      "definition": "Scenario Planning involves creating detailed narratives of different plausible f",
+      "description": "Scenario Planning involves creating detailed narratives of different plausible future states to help organizations and individuals prepare for uncertainty. By developing 3-5 alternative scenarios, this mental model encourages thinking beyond single-point forecasts and helps identify robust strategies that work across multiple outcomes.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "In software development, instead of assuming a single market trajectory, create scenarios for: - Rapid adoption with viral growth - Slow adoption requiring pivot strategies - Competitive disruption requiring defensive positioning - Regulatory changes affecting the product",
+      "related_models": [
+        "IN01",
+        "SY01",
+        "CO01"
+      ],
+      "priority": 1,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 3,
+        "total_count": 5,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "PARALLELS": 2
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 1.0,
+          "avg": 0.8
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "P17",
+      "name": "Frame Control & Reframing",
+      "transformation": "P",
+      "definition": "Stakeholder Mapping is a mental model for systematically identifying all individ",
+      "description": "Stakeholder Mapping is a mental model for systematically identifying all individuals, groups, or organizations that have an interest in or are affected by a decision, project, or system. By categorizing stakeholders based on their power, interest, and influence, this model helps prioritize communication and engagement strategies.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "For a new feature development: - High power, high interest: Core product team, key customers - High power, low interest: Executive sponsors, regulators - Low power, high interest: End users, community contributors - Low power, low interest: General public, indirect competitors",
+      "related_models": [
+        "SY02",
+        "CO02"
+      ],
+      "priority": 1,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 1,
+        "total_count": 3,
+        "by_type": {
+          "SCAFFOLDS": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "P18",
+      "name": "Boundary Object Selection",
+      "transformation": "P",
+      "definition": "Systems Thinking is a mental model that emphasizes understanding the relationshi",
+      "description": "Systems Thinking is a mental model that emphasizes understanding the relationships, feedback loops, and emergent behaviors within complex systems. Instead of focusing on individual parts, it encourages seeing the whole picture and how changes in one area can cascade through the entire system.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "When optimizing database performance, systems thinking reveals that: - Query optimization affects server load - Server load impacts user experience - User experience influences business metrics - Business metrics drive resource allocation decisions",
+      "related_models": [
+        "RE01",
+        "DE01",
+        "SY01"
+      ],
+      "priority": 1,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 1,
+        "total_count": 3,
+        "by_type": {
+          "SCAFFOLDS": 2,
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.8
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "P19",
+      "name": "Sensemaking Canvases",
+      "transformation": "P",
+      "definition": "Opportunity Cost Analysis is a mental model that focuses on the true cost of any",
+      "description": "Opportunity Cost Analysis is a mental model that focuses on the true cost of any decision by calculating what must be given up to pursue a particular course of action. It helps avoid the sunk cost fallacy and ensures resources are allocated to their highest-value use.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "When deciding between two projects: - Project A: Expected ROI 15%, requires 6 months development - Project B: Expected ROI 12%, requires 3 months development The opportunity cost of choosing A includes not only the direct costs but also the 3 months where B's returns could have been earned.",
+      "related_models": [
+        "IN02",
+        "CO03"
+      ],
+      "priority": 1,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 4,
+        "total_count": 5,
+        "by_type": {
+          "SCAFFOLDS": 2,
+          "PARALLELS": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.8
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "P20",
+      "name": "Worldview Articulation",
+      "transformation": "P",
+      "definition": "Long-term vs Short-term Thinking is a mental model that helps evaluate decisions",
+      "description": "Long-term vs Short-term Thinking is a mental model that helps evaluate decisions by considering both immediate consequences and future implications. It prevents short-term optimizations that create long-term problems and ensures sustainable growth over time.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "In technical debt management: - Short-term: Ship feature quickly with quick hacks - Long-term: Invest in clean architecture and automated testing The model helps quantify when short-term sacrifices are worth long-term gains, and vice versa.",
+      "related_models": [
+        "IN03",
+        "SY03",
+        "RE02"
+      ],
+      "priority": 1,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 1,
+        "total_count": 3,
+        "by_type": {
+          "SCAFFOLDS": 3
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 0.9,
+          "avg": 0.83
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "IN01",
+      "name": "Premortem Analysis",
+      "transformation": "IN",
+      "definition": "Premortem Analysis flips the perspective by assuming failure has occurred and th",
+      "description": "Premortem Analysis flips the perspective by assuming failure has occurred and then diagnosing the causes. This proactive inversion uncovers hidden assumptions, biases, and failure modes before they manifest, leading to stronger mitigation strategies.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Before launching a product, hold a \"premortem\" meeting: \"Imagine it's 6 months later and the product flopped. Why?\" Responses might reveal issues like \"Market timing was wrong\" or \"Competitor undercut us,\" prompting preemptive adjustments.",
+      "related_models": [
+        "DE01"
+      ],
+      "priority": 2,
+      "relationships": {
+        "incoming_count": 5,
+        "outgoing_count": 4,
+        "total_count": 9,
+        "by_type": {
+          "PARALLELS": 1,
+          "SCAFFOLDS": 1,
+          "REFINES": 3,
+          "CONTRASTS_WITH": 1,
+          "COMPOSES_WITH": 3
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.73
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "IN02",
+      "name": "Inversion",
+      "transformation": "IN",
+      "definition": "Inversion involves flipping the problem to focus on preventing negatives rather ",
+      "description": "Inversion involves flipping the problem to focus on preventing negatives rather than achieving positives. By considering obstacles, constraints, and failure paths, it reveals critical insights that positive thinking might miss, leading to more robust solutions.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "When designing a security system, instead of \"How do we make it impenetrable?\", ask \"How could an attacker break in?\" This might highlight weak points like social engineering, prompting layered defenses.",
+      "related_models": [
+        "RE09"
+      ],
+      "priority": 2,
+      "relationships": {
+        "incoming_count": 9,
+        "outgoing_count": 4,
+        "total_count": 13,
+        "by_type": {
+          "COMPOSES_WITH": 8,
+          "SCAFFOLDS": 4,
+          "REFINES": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.8
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "IN03",
+      "name": "Murphy's Law Application",
+      "transformation": "IN",
+      "definition": "Murphy's Law Application systematically anticipates worst-case scenarios by assu",
+      "description": "Murphy's Law Application systematically anticipates worst-case scenarios by assuming failures will occur. It shifts from optimistic planning to defensive design, incorporating buffers, redundancies, and contingency plans to handle inevitable setbacks.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In software deployment, assume \"What if the server crashes during peak load?\" This leads to auto-scaling, backups, and rollback plans, turning potential disasters into manageable events.",
+      "related_models": [
+        "IN01",
+        "CO01"
+      ],
+      "priority": 2,
+      "relationships": {
+        "incoming_count": 5,
+        "outgoing_count": 4,
+        "total_count": 9,
+        "by_type": {
+          "PARALLELS": 2,
+          "SCAFFOLDS": 1,
+          "CONTRASTS_WITH": 3,
+          "CONFLICTS": 1,
+          "COMPOSES_WITH": 2
+        },
+        "strength": {
+          "min": 0.5,
+          "max": 0.9,
+          "avg": 0.69
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "IN04",
+      "name": "Regret Minimization",
+      "transformation": "IN",
+      "definition": "Regret Minimization inverts decision-making by focusing on avoiding future disap",
+      "description": "Regret Minimization inverts decision-making by focusing on avoiding future disappointment. It evaluates choices by imagining the worst outcomes and selecting paths that leave the least room for \"I wish I had...\" hindsight.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "When investing, instead of chasing high returns, ask \"Which choice will I regret least in 10 years?\" This might favor diversified, low-risk options over speculative bets, reducing emotional fallout.",
+      "related_models": [
+        "SY19"
+      ],
+      "priority": 2,
+      "relationships": {
+        "incoming_count": 6,
+        "outgoing_count": 4,
+        "total_count": 10,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "CONTRASTS_WITH": 3,
+          "CONFLICTS": 3,
+          "REFINES": 1,
+          "COMPOSES_WITH": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.72
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "IN05",
+      "name": "Black Swan Preparation",
+      "transformation": "IN",
+      "definition": "Black Swan Preparation inverts normal risk assessment by focusing on outlier eve",
+      "description": "Black Swan Preparation inverts normal risk assessment by focusing on outlier events—those that are unpredictable, rare, and devastating. It builds antifragile systems that benefit from volatility rather than succumbing to it.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In business continuity, beyond standard backups, prepare for \"black swans\" like pandemics or cyberattacks by diversifying suppliers and enabling remote work, turning crises into opportunities for innovation.",
+      "related_models": [
+        "SY01",
+        "IN03"
+      ],
+      "priority": 2,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 4,
+        "total_count": 6,
+        "by_type": {
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 2,
+          "REFINES": 1,
+          "SCAFFOLDS": 2
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 1.0,
+          "avg": 0.77
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "IN06",
+      "name": "Devil's Advocate",
+      "transformation": "IN",
+      "definition": "Devil's Advocate involves deliberately taking the opposing viewpoint to challeng",
+      "description": "Devil's Advocate involves deliberately taking the opposing viewpoint to challenge assumptions and uncover weaknesses. It prevents confirmation bias by forcing consideration of counterarguments.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Proposing a new feature? Play devil's advocate: \"This will confuse users and increase support costs.\" If the counterarguments hold, refine the idea.",
+      "related_models": [
+        "IN02"
+      ],
+      "priority": 2,
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 4,
+        "total_count": 7,
+        "by_type": {
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 3,
+          "REFINES": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.76
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "IN07",
+      "name": "Negative Visualization",
+      "transformation": "IN",
+      "definition": "Negative Visualization inverts optimism by vividly picturing failures, losses, o",
+      "description": "Negative Visualization inverts optimism by vividly picturing failures, losses, or setbacks. It builds resilience and motivates proactive mitigation, drawing from Stoic philosophy.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Before a big presentation, visualize forgetting your lines and the audience reacting poorly. This reduces anxiety and prompts rehearsal.",
+      "related_models": [
+        "IN01",
+        "IN04"
+      ],
+      "priority": 2,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 4,
+        "total_count": 6,
+        "by_type": {
+          "COMPOSES_WITH": 4,
+          "REFINES": 1,
+          "CONFLICTS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.8
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "IN08",
+      "name": "Failure Mode Effects Analysis",
+      "transformation": "IN",
+      "definition": "Failure Mode Effects Analysis (FMEA) inverts success by listing every way a syst",
+      "description": "Failure Mode Effects Analysis (FMEA) inverts success by listing every way a system can fail, rating severity, occurrence, and detection. It prioritizes mitigations for high-risk failures.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In engineering, for a bridge design: Failure mode \"corrosion\" → Severity: High, Occurrence: Medium → Mitigate with coatings.",
+      "related_models": [
+        "DE05",
+        "IN03"
+      ],
+      "priority": 2,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 2,
+        "total_count": 3,
+        "by_type": {
+          "COMPOSES_WITH": 2,
+          "REFINES": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.8
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "IN09",
+      "name": "Backward Induction",
+      "transformation": "IN",
+      "definition": "Red Teaming inverts defensive thinking by role-playing as an attacker to exploit",
+      "description": "Red Teaming inverts defensive thinking by role-playing as an attacker to exploit weaknesses. It uncovers vulnerabilities in systems, plans, or ideas before real threats arise.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In cybersecurity, a red team attempts to breach defenses. Findings lead to patches, like fixing a weak password policy.",
+      "related_models": [
+        "IN05",
+        "IN02"
+      ],
+      "priority": 2,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 10,
+        "total_count": 11,
+        "by_type": {
+          "SCAFFOLDS": 4,
+          "PARALLELS": 2,
+          "COMPOSES_WITH": 2,
+          "REFINES": 1,
+          "CONFLICTS": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.75
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "IN10",
+      "name": "Red Teaming",
+      "transformation": "IN",
+      "definition": "Antifragility Assessment inverts resilience by checking if volatility improves t",
+      "description": "Antifragility Assessment inverts resilience by checking if volatility improves the system (antifragile) vs. just surviving it (robust). It seeks opportunities in uncertainty.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "A startup: Economic downturns force innovation (antifragile) vs. just cutting costs (robust). Assess by asking \"Does chaos make us stronger?\"",
+      "related_models": [
+        "IN05",
+        "RE05"
+      ],
+      "priority": 2,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 5,
+        "total_count": 7,
+        "by_type": {
+          "PARALLELS": 1,
+          "REFINES": 3,
+          "COMPOSES_WITH": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.79
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "IN11",
+      "name": "Devil's Advocate Protocol",
+      "transformation": "IN",
+      "definition": "Pre-Mortem for Teams inverts success by having the group imagine project failure",
+      "description": "Pre-Mortem for Teams inverts success by having the group imagine project failure and brainstorm causes, leveraging collective wisdom for mitigation.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Team meeting: \"Project failed—why?\" Responses reveal overlooked risks like \"communication gaps.\" Implement fixes proactively.",
+      "related_models": [
+        "IN01",
+        "CO07"
+      ],
+      "priority": 2,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 1,
+        "total_count": 2,
+        "by_type": {
+          "PARALLELS": 1,
+          "SCAFFOLDS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "IN12",
+      "name": "Failure First Design",
+      "transformation": "IN",
+      "definition": "Risk Inversion flips probability by treating risks as inevitable, forcing detail",
+      "description": "Risk Inversion flips probability by treating risks as inevitable, forcing detailed contingency planning and prevention strategies.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Cybersecurity: Assume \"breach occurs\"—what data is lost? This drives encryption and backups before attacks.",
+      "related_models": [
+        "IN05",
+        "IN08"
+      ],
+      "priority": 2,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 0,
+        "total_count": 2,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.8
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "IN13",
+      "name": "Opportunity Cost Focus",
+      "transformation": "IN",
+      "definition": "Cost-Benefit Inversion inverts analysis by prioritizing downsides, ensuring cons",
+      "description": "Cost-Benefit Inversion inverts analysis by prioritizing downsides, ensuring conservative estimates and avoiding over-optimism.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Investment: Start with \"What's the worst-case loss?\" before considering gains. This prevents sunk-cost fallacies.",
+      "related_models": [
+        "IN04"
+      ],
+      "priority": 2,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 2,
+        "total_count": 3,
+        "by_type": {
+          "SCAFFOLDS": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.8
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "IN14",
+      "name": "Second-Order Effects (Inverted)",
+      "transformation": "IN",
+      "definition": "Assumption Inversion tests beliefs by negating them, revealing hidden dependenci",
+      "description": "Assumption Inversion tests beliefs by negating them, revealing hidden dependencies and alternative paths.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Business plan: Assume \"Market won't grow\"—what then? This uncovers diversification needs.",
+      "related_models": [
+        "IN02"
+      ],
+      "priority": 2,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 2,
+        "total_count": 3,
+        "by_type": {
+          "PARALLELS": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.8,
+          "avg": 0.73
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "IN15",
+      "name": "Constraint Reversal",
+      "transformation": "IN",
+      "definition": "Outcome Inversion focuses on avoiding failures by defining bad results and engin",
+      "description": "Outcome Inversion focuses on avoiding failures by defining bad results and engineering away from them.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Product safety: Define \"user injury\" as inverted outcome, then design guards and warnings to prevent it.",
+      "related_models": [
+        "IN01",
+        "IN10"
+      ],
+      "priority": 2,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 4,
+        "total_count": 5,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "PARALLELS": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.8,
+          "avg": 0.74
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "IN16",
+      "name": "Inverse Optimization",
+      "transformation": "IN",
+      "definition": "Inverse Design is a mental model that starts with the end goal and works backwar",
+      "description": "Inverse Design is a mental model that starts with the end goal and works backwards to determine the necessary steps and requirements. Instead of building forward from current constraints, it begins with the ideal outcome and identifies what must be true for that outcome to occur.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "For a zero-downtime deployment: - Desired outcome: Users experience no service interruption - Work backwards: Requires blue-green deployment - Which requires: Load balancer configuration - Which requires: Identical environments - Which requires: Infrastructure as code and automated testing",
+      "related_models": [
+        "DE01",
+        "CO04"
+      ],
+      "priority": 2,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 1,
+        "total_count": 2,
+        "by_type": {
+          "SCAFFOLDS": 2
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.8,
+          "avg": 0.75
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "IN17",
+      "name": "Counterfactual Negation",
+      "transformation": "IN",
+      "definition": "Assumption Inversion involves taking core assumptions and deliberately inverting",
+      "description": "Assumption Inversion involves taking core assumptions and deliberately inverting them to test their validity and uncover alternative perspectives. This mental model helps identify blind spots and prevents overconfidence in unexamined beliefs.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "Assumption: \"Users want more features\" Inverted assumption: \"Users want fewer, better features\" This inversion might reveal that complexity is a barrier, leading to a minimal viable product approach instead of feature bloat.",
+      "related_models": [
+        "IN01",
+        "SY04"
+      ],
+      "priority": 2,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 1,
+        "total_count": 2,
+        "by_type": {
+          "SCAFFOLDS": 2
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.8,
+          "avg": 0.75
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "IN18",
+      "name": "Kill-Criteria & Stop Rules",
+      "transformation": "IN",
+      "definition": "Inverse Innovation is a mental model that looks for opportunities by doing the o",
+      "description": "Inverse Innovation is a mental model that looks for opportunities by doing the opposite of what everyone else is doing. By inverting conventional wisdom and industry norms, it can uncover underserved markets and novel approaches that competitors overlook.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "Traditional SaaS: Monthly subscriptions with feature limits Inverse innovation: Pay once, unlimited usage (like Sublime Text) This inversion created a viable business model in a subscription-dominated market by appealing to users who prefer ownership over recurring costs.",
+      "related_models": [
+        "IN04",
+        "CO05"
+      ],
+      "priority": 2,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 0,
+        "total_count": 2,
+        "by_type": {
+          "PARALLELS": 2
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.8
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "IN19",
+      "name": "Harm Minimization (Via Negativa)",
+      "transformation": "IN",
+      "definition": "Failure Inversion takes the principles of failure analysis (like FMEA or premort",
+      "description": "Failure Inversion takes the principles of failure analysis (like FMEA or premortem) and applies them to successful outcomes. By asking \"What would have had to go wrong for this success to be a failure?\", it helps identify fragile dependencies and hidden risks in positive scenarios.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "After a successful product launch: - What if the key engineer had left? (Single point of failure) - What if the market timing had been off by 6 months? - What if a competitor had copied the approach immediately? This reveals success factors that need protection and diversification.",
+      "related_models": [
+        "IN01",
+        "RE03",
+        "SY05"
+      ],
+      "priority": 2,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 0,
+        "total_count": 2,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.8,
+          "avg": 0.7
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "IN20",
+      "name": "Antigoals & Anti-Patterns Catalog",
+      "transformation": "IN",
+      "definition": "Inverse Metrics is a mental model that focuses measurement on negative outcomes ",
+      "description": "Inverse Metrics is a mental model that focuses measurement on negative outcomes to drive improvement. Instead of tracking desirable metrics (which can be gamed or misleading), it measures the absence of problems, creating more honest and actionable data.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "Instead of measuring \"customer satisfaction\" (subjective and easily inflated): - Measure \"customer complaints per 1000 users\" - Measure \"support ticket resolution time\" - Measure \"churn rate within first 30 days\" These inverse metrics provide clearer signals for improvement and are harder to manipulate.",
+      "related_models": [
+        "IN02",
+        "SY06"
+      ],
+      "priority": 2,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "CO01",
+      "name": "Composition Planning",
+      "transformation": "CO",
+      "definition": "Composition Planning focuses on how parts fit together to form greater systems. ",
+      "description": "Composition Planning focuses on how parts fit together to form greater systems. It evaluates coupling, cohesion, and interfaces to ensure components integrate efficiently, minimizing friction and maximizing emergent capabilities.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In software architecture, instead of building monolithic apps, compose microservices with clear APIs. This allows scalable, maintainable systems where each service can evolve independently while contributing to the whole.",
+      "related_models": [
+        "SY01",
+        "DE08"
+      ],
+      "priority": 3,
+      "relationships": {
+        "incoming_count": 14,
+        "outgoing_count": 5,
+        "total_count": 19,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "CONFLICTS": 6,
+          "COMPOSES_WITH": 6,
+          "REFINES": 4
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.74
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "CO02",
+      "name": "Modular Design",
+      "transformation": "CO",
+      "definition": "Modular Design emphasizes creating components that can be mixed, matched, and re",
+      "description": "Modular Design emphasizes creating components that can be mixed, matched, and reused without tight dependencies. It promotes flexibility, scalability, and easier maintenance by isolating changes to specific modules.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In product design, use standardized parts (e.g., USB connectors) that work across devices. This allows rapid prototyping and customization without redesigning everything from scratch.",
+      "related_models": [
+        "RE09",
+        "CO01"
+      ],
+      "priority": 3,
+      "relationships": {
+        "incoming_count": 10,
+        "outgoing_count": 6,
+        "total_count": 16,
+        "by_type": {
+          "SCAFFOLDS": 2,
+          "COMPOSES_WITH": 11,
+          "REFINES": 3
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.72
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "CO03",
+      "name": "Interface Design",
+      "transformation": "CO",
+      "definition": "Interface Design focuses on the \"handshake\" between system parts—APIs, protocols",
+      "description": "Interface Design focuses on the \"handshake\" between system parts—APIs, protocols, and standards that enable reliable interaction. It minimizes coupling while ensuring compatibility, making systems more robust and extensible.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In team collaboration, define clear roles and communication protocols (e.g., daily stand-ups) to prevent misunderstandings. This creates a \"plug-and-play\" team dynamic where members can swap without disrupting the whole.",
+      "related_models": [
+        "CO02",
+        "DE08"
+      ],
+      "priority": 3,
+      "relationships": {
+        "incoming_count": 6,
+        "outgoing_count": 5,
+        "total_count": 11,
+        "by_type": {
+          "SCAFFOLDS": 2,
+          "COMPOSES_WITH": 6,
+          "REFINES": 2,
+          "CONTRASTS_WITH": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.74
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "CO04",
+      "name": "Emergent Properties",
+      "transformation": "CO",
+      "definition": "Emergent Properties recognizes that the whole can exhibit traits not present in ",
+      "description": "Emergent Properties recognizes that the whole can exhibit traits not present in individual parts. Composition must account for these synergies or conflicts, designing for positive emergence while mitigating negative ones.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In social networks, individual connections create \"network effects\" like viral spread, which weren't predictable from single users. Designing with this in mind leads to features that amplify emergence, like recommendation algorithms.",
+      "related_models": [
+        "SY01"
+      ],
+      "priority": 3,
+      "relationships": {
+        "incoming_count": 4,
+        "outgoing_count": 4,
+        "total_count": 8,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "COMPOSES_WITH": 2,
+          "REFINES": 3
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.74
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "CO05",
+      "name": "Constraint-Based Assembly",
+      "transformation": "CO",
+      "definition": "Constraint-Based Assembly uses limitations as design guides, composing solutions",
+      "description": "Constraint-Based Assembly uses limitations as design guides, composing solutions that work within boundaries rather than fighting them. This leads to elegant, efficient systems that turn constraints into strengths.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In resource-limited startups, constraints like small teams force lean composition (e.g., MVP focus). This creates nimble products that scale better than over-engineered alternatives.",
+      "related_models": [
+        "DE01",
+        "IN02"
+      ],
+      "priority": 3,
+      "relationships": {
+        "incoming_count": 7,
+        "outgoing_count": 6,
+        "total_count": 13,
+        "by_type": {
+          "SCAFFOLDS": 4,
+          "COMPOSES_WITH": 8,
+          "REFINES": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.75
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "CO06",
+      "name": "Layered Architecture",
+      "transformation": "CO",
+      "definition": "Layered Architecture composes systems into abstraction layers (e.g., presentatio",
+      "description": "Layered Architecture composes systems into abstraction layers (e.g., presentation, logic, data), ensuring each layer interacts only with adjacent ones. This promotes modularity and maintainability.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In web apps: UI layer (React), business logic layer (Node.js), data layer (database). Changes in one layer don't cascade unexpectedly.",
+      "related_models": [
+        "DE03",
+        "CO02"
+      ],
+      "priority": 3,
+      "relationships": {
+        "incoming_count": 6,
+        "outgoing_count": 6,
+        "total_count": 12,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "COMPOSES_WITH": 7,
+          "CONFLICTS": 2,
+          "REFINES": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.75
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "CO07",
+      "name": "Component Orchestration",
+      "transformation": "CO",
+      "definition": "Component Orchestration focuses on how components interact and synchronize to pr",
+      "description": "Component Orchestration focuses on how components interact and synchronize to produce emergent behavior. It uses patterns like event-driven architecture or workflows to ensure harmony.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In microservices: An orchestrator service coordinates user login (auth service) + data fetch (API service) + logging, ensuring seamless user experience.",
+      "related_models": [
+        "SY01",
+        "CO01"
+      ],
+      "priority": 3,
+      "relationships": {
+        "incoming_count": 6,
+        "outgoing_count": 6,
+        "total_count": 12,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "REFINES": 4,
+          "COMPOSES_WITH": 5
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.77
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "CO08",
+      "name": "Integration Testing",
+      "transformation": "CO",
+      "definition": "Integration Testing composes validation by checking how components work together",
+      "description": "Integration Testing composes validation by checking how components work together, not in isolation. It uncovers interface issues and emergent bugs missed by unit tests.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "After building API and frontend separately, integration tests verify data flows correctly (e.g., form submission updates database).",
+      "related_models": [
+        "IN08",
+        "CO03"
+      ],
+      "priority": 3,
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 5,
+        "total_count": 8,
+        "by_type": {
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 4,
+          "REFINES": 2,
+          "CONTRASTS_WITH": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.75
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "CO09",
+      "name": "Coupling Minimization",
+      "transformation": "CO",
+      "definition": "Coupling Minimization composes systems with loose connections, using abstraction",
+      "description": "Coupling Minimization composes systems with loose connections, using abstractions or contracts to allow independent evolution. It prevents ripple effects from changes.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Use dependency injection: Components receive interfaces, not concrete classes, so swapping implementations (e.g., databases) doesn't break others.",
+      "related_models": [
+        "CO02",
+        "CO03"
+      ],
+      "priority": 3,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 6,
+        "total_count": 8,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "COMPOSES_WITH": 5,
+          "REFINES": 1,
+          "CONFLICTS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.76
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "CO10",
+      "name": "Pipeline Orchestration",
+      "transformation": "CO",
+      "definition": "Cohesion Maximization composes components that are highly focused on a single re",
+      "description": "Cohesion Maximization composes components that are highly focused on a single responsibility, improving clarity and testability. It complements coupling minimization for optimal design.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "A \"user authentication\" module handles only login/logout, not email sending. This makes it cohesive and reusable.",
+      "related_models": [
+        "DE02",
+        "CO02"
+      ],
+      "priority": 3,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 5,
+        "total_count": 6,
+        "by_type": {
+          "REFINES": 3,
+          "COMPOSES_WITH": 2,
+          "SCAFFOLDS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.75
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "CO11",
+      "name": "Pattern Composition (Tiling)",
+      "transformation": "CO",
+      "definition": "API Design composes systems by creating standardized contracts (APIs) that allow",
+      "description": "API Design composes systems by creating standardized contracts (APIs) that allow components to interact predictably and scalably.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "REST API for app: Define endpoints for user data. Frontend and backend compose via these interfaces without tight coupling.",
+      "related_models": [
+        "CO08",
+        "CO03"
+      ],
+      "priority": 3,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 6,
+        "total_count": 7,
+        "by_type": {
+          "COMPOSES_WITH": 6,
+          "CONFLICTS": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.73
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "CO12",
+      "name": "Modular Interoperability",
+      "transformation": "CO",
+      "definition": "Event-Driven Composition uses events to decouple components, enabling reactive a",
+      "description": "Event-Driven Composition uses events to decouple components, enabling reactive and scalable architectures.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "E-commerce: \"Order placed\" event triggers inventory update, email, and shipping—components compose without direct calls.",
+      "related_models": [
+        "RE01",
+        "CO07"
+      ],
+      "priority": 3,
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 6,
+        "total_count": 9,
+        "by_type": {
+          "PARALLELS": 1,
+          "SCAFFOLDS": 3,
+          "REFINES": 1,
+          "COMPOSES_WITH": 4
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.78
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "CO13",
+      "name": "Cross-Domain Analogy",
+      "transformation": "CO",
+      "definition": "Microservices Architecture composes complex apps from loosely coupled services, ",
+      "description": "Microservices Architecture composes complex apps from loosely coupled services, each handling a specific function for flexibility and resilience.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Streaming platform: Separate services for user auth, video streaming, recommendations. Compose via APIs for easy scaling.",
+      "related_models": [
+        "CO06",
+        "CO02"
+      ],
+      "priority": 3,
+      "relationships": {
+        "incoming_count": 0,
+        "outgoing_count": 6,
+        "total_count": 6,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "COMPOSES_WITH": 3,
+          "REFINES": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.73
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "CO14",
+      "name": "Platformization",
+      "transformation": "CO",
+      "definition": "Plugin Systems compose core functionality with optional add-ons, allowing users ",
+      "description": "Plugin Systems compose core functionality with optional add-ons, allowing users to customize without modifying base code.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Browser extensions: Core browser + plugins for ad-blocking, themes. Compose features dynamically.",
+      "related_models": [
+        "CO13",
+        "CO09"
+      ],
+      "priority": 3
+    },
+    {
+      "code": "CO15",
+      "name": "Combinatorial Design",
+      "transformation": "CO",
+      "definition": "Composite Patterns compose hierarchies where leaves and branches share interface",
+      "description": "Composite Patterns compose hierarchies where leaves and branches share interfaces, simplifying complex structures.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "File system: Files and folders both have \"size\" method. Compose directory trees uniformly.",
+      "related_models": [
+        "DE03",
+        "CO04"
+      ],
+      "priority": 3
+    },
+    {
+      "code": "CO16",
+      "name": "System Integration Testing",
+      "transformation": "CO",
+      "definition": "Emergent Design is a mental model for creating systems where complex, adaptive b",
+      "description": "Emergent Design is a mental model for creating systems where complex, adaptive behaviors arise from the interactions of simple components following basic rules. Instead of specifying every behavior explicitly, it focuses on designing the rules that will produce desired emergent properties.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "Ant colony optimization algorithms: - Simple rules: Follow pheromone trails, deposit pheromones - Emergent behavior: Optimal path finding for complex routing problems This approach is used in swarm intelligence, market dynamics, and self-organizing systems.",
+      "related_models": [
+        "RE04",
+        "SY01",
+        "CO01"
+      ],
+      "priority": 3
+    },
+    {
+      "code": "CO17",
+      "name": "Orchestration vs Choreography",
+      "transformation": "CO",
+      "definition": "Orchestration Patterns is a mental model for designing and managing complex work",
+      "description": "Orchestration Patterns is a mental model for designing and managing complex workflows that coordinate multiple independent services or processes. It focuses on the control flow, error handling, and state management needed to compose reliable distributed systems.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "E-commerce order fulfillment: - Payment orchestration: Coordinate payment processor, fraud detection, inventory check - Fulfillment orchestration: Warehouse selection, shipping calculation, notification dispatch - Saga pattern: Ensure all steps succeed or all are compensated This model helps manage the complexity of distributed transactions and service interactions.",
+      "related_models": [
+        "DE05",
+        "RE05",
+        "CO02"
+      ],
+      "priority": 3,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 3,
+        "total_count": 4,
+        "by_type": {
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "CO18",
+      "name": "Knowledge Graphing",
+      "transformation": "CO",
+      "definition": "Interface Composition is a mental model for constructing user interfaces and API",
+      "description": "Interface Composition is a mental model for constructing user interfaces and APIs by combining reusable interface components. It emphasizes modularity, reusability, and the composition of simple interfaces into more complex ones, following principles like composition over inheritance.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "React component composition: - Basic components: Button, Input, Card - Composed components: Form (composed of Inputs + Button), Dashboard (composed of Cards + Forms) - Higher-order components: WithLoading, WithErrorBoundary This approach enables flexible, maintainable interface design across different platforms and contexts.",
+      "related_models": [
+        "SY07",
+        "CO04",
+        "CO01"
+      ],
+      "priority": 3,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 3,
+        "total_count": 4,
+        "by_type": {
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "CO19",
+      "name": "Multi-Modal Integration",
+      "transformation": "CO",
+      "definition": "Service Mesh Design is a mental model for managing the complex networking, secur",
+      "description": "Service Mesh Design is a mental model for managing the complex networking, security, and observability requirements of microservice architectures. It introduces a dedicated infrastructure layer that handles service-to-service communication, allowing application code to focus on business logic.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "In a microservice architecture: - Service mesh handles: Load balancing, circuit breaking, mTLS encryption - Application services focus on: Business logic, data processing - Benefits: Improved reliability, security, and observability without code changes Tools like Istio and Linkerd implement this pattern by providing sidecar proxies for each service.",
+      "related_models": [
+        "CO17",
+        "SY08",
+        "CO02"
+      ],
+      "priority": 3
+    },
+    {
+      "code": "CO20",
+      "name": "Holistic Integration",
+      "transformation": "CO",
+      "definition": "Ecosystem Composition is a mental model for designing platforms that grow throug",
+      "description": "Ecosystem Composition is a mental model for designing platforms that grow through network effects and third-party participation. It focuses on creating the right incentives, APIs, and governance structures to encourage external developers and partners to build complementary products and services.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "Mobile app ecosystems: - Platform provides: Core APIs, developer tools, app store - Third parties build: Apps, integrations, complementary services - Network effects: More apps attract more users, more users attract more developers This creates exponential value growth beyond what the platform could build alone.",
+      "related_models": [
+        "SY09",
+        "CO05"
+      ],
+      "priority": 3,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 2,
+        "total_count": 4,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 2
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.8,
+          "avg": 0.73
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "DE01",
+      "name": "Root Cause Analysis",
+      "transformation": "DE",
+      "definition": "Root Cause Analysis systematically decomposes problems to identify underlying fa",
+      "description": "Root Cause Analysis systematically decomposes problems to identify underlying factors, not just symptoms. Using techniques like the \"5 Whys,\" it prevents recurring issues by addressing origins rather than patches.",
+      "status": "validated",
+      "version": "0.1.0",
+      "example": "A website crashes under load. Symptom: Crash. Why? Server overload. Why? Traffic spike. Why? Viral marketing. Root: Inadequate scaling. Solution: Auto-scaling infrastructure.",
+      "related_models": [
+        "IN01"
+      ],
+      "priority": 4,
+      "relationships": {
+        "incoming_count": 12,
+        "outgoing_count": 5,
+        "total_count": 17,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "PARALLELS": 1,
+          "REFINES": 6,
+          "COMPOSES_WITH": 7
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 1.0,
+          "avg": 0.81
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "DE02",
+      "name": "Functional Decomposition",
+      "transformation": "DE",
+      "definition": "Functional Decomposition divides complex systems into smaller, purpose-driven fu",
+      "description": "Functional Decomposition divides complex systems into smaller, purpose-driven functions. Each unit has a clear responsibility, enabling focused analysis, testing, and optimization without losing sight of the whole.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In app development, decompose \"user authentication\" into functions: validate credentials, generate tokens, handle errors. This allows independent development and easier debugging.",
+      "related_models": [
+        "CO02",
+        "DE08"
+      ],
+      "priority": 4,
+      "relationships": {
+        "incoming_count": 5,
+        "outgoing_count": 6,
+        "total_count": 11,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "REFINES": 5,
+          "COMPOSES_WITH": 3
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.75
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "DE03",
+      "name": "Hierarchical Breakdown",
+      "transformation": "DE",
+      "definition": "Hierarchical Breakdown structures systems in layers, from high-level goals to lo",
+      "description": "Hierarchical Breakdown structures systems in layers, from high-level goals to low-level details. This clarifies dependencies and priorities, making complex problems manageable by tackling one level at a time.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In project management, break \"launch product\" into: Strategy (market fit), Execution (development), Operations (support). Each level informs the others without overwhelming detail.",
+      "related_models": [
+        "DE01",
+        "SY01"
+      ],
+      "priority": 4,
+      "relationships": {
+        "incoming_count": 10,
+        "outgoing_count": 6,
+        "total_count": 16,
+        "by_type": {
+          "SCAFFOLDS": 5,
+          "REFINES": 2,
+          "COMPOSES_WITH": 7,
+          "CONTRASTS_WITH": 2
+        },
+        "strength": {
+          "min": 0.5,
+          "max": 0.9,
+          "avg": 0.76
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "DE04",
+      "name": "Dependency Mapping",
+      "transformation": "DE",
+      "definition": "Dependency Mapping decomposes systems by charting how elements rely on each othe",
+      "description": "Dependency Mapping decomposes systems by charting how elements rely on each other. It reveals bottlenecks, parallel paths, and critical chains, enabling better sequencing and risk management.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In software, map dependencies: UI depends on API, API on database. This shows that database issues block everything, prioritizing its stability.",
+      "related_models": [
+        "CO01",
+        "DE08"
+      ],
+      "priority": 4,
+      "relationships": {
+        "incoming_count": 8,
+        "outgoing_count": 5,
+        "total_count": 13,
+        "by_type": {
+          "COMPOSES_WITH": 6,
+          "SCAFFOLDS": 2,
+          "CONFLICTS": 1,
+          "REFINES": 3,
+          "CONTRASTS_WITH": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.75
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "DE05",
+      "name": "Bottleneck Identification",
+      "transformation": "DE",
+      "definition": "Bottleneck Identification decomposes systems to pinpoint the slowest or most con",
+      "description": "Bottleneck Identification decomposes systems to pinpoint the slowest or most constrained component. Optimizing bottlenecks yields disproportionate improvements, following the principle of least effort.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In manufacturing, if assembly takes 1 hour but painting takes 4, painting is the bottleneck. Streamlining painting (e.g., faster drying) speeds the whole line.",
+      "related_models": [
+        "DE08"
+      ],
+      "priority": 4,
+      "relationships": {
+        "incoming_count": 8,
+        "outgoing_count": 4,
+        "total_count": 12,
+        "by_type": {
+          "COMPOSES_WITH": 6,
+          "SCAFFOLDS": 3,
+          "REFINES": 3
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.79
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "DE06",
+      "name": "Process Mapping",
+      "transformation": "DE",
+      "definition": "Process Mapping decomposes operations into visual flowcharts, revealing ineffici",
+      "description": "Process Mapping decomposes operations into visual flowcharts, revealing inefficiencies, redundancies, and dependencies. It uses tools like swimlane diagrams for clarity.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Mapping a customer order process: From \"receive order\" to \"ship product,\" identify bottlenecks like manual approvals slowing delivery.",
+      "related_models": [
+        "DE08",
+        "DE04"
+      ],
+      "priority": 4,
+      "relationships": {
+        "incoming_count": 5,
+        "outgoing_count": 4,
+        "total_count": 9,
+        "by_type": {
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 5,
+          "SCAFFOLDS": 1,
+          "REFINES": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.81
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "DE07",
+      "name": "Cause-Effect Diagrams",
+      "transformation": "DE",
+      "definition": "Cause-Effect Diagrams (Ishikawa diagrams) decompose problems into categories of ",
+      "description": "Cause-Effect Diagrams (Ishikawa diagrams) decompose problems into categories of causes (e.g., people, process, equipment), systematically exploring root factors.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "For \"late deliveries\": Causes include \"supplier delays\" (materials), \"traffic\" (environment), \"poor planning\" (process). This guides targeted fixes.",
+      "related_models": [
+        "DE01",
+        "IN08"
+      ],
+      "priority": 4,
+      "relationships": {
+        "incoming_count": 9,
+        "outgoing_count": 4,
+        "total_count": 13,
+        "by_type": {
+          "PARALLELS": 2,
+          "SCAFFOLDS": 5,
+          "COMPOSES_WITH": 4,
+          "REFINES": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.79
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "DE08",
+      "name": "Information Flow Analysis",
+      "transformation": "DE",
+      "definition": "Information Flow Analysis decomposes data pathways, mapping sources, transformat",
+      "description": "Information Flow Analysis decomposes data pathways, mapping sources, transformations, and sinks. It highlights delays, losses, or inefficiencies in communication.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In a team project: Data flows from \"requirements\" to \"design\" to \"code.\" Analysis shows email bottlenecks; switch to shared docs.",
+      "related_models": [
+        "DE05",
+        "DE04"
+      ],
+      "priority": 4,
+      "relationships": {
+        "incoming_count": 9,
+        "outgoing_count": 4,
+        "total_count": 13,
+        "by_type": {
+          "PARALLELS": 2,
+          "COMPOSES_WITH": 7,
+          "SCAFFOLDS": 2,
+          "REFINES": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.75
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "DE09",
+      "name": "Work Breakdown Structure",
+      "transformation": "DE",
+      "definition": "Work Breakdown Structure (WBS) decomposes complex projects into deliverables and",
+      "description": "Work Breakdown Structure (WBS) decomposes complex projects into deliverables and subtasks, using a tree structure for planning and tracking.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Building a house: Top level \"construction,\" branches to \"foundation,\" \"framing,\" etc. Each leaf is assignable and estimable.",
+      "related_models": [
+        "DE03",
+        "CO01"
+      ],
+      "priority": 4,
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 4,
+        "total_count": 7,
+        "by_type": {
+          "COMPOSES_WITH": 1,
+          "CONFLICTS": 3,
+          "REFINES": 1,
+          "CONTRASTS_WITH": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.71
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "DE10",
+      "name": "Abstraction Laddering",
+      "transformation": "DE",
+      "definition": "Subsystem Isolation decomposes large systems by treating parts as black boxes, f",
+      "description": "Subsystem Isolation decomposes large systems by treating parts as black boxes, focusing on interfaces. It simplifies debugging and optimization.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In a car: Isolate \"engine subsystem\" from \"electrical.\" Test engine performance independently before integrating.",
+      "related_models": [
+        "DE02",
+        "CO02"
+      ],
+      "priority": 4,
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 4,
+        "total_count": 7,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "COMPOSES_WITH": 2,
+          "REFINES": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.79
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "DE11",
+      "name": "Scope Delimitation",
+      "transformation": "DE",
+      "definition": "Value Stream Mapping decomposes workflows by visualizing value-adding vs. non-va",
+      "description": "Value Stream Mapping decomposes workflows by visualizing value-adding vs. non-value-adding steps, targeting inefficiencies.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Manufacturing: Map raw materials to product. Identify \"waiting\" as waste, streamline to reduce lead time.",
+      "related_models": [
+        "DE06",
+        "DE05"
+      ],
+      "priority": 4,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "DE12",
+      "name": "Constraint Isolation",
+      "transformation": "DE",
+      "definition": "Critical Path Analysis decomposes projects into tasks with dependencies, highlig",
+      "description": "Critical Path Analysis decomposes projects into tasks with dependencies, highlighting the longest path for scheduling.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Construction: Foundation → Framing → Roofing. Delays in framing (critical) extend the whole project.",
+      "related_models": [
+        "DE09",
+        "DE04"
+      ],
+      "priority": 4,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "SCAFFOLDS": 1
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "DE13",
+      "name": "Failure Mode Analysis (FMEA)",
+      "transformation": "DE",
+      "definition": "Functional Analysis decomposes systems by functions (what they do), evaluating e",
+      "description": "Functional Analysis decomposes systems by functions (what they do), evaluating efficiency and interactions.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Car engine: Functions like \"ignite fuel,\" \"generate power.\" Analyze each for optimization.",
+      "related_models": [
+        "DE02",
+        "DE08"
+      ],
+      "priority": 4,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "SCAFFOLDS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "DE14",
+      "name": "Variable Control & Isolation",
+      "transformation": "DE",
+      "definition": "Morphological Analysis decomposes problems into dimensions, then combines variat",
+      "description": "Morphological Analysis decomposes problems into dimensions, then combines variations to generate solutions.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Transportation: Dimensions like \"vehicle type,\" \"energy source.\" Combine to find \"electric bikes\" or \"flying cars.\"",
+      "related_models": [
+        "DE07",
+        "CO04"
+      ],
+      "priority": 4,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "DE15",
+      "name": "Decision Tree Expansion",
+      "transformation": "DE",
+      "definition": "Chunking decomposes overwhelming data by organizing it into meaningful groups, i",
+      "description": "Chunking decomposes overwhelming data by organizing it into meaningful groups, improving comprehension and memory.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Learning code: Chunk \"variables, loops, functions\" instead of memorizing syntax individually.",
+      "related_models": [
+        "DE03",
+        "DE10"
+      ],
+      "priority": 4
+    },
+    {
+      "code": "DE16",
+      "name": "Hypothesis Disaggregation",
+      "transformation": "DE",
+      "definition": "Functional Decomposition is a mental model for analyzing complex systems by brea",
+      "description": "Functional Decomposition is a mental model for analyzing complex systems by breaking them down into their core functions and sub-functions. It helps identify the essential capabilities a system must provide and how they can be organized hierarchically.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "Breaking down an e-commerce platform: - Level 1: Process orders - Level 2: Accept payment, Update inventory, Ship product - Level 3: Validate payment, Reserve stock, Generate label This decomposition reveals functional dependencies and helps design modular, maintainable systems.",
+      "related_models": [
+        "SY10",
+        "DE01",
+        "CO01"
+      ],
+      "priority": 4,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "SCAFFOLDS": 1
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "DE17",
+      "name": "Orthogonalization",
+      "transformation": "DE",
+      "definition": "Data Flow Decomposition is a mental model for understanding systems by mapping h",
+      "description": "Data Flow Decomposition is a mental model for understanding systems by mapping how information flows from input to output, identifying transformation points, storage locations, and decision branches. It reveals the data dependencies and processing pipelines within a system.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "User registration data flow: - Input: User form data - Transform: Validate format, hash password - Store: User database - Transform: Generate confirmation email - Output: Welcome email sent This decomposition helps identify bottlenecks, security vulnerabilities, and optimization opportunities in data processing pipelines.",
+      "related_models": [
+        "CO06",
+        "DE02",
+        "SY11"
+      ],
+      "priority": 4,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.6,
+          "avg": 0.6
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "DE18",
+      "name": "Scenario Decomposition",
+      "transformation": "DE",
+      "definition": "Temporal Decomposition is a mental model for analyzing dynamic systems by separa",
+      "description": "Temporal Decomposition is a mental model for analyzing dynamic systems by separating them into sequential phases, cycles, or time-based components. It helps understand how systems evolve over time and identify critical transition points.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "Product development lifecycle: - Phase 1: Ideation and planning (weeks 1-4) - Phase 2: Development and testing (weeks 5-12) - Phase 3: Launch and early adoption (weeks 13-16) - Phase 4: Growth and optimization (weeks 17+) Each phase has different success criteria, risks, and resource requirements.",
+      "related_models": [
+        "SY12",
+        "RE06"
+      ],
+      "priority": 4
+    },
+    {
+      "code": "DE19",
+      "name": "Critical Path Unwinding",
+      "transformation": "DE",
+      "definition": "Responsibility Decomposition is a mental model for designing systems by clearly ",
+      "description": "Responsibility Decomposition is a mental model for designing systems by clearly defining and separating the responsibilities of different components. It follows the single responsibility principle and helps create maintainable, testable systems with clear boundaries.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "In a web application: - Controller: Handle HTTP requests and responses - Service: Implement business logic - Repository: Manage data persistence - Model: Represent domain entities Each component has a single, well-defined responsibility, making the system easier to understand and modify.",
+      "related_models": [
+        "SY13",
+        "DE03",
+        "CO07"
+      ],
+      "priority": 4
+    },
+    {
+      "code": "DE20",
+      "name": "Partition-and-Conquer",
+      "transformation": "DE",
+      "definition": "Failure Mode Decomposition is a mental model for proactively identifying potenti",
+      "description": "Failure Mode Decomposition is a mental model for proactively identifying potential failure points in a system by breaking down components and analyzing how each could fail. It helps design more robust systems by anticipating and mitigating failure modes before they occur.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "For a payment processing system: - Network failure: Connection timeout, DNS resolution failure - Service failure: Database unavailability, API rate limiting - Data failure: Corruption, validation errors - Security failure: Unauthorized access, data breaches Each failure mode gets a risk priority number (RPN) based on severity, occurrence, and detection difficulty.",
+      "related_models": [
+        "RE07",
+        "SY14",
+        "IN03"
+      ],
+      "priority": 4,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.6,
+          "avg": 0.6
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "RE01",
+      "name": "Feedback Loops",
+      "transformation": "RE",
+      "definition": "Feedback Loops apply recursion by incorporating results back into the process. P",
+      "description": "Feedback Loops apply recursion by incorporating results back into the process. Positive loops amplify growth, negative ones stabilize, enabling adaptive systems that learn and evolve.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In product development, user feedback loops: Release MVP, gather data, iterate design. This creates compounding improvements over time.",
+      "related_models": [
+        "SY19",
+        "RE09"
+      ],
+      "priority": 5,
+      "relationships": {
+        "incoming_count": 9,
+        "outgoing_count": 2,
+        "total_count": 11,
+        "by_type": {
+          "PARALLELS": 1,
+          "SCAFFOLDS": 1,
+          "COMPOSES_WITH": 7,
+          "REFINES": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.77
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "RE02",
+      "name": "Incremental Improvement",
+      "transformation": "RE",
+      "definition": "Incremental Improvement uses recursion for gradual progress, avoiding overwhelm ",
+      "description": "Incremental Improvement uses recursion for gradual progress, avoiding overwhelm by focusing on marginal gains. It builds momentum through consistent, small steps rather than radical leaps.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In fitness, add 1 push-up daily. Recursively, this compounds to significant gains without burnout.",
+      "related_models": [
+        "RE09"
+      ],
+      "priority": 5,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 4,
+        "total_count": 6,
+        "by_type": {
+          "SCAFFOLDS": 2,
+          "COMPOSES_WITH": 3,
+          "REFINES": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.8,
+          "avg": 0.75
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "RE03",
+      "name": "Prototyping Cycles",
+      "transformation": "RE",
+      "definition": "Prototyping Cycles apply recursion through build-measure-learn loops. Each cycle",
+      "description": "Prototyping Cycles apply recursion through build-measure-learn loops. Each cycle refines based on real feedback, reducing risk and accelerating convergence on optimal solutions.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In design, sketch prototype, user-test, iterate. Recursion turns vague ideas into polished products efficiently.",
+      "related_models": [
+        "IN01",
+        "RE01"
+      ],
+      "priority": 5,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 4,
+        "total_count": 6,
+        "by_type": {
+          "SCAFFOLDS": 2,
+          "COMPOSES_WITH": 3,
+          "REFINES": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.78
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "RE04",
+      "name": "Adaptive Planning",
+      "transformation": "RE",
+      "definition": "Adaptive Planning uses recursion to update strategies as conditions change. It e",
+      "description": "Adaptive Planning uses recursion to update strategies as conditions change. It embraces uncertainty by building in review points, making plans resilient to surprises.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In agile development, plan sprints but adapt backlog based on stakeholder feedback. Recursion ensures alignment with evolving goals.",
+      "related_models": [
+        "RE09"
+      ],
+      "priority": 5,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 4,
+        "total_count": 5,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "COMPOSES_WITH": 2,
+          "REFINES": 1,
+          "CONFLICTS": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.74
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "RE05",
+      "name": "Evolutionary Algorithms",
+      "transformation": "RE",
+      "definition": "Evolutionary Algorithms apply recursion by generating variants, testing fitness,",
+      "description": "Evolutionary Algorithms apply recursion by generating variants, testing fitness, and iterating survivors. This mimics evolution for optimization problems, finding solutions that improve over generations.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In optimization, start with random designs, mutate, select best, repeat. Recursion evolves efficient algorithms or products.",
+      "related_models": [
+        "SY19",
+        "RE02"
+      ],
+      "priority": 5,
+      "relationships": {
+        "incoming_count": 5,
+        "outgoing_count": 3,
+        "total_count": 8,
+        "by_type": {
+          "SCAFFOLDS": 2,
+          "REFINES": 2,
+          "COMPOSES_WITH": 4
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.72
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "RE06",
+      "name": "Iterative Design",
+      "transformation": "RE",
+      "definition": "Iterative Design applies recursion by building prototypes, gathering feedback, a",
+      "description": "Iterative Design applies recursion by building prototypes, gathering feedback, and improving. It embraces imperfection, converging on optimal solutions over time.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "UI design: Sketch wireframe, user-test, iterate layout. Each cycle refines usability until satisfaction.",
+      "related_models": [
+        "RE03",
+        "RE02"
+      ],
+      "priority": 5,
+      "relationships": {
+        "incoming_count": 11,
+        "outgoing_count": 2,
+        "total_count": 13,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "COMPOSES_WITH": 9,
+          "REFINES": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.81
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "RE07",
+      "name": "Spiral Development",
+      "transformation": "RE",
+      "definition": "Spiral Development uses recursive spirals to manage risk, starting small and exp",
+      "description": "Spiral Development uses recursive spirals to manage risk, starting small and expanding scope with each loop. It integrates risk assessment into iterative growth.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Software project: Spiral 1 (requirements prototype), Spiral 2 (design prototype), each addressing risks like \"scalability.\"",
+      "related_models": [
+        "RE04",
+        "IN08"
+      ],
+      "priority": 5,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 1,
+        "total_count": 3,
+        "by_type": {
+          "COMPOSES_WITH": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.8,
+          "avg": 0.77
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "RE08",
+      "name": "Agile Sprints",
+      "transformation": "RE",
+      "definition": "Agile Sprints apply recursion through 1-4 week cycles of planning, execution, re",
+      "description": "Agile Sprints apply recursion through 1-4 week cycles of planning, execution, review, and retrospection. They enable rapid adaptation and continuous delivery.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Team sprint: Plan \"add login feature,\" execute, demo, retrospect (\"communication improved\"). Next sprint builds on feedback.",
+      "related_models": [
+        "RE01",
+        "RE09"
+      ],
+      "priority": 5,
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 1,
+        "total_count": 4,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.8,
+          "avg": 0.72
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "RE09",
+      "name": "Prototyping Loops",
+      "transformation": "RE",
+      "definition": "Prototyping Loops use recursive build-test-learn cycles to validate assumptions ",
+      "description": "Prototyping Loops use recursive build-test-learn cycles to validate assumptions cheaply. They reduce risk by failing fast and refining early.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Product idea: 3D print prototype, user-test, iterate materials. Loops converge on viable design.",
+      "related_models": [
+        "RE03",
+        "RE06"
+      ],
+      "priority": 5,
+      "relationships": {
+        "incoming_count": 6,
+        "outgoing_count": 2,
+        "total_count": 8,
+        "by_type": {
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 4,
+          "REFINES": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.8,
+          "avg": 0.73
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "RE10",
+      "name": "Compounding Cycles",
+      "transformation": "RE",
+      "definition": "Continuous Improvement (Kaizen) applies recursion for perpetual progress, using ",
+      "description": "Continuous Improvement (Kaizen) applies recursion for perpetual progress, using PDCA (Plan-Do-Check-Act) cycles to eliminate waste and optimize processes.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Manufacturing: Daily huddles identify inefficiencies, implement fixes, measure impact, repeat. Compounds into major gains.",
+      "related_models": [
+        "RE01",
+        "RE02"
+      ],
+      "priority": 5,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 1,
+        "total_count": 3,
+        "by_type": {
+          "COMPOSES_WITH": 2,
+          "REFINES": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.77
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "RE11",
+      "name": "Calibration Loops",
+      "transformation": "RE",
+      "definition": "Bootstrapping uses recursion to start small and compound gains, leveraging outpu",
+      "description": "Bootstrapping uses recursion to start small and compound gains, leveraging outputs as inputs for growth.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Startup: Use initial sales to fund marketing, which drives more sales. Recursively scale without external capital.",
+      "related_models": [
+        "RE05",
+        "RE02"
+      ],
+      "priority": 5,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.6,
+          "avg": 0.6
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "RE12",
+      "name": "Bayesian Updating in Practice",
+      "transformation": "RE",
+      "definition": "Self-Referential Systems apply recursion where the system reflects on and alters",
+      "description": "Self-Referential Systems apply recursion where the system reflects on and alters its own behavior, enabling adaptation.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "AI learning: Model trains on its predictions, recursively improving accuracy.",
+      "related_models": [
+        "RE01",
+        "RE09"
+      ],
+      "priority": 5,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "SCAFFOLDS": 1
+        },
+        "strength": {
+          "min": 0.9,
+          "max": 0.9,
+          "avg": 0.9
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "RE13",
+      "name": "Gradient Descent Heuristic",
+      "transformation": "RE",
+      "definition": "Fractal Scaling uses recursion to replicate structures at different levels, crea",
+      "description": "Fractal Scaling uses recursion to replicate structures at different levels, creating self-similar systems that scale efficiently.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Network design: City blocks repeat neighborhood patterns, which repeat city layouts. Scales infinitely.",
+      "related_models": [
+        "RE04",
+        "SY01"
+      ],
+      "priority": 5
+    },
+    {
+      "code": "RE14",
+      "name": "Spiral Learning",
+      "transformation": "RE",
+      "definition": "Recursive Optimization applies improvements iteratively to nested levels, ensuri",
+      "description": "Recursive Optimization applies improvements iteratively to nested levels, ensuring local optima contribute to global ones.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Supply chain: Optimize warehouse, then recursively optimize routes within it, improving overall efficiency.",
+      "related_models": [
+        "DE05",
+        "RE10"
+      ],
+      "priority": 5
+    },
+    {
+      "code": "RE15",
+      "name": "Convergence-Divergence Cycling",
+      "transformation": "RE",
+      "definition": "Evolutionary Computation simulates natural selection through recursive generatio",
+      "description": "Evolutionary Computation simulates natural selection through recursive generations of variation, selection, and inheritance.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Algorithm design: Generate code variants, test fitness, select best, mutate. Recursively evolves optimal solutions.",
+      "related_models": [
+        "RE12",
+        "RE05"
+      ],
+      "priority": 5
+    },
+    {
+      "code": "RE16",
+      "name": "Retrospective→Prospective Loop",
+      "transformation": "RE",
+      "definition": "Recursive Optimization is a mental model for continuous improvement where optimi",
+      "description": "Recursive Optimization is a mental model for continuous improvement where optimization processes themselves become subjects of optimization. It creates feedback loops where the act of improving efficiency also improves the improvement process.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "A/B testing optimization: - Level 1: Test different landing pages - Level 2: Optimize the testing process itself (better statistical methods) - Level 3: Optimize the optimization framework (machine learning for test design) Each level improves both the outcome and the process of achieving it.",
+      "related_models": [
+        "RE01",
+        "SY15",
+        "RE08"
+      ],
+      "priority": 5,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "RE17",
+      "name": "Versioning & Diff",
+      "transformation": "RE",
+      "definition": "Fractal Organization is a mental model for designing systems where patterns repe",
+      "description": "Fractal Organization is a mental model for designing systems where patterns repeat at different scales, creating efficient, scalable structures. It applies the principle that optimal solutions at one level can inform solutions at other levels.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "Holacracy organizational structure: - Company level: Self-organizing circles - Department level: Self-organizing sub-circles - Team level: Self-organizing roles Each level mirrors the same organizational principles, allowing infinite scalability and consistent behavior patterns.",
+      "related_models": [
+        "SY16",
+        "CO08",
+        "RE09"
+      ],
+      "priority": 5
+    },
+    {
+      "code": "RE18",
+      "name": "Anti-Catastrophic Forgetting",
+      "transformation": "RE",
+      "definition": "Meta-Learning is a mental model for developing more effective learning strategie",
+      "description": "Meta-Learning is a mental model for developing more effective learning strategies by studying the learning process itself. It involves analyzing what makes learning successful and applying those insights to improve future learning experiences.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "Improving study techniques: - Level 1: Learn subject matter (e.g., programming concepts) - Level 2: Learn study methods (spaced repetition, active recall) - Level 3: Learn learning optimization (analyze which methods work best for different subjects) This creates compounding learning efficiency over time.",
+      "related_models": [
+        "SY17",
+        "RE10"
+      ],
+      "priority": 5
+    },
+    {
+      "code": "RE19",
+      "name": "Auto-Refactor",
+      "transformation": "RE",
+      "definition": "Bootstrapping Loops is a mental model for building systems that grow exponential",
+      "description": "Bootstrapping Loops is a mental model for building systems that grow exponentially by using their own outputs as inputs for future growth. It creates virtuous cycles where success begets more success through network effects and compounding returns.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "Content platform growth: - Initial content attracts users - More users create more content - More content attracts more users - User-generated content reduces platform costs - Lower costs enable more features - More features attract more users Each cycle amplifies the previous one, creating exponential growth.",
+      "related_models": [
+        "CO09",
+        "RE11",
+        "SY18"
+      ],
+      "priority": 5
+    },
+    {
+      "code": "RE20",
+      "name": "Recursive Governance (Guardrails that Learn)",
+      "transformation": "RE",
+      "definition": "Self-Improving Systems is a mental model for creating autonomous systems that le",
+      "description": "Self-Improving Systems is a mental model for creating autonomous systems that learn from their experiences and modify themselves to achieve better outcomes. It combines feedback loops, machine learning, and adaptive algorithms to create systems that evolve without human intervention.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "Recommendation engines: - Collect user interaction data - Learn patterns and preferences - Adjust algorithms to improve recommendations - Better recommendations create more interactions - More data enables further improvements This creates a continuous improvement cycle that compounds over time.",
+      "related_models": [
+        "RE12",
+        "SY19",
+        "AI01"
+      ],
+      "priority": 5,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 0,
+        "total_count": 2,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.8,
+          "avg": 0.75
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "SY01",
+      "name": "System-of-Systems View",
+      "transformation": "SY",
+      "definition": "System-of-Systems View synthesizes multiple systems into a higher-order whole, r",
+      "description": "System-of-Systems View synthesizes multiple systems into a higher-order whole, revealing interdependencies, conflicts, and synergies that individual analysis misses.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In urban planning, view transportation, housing, and economy as interconnected systems. Synthesis shows how traffic policies affect housing costs and vice versa.",
+      "related_models": [
+        "CO04"
+      ],
+      "priority": 6,
+      "relationships": {
+        "incoming_count": 28,
+        "outgoing_count": 2,
+        "total_count": 30,
+        "by_type": {
+          "COMPOSES_WITH": 26,
+          "SCAFFOLDS": 4
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.78
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "SY02",
+      "name": "Pattern Recognition",
+      "transformation": "SY",
+      "definition": "Pattern Recognition synthesizes information by finding commonalities and trends.",
+      "description": "Pattern Recognition synthesizes information by finding commonalities and trends. It connects dots to reveal underlying structures, enabling prediction and generalization.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In market analysis, recognize patterns like \"tech bubbles follow hype cycles.\" Synthesis predicts downturns based on historical parallels.",
+      "related_models": [
+        "SY19"
+      ],
+      "priority": 6,
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 1,
+        "total_count": 4,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "COMPOSES_WITH": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.8
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "SY03",
+      "name": "Stocks & Flows",
+      "transformation": "SY",
+      "definition": "Holistic Integration synthesizes fragmented knowledge into a complete picture. I",
+      "description": "Holistic Integration synthesizes fragmented knowledge into a complete picture. It bridges gaps, resolves contradictions, and creates narratives that explain the whole.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In diagnosis, integrate symptoms, tests, and history into a full health picture. Synthesis avoids partial views that miss root causes.",
+      "related_models": [
+        "DE01",
+        "SY01"
+      ],
+      "priority": 6,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 1,
+        "total_count": 3,
+        "by_type": {
+          "COMPOSES_WITH": 3
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 0.9,
+          "avg": 0.87
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "SY04",
+      "name": "Meta-Analysis",
+      "transformation": "SY",
+      "definition": "Meta-Analysis synthesizes multiple studies or models to draw overarching conclus",
+      "description": "Meta-Analysis synthesizes multiple studies or models to draw overarching conclusions. It accounts for biases and variability, providing robust insights from aggregated data.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In research, meta-analyze clinical trials to confirm drug efficacy. Synthesis reveals trends stronger than individual studies.",
+      "related_models": [
+        "SY19"
+      ],
+      "priority": 6,
+      "relationships": {
+        "incoming_count": 6,
+        "outgoing_count": 1,
+        "total_count": 7,
+        "by_type": {
+          "PARALLELS": 1,
+          "SCAFFOLDS": 1,
+          "COMPOSES_WITH": 5
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.79
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "SY05",
+      "name": "Convergence Thinking",
+      "transformation": "SY",
+      "definition": "Convergence Thinking synthesizes multiple approaches to identify common endpoint",
+      "description": "Convergence Thinking synthesizes multiple approaches to identify common endpoints. It reveals universal principles or solutions that emerge regardless of starting points.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "In innovation, different teams converge on similar solutions (e.g., touchscreens). Synthesis shows market needs drive convergence.",
+      "related_models": [
+        "SY02"
+      ],
+      "priority": 6,
+      "relationships": {
+        "incoming_count": 6,
+        "outgoing_count": 1,
+        "total_count": 7,
+        "by_type": {
+          "SCAFFOLDS": 4,
+          "COMPOSES_WITH": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 1.0,
+          "avg": 0.86
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "SY06",
+      "name": "Cross-Disciplinary Integration",
+      "transformation": "SY",
+      "definition": "Cross-Disciplinary Integration synthesizes knowledge from diverse domains (e.g.,",
+      "description": "Cross-Disciplinary Integration synthesizes knowledge from diverse domains (e.g., biology + engineering), creating novel solutions by bridging silos.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Biomimicry: Study shark skin for drag reduction in swimsuits, integrating biology and materials science.",
+      "related_models": [
+        "SY05",
+        "SY02"
+      ],
+      "priority": 6,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 1,
+        "total_count": 2,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "COMPOSES_WITH": 1
+        },
+        "strength": {
+          "min": 0.9,
+          "max": 0.9,
+          "avg": 0.9
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "SY07",
+      "name": "Theory Building",
+      "transformation": "SY",
+      "definition": "Theory Building synthesizes data into coherent theories, using induction to gene",
+      "description": "Theory Building synthesizes data into coherent theories, using induction to generalize patterns into predictive models.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "From user behavior data, build a theory: \"Engagement peaks with personalization.\" Test and refine into a product strategy.",
+      "related_models": [
+        "SY04",
+        "SY03"
+      ],
+      "priority": 6,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 1,
+        "total_count": 3,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "COMPOSES_WITH": 2
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.8,
+          "avg": 0.77
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "SY08",
+      "name": "Model Fusion",
+      "transformation": "SY",
+      "definition": "Model Fusion synthesizes disparate models (e.g., economic + psychological) into ",
+      "description": "Model Fusion synthesizes disparate models (e.g., economic + psychological) into hybrids, capturing combined strengths for better predictions.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Behavioral economics: Fuse rational choice (economics) with cognitive biases (psychology) for realistic decision models.",
+      "related_models": [
+        "SY01",
+        "SY02"
+      ],
+      "priority": 6,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 1,
+        "total_count": 2,
+        "by_type": {
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 1
+        },
+        "strength": {
+          "min": 0.5,
+          "max": 0.7,
+          "avg": 0.6
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "SY09",
+      "name": "Insight Synthesis",
+      "transformation": "SY",
+      "definition": "Insight Synthesis weaves individual findings into overarching narratives, reveal",
+      "description": "Insight Synthesis weaves individual findings into overarching narratives, revealing hidden connections and strategic implications.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "From market research: Synthesize \"tech-savvy youth\" + \"rising sustainability\" into \"eco-tech products for Gen Z.\"",
+      "related_models": [
+        "SY19",
+        "SY03"
+      ],
+      "priority": 6,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 1,
+        "total_count": 3,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "COMPOSES_WITH": 2
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 1.0,
+          "avg": 0.83
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "SY10",
+      "name": "Causal Loop Diagrams",
+      "transformation": "SY",
+      "definition": "Grand Unification synthesizes fragmented knowledge into universal laws or framew",
+      "description": "Grand Unification synthesizes fragmented knowledge into universal laws or frameworks, pursuing elegance and simplicity in complexity.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Physics: Unify electromagnetism and weak force into electroweak theory, explaining particle interactions.",
+      "related_models": [
+        "SY05",
+        "SY07"
+      ],
+      "priority": 6,
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 1,
+        "total_count": 4,
+        "by_type": {
+          "COMPOSES_WITH": 2,
+          "SCAFFOLDS": 2
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.8
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "SY11",
+      "name": "Governance Patterns",
+      "transformation": "SY",
+      "definition": "Abductive Reasoning synthesizes hypotheses from evidence, selecting the most lik",
+      "description": "Abductive Reasoning synthesizes hypotheses from evidence, selecting the most likely explanation among possibilities.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Mystery symptom: Fever + rash. Abduce \"infection\" over \"allergy\" based on patterns.",
+      "related_models": [
+        "IN01",
+        "SY07"
+      ],
+      "priority": 6,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 1,
+        "total_count": 3,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.77
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "SY12",
+      "name": "Protocol/Interface Standards",
+      "transformation": "SY",
+      "definition": "Integrative Thinking synthesizes conflicting perspectives into superior solution",
+      "description": "Integrative Thinking synthesizes conflicting perspectives into superior solutions, avoiding compromise.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Cost vs. quality: Instead of cheap/low-quality, integrate \"premium affordable\" through innovation.",
+      "related_models": [
+        "SY08"
+      ],
+      "priority": 6,
+      "relationships": {
+        "incoming_count": 0,
+        "outgoing_count": 1,
+        "total_count": 1,
+        "by_type": {
+          "CONTRASTS_WITH": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "SY13",
+      "name": "Incentive Architecture",
+      "transformation": "SY",
+      "definition": "Systems Integration synthesizes components into unified systems, ensuring compat",
+      "description": "Systems Integration synthesizes components into unified systems, ensuring compatibility and functionality.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Enterprise software: Integrate HR, finance, sales systems via APIs for unified dashboard.",
+      "related_models": [
+        "SY01",
+        "CO07"
+      ],
+      "priority": 6,
+      "relationships": {
+        "incoming_count": 6,
+        "outgoing_count": 2,
+        "total_count": 8,
+        "by_type": {
+          "PARALLELS": 1,
+          "SCAFFOLDS": 3,
+          "REFINES": 1,
+          "COMPOSES_WITH": 3
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 0.9,
+          "avg": 0.88
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "SY14",
+      "name": "Risk & Resilience Engineering",
+      "transformation": "SY",
+      "definition": "Creative Synthesis combines unrelated concepts to generate innovation, leveragin",
+      "description": "Creative Synthesis combines unrelated concepts to generate innovation, leveraging serendipity.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Velcro: Synthesize burrs (nature) + fasteners (tech) into hook-and-loop.",
+      "related_models": [
+        "SY08",
+        "SY06"
+      ],
+      "priority": 6,
+      "relationships": {
+        "incoming_count": 0,
+        "outgoing_count": 1,
+        "total_count": 1,
+        "by_type": {
+          "SCAFFOLDS": 1
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "SY15",
+      "name": "Multi-Scale Alignment",
+      "transformation": "SY",
+      "definition": "Transdisciplinary Synthesis transcends fields to address complex problems, foste",
+      "description": "Transdisciplinary Synthesis transcends fields to address complex problems, fostering unified approaches.",
+      "status": "draft",
+      "version": "0.1.0",
+      "example": "Climate change: Synthesize science, policy, economics for global strategies.",
+      "related_models": [
+        "SY10",
+        "SY06"
+      ],
+      "priority": 6,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "SY16",
+      "name": "Ecosystem Strategy",
+      "transformation": "SY",
+      "definition": "Cross-Domain Synthesis is a mental model for discovering breakthrough innovation",
+      "description": "Cross-Domain Synthesis is a mental model for discovering breakthrough innovations by connecting concepts from unrelated fields. It encourages looking beyond disciplinary boundaries to find unexpected connections and analogies that lead to creative solutions.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "Biomimicry in engineering: - Biology: Lotus leaf repels water - Materials science: Self-cleaning surfaces - Engineering: Hydrophobic coatings for solar panels - Business: \"Sticky\" subscription models This synthesis creates innovations that no single discipline could achieve alone.",
+      "related_models": [
+        "SY01",
+        "CO10"
+      ],
+      "priority": 6,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "SCAFFOLDS": 1
+        },
+        "strength": {
+          "min": 0.9,
+          "max": 0.9,
+          "avg": 0.9
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "SY17",
+      "name": "Policy Feedbacks",
+      "transformation": "SY",
+      "definition": "Paradox Resolution is a mental model for addressing situations where traditional",
+      "description": "Paradox Resolution is a mental model for addressing situations where traditional either/or thinking fails. It seeks \"both/and\" solutions that transcend apparent contradictions by finding higher-level frameworks that reconcile opposing forces.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "Work-life balance paradox: - Traditional view: Work vs. personal life (zero-sum) - Paradox resolution: Integration through flexible work arrangements - Higher synthesis: Work becomes personally fulfilling, personal life includes meaningful work This approach transforms conflicts into opportunities for innovation.",
+      "related_models": [
+        "SY04",
+        "IN17"
+      ],
+      "priority": 6,
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.6,
+          "avg": 0.6
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "SY18",
+      "name": "Measurement & Telemetry",
+      "transformation": "SY",
+      "definition": "Holistic Integration is a mental model for seeing systems as integrated wholes w",
+      "description": "Holistic Integration is a mental model for seeing systems as integrated wholes where the performance of the entire system matters more than the performance of individual components. It emphasizes understanding interdependencies and optimizing for global rather than local maxima.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "Sustainable agriculture: - Conventional: Maximize individual crop yield - Holistic: Integrate crops, livestock, and soil health - Result: Higher total system productivity with lower inputs This approach often reveals that optimizing components can harm the whole system.",
+      "related_models": [
+        "SY01",
+        "CO11"
+      ],
+      "priority": 6,
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 0,
+        "total_count": 2,
+        "by_type": {
+          "SCAFFOLDS": 2
+        },
+        "strength": {
+          "min": 0.9,
+          "max": 0.9,
+          "avg": 0.9
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "SY19",
+      "name": "Meta-Model Selection",
+      "transformation": "SY",
+      "definition": "SY19 is a meta-model that recommends which HUMMBL models to use for a given prob",
+      "description": "SY19 is a meta-model that recommends which HUMMBL models to use for a given problem. It uses the relationship graph (333 relationships across 120 models) to walk from primary models and suggest relevant models based on:\n\n- **Relationship strength** (0.0-1.0)\n- **Relationship type** (SCAFFOLDS, COMPOSES_WITH, REFINES, etc.)\n- **Model centrality** (how connected a model is)\n- **Graph distance** (models closer to primaries score higher)\n\nThe scoring formula:\n```\nscore = strength × type_weight × direction_weight × centrality_weight × hop_decay\n```\n\nType weights:\n- SCAFFOLDS: 1.0\n- COMPOSES_WITH: 0.9\n- REFINES: 0.8\n- PARALLELS: 0.5\n- CONTRASTS_WITH: 0.4\n- CONFLICTS: 0.3",
+      "status": "prototype",
+      "version": "0.1.0",
+      "example": "Problem: \"multi-service AI feature with bottlenecks and cascades\" Primaries: DE07 (Bottleneck Identification), DE06 (Failure Mode Analysis) Recommended Models (Top 7): 1. DE07 – Bottleneck Identification 🔹 Primary 2. DE06 – Failure Mode Analysis 🔹 Primary 3. SY01 – System Topology (via DE07) 4. CO03 – Pipeline / Flow Composition (via DE07) 5. RE06 – Feedback Loops (via SY01) 6. SY04 – Cascades & Second-Order Effects (via cascade keyword) 7. CO12 – Queues / Buffering (via pipeline) This yields...",
+      "related_models": [
+        "DE07",
+        "SY04",
+        "SY01",
+        "DE06"
+      ],
+      "priority": 6,
+      "relationships": {
+        "incoming_count": 4,
+        "outgoing_count": 2,
+        "total_count": 6,
+        "by_type": {
+          "SCAFFOLDS": 6
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 1.0,
+          "avg": 0.88
+        },
+        "verification": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    {
+      "code": "SY20",
+      "name": "Systems-of-Systems Coordination",
+      "transformation": "SY",
+      "definition": "Wisdom Synthesis is a mental model for converting accumulated knowledge into act",
+      "description": "Wisdom Synthesis is a mental model for converting accumulated knowledge into actionable wisdom. It goes beyond mere information synthesis to create deep, contextual understanding that enables effective judgment and decision-making in complex situations.",
+      "status": "developed",
+      "version": "0.1.0",
+      "example": "Medical diagnosis wisdom: - Knowledge: Symptoms, test results, treatment options - Information synthesis: Differential diagnosis - Wisdom synthesis: Understanding patient context, values, and life circumstances - Result: Treatment plan that balances medical effectiveness with patient quality of life This transforms expert knowledge into compassionate, effective practice.",
+      "related_models": [
+        "SY19",
+        "RE13"
+      ],
+      "priority": 6
+    }
+  ]
+}

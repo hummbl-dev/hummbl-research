@@ -1,0 +1,340 @@
+{
+  "timestamp": "2025-12-05T18:52:49.228592",
+  "repositories": [
+    {
+      "name": "hummbl-claude-skills",
+      "github": {
+        "exists": true,
+        "public": true,
+        "description": "Production-ready Claude skills for HUMMBL mental models framework development, multi-agent coordination, and repository management",
+        "language": null,
+        "stars": 2,
+        "forks": 1,
+        "updated": "2025-11-28T11:12:06Z",
+        "url": "https://github.com/hummbl-dev/hummbl-claude-skills"
+      },
+      "local": {
+        "local": false
+      }
+    },
+    {
+      "name": "hummbl-monorepo",
+      "github": {
+        "exists": true,
+        "public": true,
+        "description": "monorepo for all HUMMBL Systems - see more at hummbl.io",
+        "language": null,
+        "stars": 0,
+        "forks": 0,
+        "updated": "2025-12-02T17:51:44Z",
+        "url": "https://github.com/hummbl-dev/hummbl-monorepo"
+      },
+      "local": {
+        "local": true,
+        "path": "/Users/others/Documents/GitHub/hummbl-monorepo",
+        "is_git": true,
+        "remote": "https://github.com/hummbl-dev/hummbl-monorepo.git",
+        "branch": "main",
+        "last_commit": {
+          "hash": "c107f39a",
+          "message": "chore: update Husky hooks for v10 compatibility",
+          "date": "2025-12-02 12:51:26 -0500"
+        },
+        "structure": {
+          "directories": [
+            "apps",
+            "packages",
+            "tools"
+          ],
+          "files": [
+            "README.md",
+            "package-lock.json",
+            "package.json",
+            "tsconfig.json",
+            "turbo.json"
+          ]
+        }
+      },
+      "analysis": {
+        "has_api": false,
+        "has_workers": false,
+        "has_models": false,
+        "has_relationships": false,
+        "has_tools": true,
+        "has_docs": true,
+        "integration_opportunities": []
+      }
+    },
+    {
+      "name": "hummbl-io",
+      "github": {
+        "exists": false,
+        "error": "Not found"
+      },
+      "local": {
+        "local": true,
+        "path": "/Users/others/Documents/GitHub/hummbl-io",
+        "is_git": true,
+        "remote": "https://github.com/hummbl-dev/hummbl-io.git",
+        "branch": "main",
+        "last_commit": {
+          "hash": "da3c3740",
+          "message": "fix(ci): ensure compliance-report.json is available in CI",
+          "date": "2025-10-20 23:04:55 -0400"
+        },
+        "structure": {
+          "directories": [
+            "cascade",
+            "docs",
+            "humbbl",
+            "hummbl",
+            "infrastructure",
+            "lambda",
+            "mobile",
+            "public",
+            "scripts",
+            "server"
+          ],
+          "files": [
+            "API_INTEGRATION_SPEC.md",
+            "CHANGELOG.md",
+            "CONTENT_CHANGELOG.md",
+            "CONTENT_EXPANSION.md",
+            "CONTRIBUTING.md",
+            "GITHUB_FIXES.md",
+            "INTEGRATION_README.md",
+            "MOBILE_README.md",
+            "NARRATIVES_SELF_AUDIT.md",
+            "NARRATIVES_UX_AUDIT.md"
+          ]
+        }
+      },
+      "analysis": {
+        "has_api": true,
+        "has_workers": false,
+        "has_models": false,
+        "has_relationships": false,
+        "has_tools": false,
+        "has_docs": true,
+        "integration_opportunities": [
+          "API endpoint integration"
+        ]
+      }
+    },
+    {
+      "name": "hummbl-api",
+      "github": {
+        "exists": false,
+        "error": "Not found"
+      },
+      "local": {
+        "local": false
+      }
+    },
+    {
+      "name": "hummbl-docs",
+      "github": {
+        "exists": false,
+        "error": "Not found"
+      },
+      "local": {
+        "local": false
+      }
+    },
+    {
+      "name": "hummbl-cli",
+      "github": {
+        "exists": false,
+        "error": "Not found"
+      },
+      "local": {
+        "local": false
+      }
+    },
+    {
+      "name": "hummbl-sdk",
+      "github": {
+        "exists": false,
+        "error": "Not found"
+      },
+      "local": {
+        "local": false
+      }
+    },
+    {
+      "name": "hummbl-utils",
+      "github": {
+        "exists": false,
+        "error": "Not found"
+      },
+      "local": {
+        "local": false
+      }
+    },
+    {
+      "name": "hummbl-data",
+      "github": {
+        "exists": false,
+        "error": "Not found"
+      },
+      "local": {
+        "local": false
+      }
+    },
+    {
+      "name": "hummbl-tests",
+      "github": {
+        "exists": false,
+        "error": "Not found"
+      },
+      "local": {
+        "local": false
+      }
+    },
+    {
+      "name": "hummbl-examples",
+      "github": {
+        "exists": false,
+        "error": "Not found"
+      },
+      "local": {
+        "local": false
+      }
+    },
+    {
+      "name": "hummbl-templates",
+      "github": {
+        "exists": false,
+        "error": "Not found"
+      },
+      "local": {
+        "local": false
+      }
+    },
+    {
+      "name": "hummbl-configs",
+      "github": {
+        "exists": false,
+        "error": "Not found"
+      },
+      "local": {
+        "local": false
+      }
+    },
+    {
+      "name": "hummbl-prototype",
+      "github": {
+        "exists": true,
+        "public": true,
+        "description": "testing ground for transformation algorithms",
+        "language": "Python",
+        "stars": 1,
+        "forks": 0,
+        "updated": "2025-11-28T11:12:20Z",
+        "url": "https://github.com/hummbl-dev/hummbl-prototype"
+      },
+      "local": {
+        "local": true,
+        "path": "/Users/others/Documents/GitHub/hummbl-prototype",
+        "is_git": true,
+        "remote": "https://github.com/hummbl-dev/hummbl-prototype.git",
+        "branch": "main",
+        "last_commit": {
+          "hash": "ff8013e8",
+          "message": "Add archive notice to README",
+          "date": "2025-11-16 07:58:38 -0500"
+        },
+        "structure": {
+          "directories": [
+            "case-studies",
+            "data",
+            "examples",
+            "notebooks",
+            "tests",
+            "transformations",
+            "validation",
+            "venv"
+          ],
+          "files": [
+            "INSTALL.md",
+            "LICENSE",
+            "README.md",
+            "requirements.txt",
+            "test_hummbl_project.py"
+          ]
+        }
+      },
+      "analysis": {
+        "has_api": false,
+        "has_workers": false,
+        "has_models": false,
+        "has_relationships": false,
+        "has_tools": false,
+        "has_docs": true,
+        "integration_opportunities": []
+      }
+    },
+    {
+      "name": "hummbl-research",
+      "github": {
+        "exists": true,
+        "public": true,
+        "description": "research repo",
+        "language": "Python",
+        "stars": 1,
+        "forks": 0,
+        "updated": "2025-12-05T21:31:52Z",
+        "url": "https://github.com/hummbl-dev/hummbl-research"
+      },
+      "local": {
+        "local": true,
+        "path": "/Users/others/Documents/GitHub/hummbl-research",
+        "is_git": true,
+        "remote": "https://github.com/hummbl-dev/hummbl-research.git",
+        "branch": "main",
+        "last_commit": {
+          "hash": "c14a8072",
+          "message": "Complete relationship graph validation and post-validation improvements",
+          "date": "2025-12-05 12:06:01 -0500"
+        },
+        "structure": {
+          "directories": [
+            "case-studies",
+            "data",
+            "docs",
+            "essays",
+            "models",
+            "notebooks",
+            "tools",
+            "validation",
+            "venv"
+          ],
+          "files": [
+            "AI_INSTRUCTIONS.md",
+            "CHANGELOG.md",
+            "CITATION.cff",
+            "CONTRIBUTING.md",
+            "LICENSE",
+            "README.md",
+            "REPOSITORY_REASSESSMENT.md",
+            "SITREP-1-hummbl-research.md",
+            "SITREP-7-relationships-validation-complete.md",
+            "api-integration-example.js"
+          ]
+        }
+      },
+      "analysis": {
+        "has_api": false,
+        "has_workers": false,
+        "has_models": true,
+        "has_relationships": true,
+        "has_tools": true,
+        "has_docs": true,
+        "integration_opportunities": [
+          "Model data integration",
+          "Relationship data integration"
+        ]
+      }
+    }
+  ]
+}

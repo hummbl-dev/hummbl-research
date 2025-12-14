@@ -1,0 +1,55 @@
+{
+  "note": "Template for official model names from hummbl.io",
+  "instructions": [
+    "1. Visit hummbl.io and get the official list of all 120 model names",
+    "2. Fill in the correct names for the duplicate models below",
+    "3. Save this file as 'official-model-names.json'",
+    "4. Run: python tools/fix_duplicate_model_names.py"
+  ],
+  "duplicate_models_to_fix": {
+    "P04": {
+      "current_name": "Systems Thinking",
+      "conflicts_with": "P18",
+      "official_name": "FILL_IN_FROM_HUMMBL_IO"
+    },
+    "P12": {
+      "current_name": "Stakeholder Mapping",
+      "conflicts_with": "P17",
+      "official_name": "FILL_IN_FROM_HUMMBL_IO"
+    },
+    "IN14": {
+      "current_name": "Assumption Inversion",
+      "conflicts_with": "IN17",
+      "official_name": "FILL_IN_FROM_HUMMBL_IO"
+    },
+    "DE02": {
+      "current_name": "Functional Decomposition",
+      "conflicts_with": "DE16",
+      "official_name": "FILL_IN_FROM_HUMMBL_IO"
+    },
+    "RE14": {
+      "current_name": "Recursive Optimization",
+      "conflicts_with": "RE16",
+      "official_name": "FILL_IN_FROM_HUMMBL_IO"
+    },
+    "SY03": {
+      "current_name": "Holistic Integration",
+      "conflicts_with": "SY18",
+      "official_name": "FILL_IN_FROM_HUMMBL_IO"
+    }
+  },
+  "suggested_names_based_on_pattern": {
+    "P04": "System Dynamics",
+    "P12": "Stakeholder Analysis",
+    "IN14": "Assumption Testing",
+    "DE02": "Functional Breakdown",
+    "RE14": "Nested Optimization",
+    "SY03": "Integrative Synthesis"
+  },
+  "pattern_analysis": {
+    "observation": "Each duplicate has one 'draft' and one 'developed' version",
+    "hypothesis": "Developed versions (P18, P17, IN17, DE16, RE16, SY18) likely have correct names",
+    "action": "Draft versions (P04, P12, IN14, DE02, RE14, SY03) need new unique names"
+  }
+}
+

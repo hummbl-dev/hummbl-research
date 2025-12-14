@@ -1,0 +1,37 @@
+{
+  "note": "These are SUGGESTED fixes based on pattern analysis. Verify against hummbl.io official list.",
+  "pattern": "Developed versions (P18, P17, IN17, DE16, RE16, SY18) keep their names. Draft versions need new names.",
+  "suggested_fixes": {
+    "P04": {
+      "current": "Systems Thinking",
+      "suggested": "System Dynamics",
+      "reason": "P18 (developed) keeps \"Systems Thinking\", P04 needs unique name"
+    },
+    "P12": {
+      "current": "Stakeholder Mapping",
+      "suggested": "Stakeholder Analysis",
+      "reason": "P17 (developed) keeps \"Stakeholder Mapping\", P12 needs unique name"
+    },
+    "IN14": {
+      "current": "Assumption Inversion",
+      "suggested": "Assumption Testing",
+      "reason": "IN17 (developed) keeps \"Assumption Inversion\", IN14 needs unique name"
+    },
+    "DE02": {
+      "current": "Functional Decomposition",
+      "suggested": "Functional Breakdown",
+      "reason": "DE16 (developed) keeps \"Functional Decomposition\", DE02 needs unique name"
+    },
+    "RE14": {
+      "current": "Recursive Optimization",
+      "suggested": "Nested Optimization",
+      "reason": "RE16 (developed) keeps \"Recursive Optimization\", RE14 needs unique name"
+    },
+    "SY03": {
+      "current": "Holistic Integration",
+      "suggested": "Integrative Synthesis",
+      "reason": "SY18 (developed) keeps \"Holistic Integration\", SY03 needs unique name"
+    }
+  },
+  "verification_required": true
+}

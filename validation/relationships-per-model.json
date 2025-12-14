@@ -1,0 +1,2591 @@
+{
+  "total": 115,
+  "models": [
+    {
+      "code": "CO01",
+      "name": "Composition Planning",
+      "relationships": {
+        "incoming_count": 14,
+        "outgoing_count": 5,
+        "total_count": 19,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "CONFLICTS": 6,
+          "COMPOSES_WITH": 6,
+          "REFINES": 4
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.74
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "CO02",
+      "name": "Modular Design",
+      "relationships": {
+        "incoming_count": 10,
+        "outgoing_count": 6,
+        "total_count": 16,
+        "by_type": {
+          "SCAFFOLDS": 2,
+          "COMPOSES_WITH": 11,
+          "REFINES": 3
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.72
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "CO03",
+      "name": "Interface Design",
+      "relationships": {
+        "incoming_count": 6,
+        "outgoing_count": 5,
+        "total_count": 11,
+        "by_type": {
+          "SCAFFOLDS": 2,
+          "COMPOSES_WITH": 6,
+          "REFINES": 2,
+          "CONTRASTS_WITH": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.74
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "CO04",
+      "name": "Emergent Properties",
+      "relationships": {
+        "incoming_count": 4,
+        "outgoing_count": 4,
+        "total_count": 8,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "COMPOSES_WITH": 2,
+          "REFINES": 3
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.74
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "CO05",
+      "name": "Constraint-Based Assembly",
+      "relationships": {
+        "incoming_count": 7,
+        "outgoing_count": 6,
+        "total_count": 13,
+        "by_type": {
+          "SCAFFOLDS": 4,
+          "COMPOSES_WITH": 8,
+          "REFINES": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.75
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "CO06",
+      "name": "Layered Architecture",
+      "relationships": {
+        "incoming_count": 6,
+        "outgoing_count": 6,
+        "total_count": 12,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "COMPOSES_WITH": 7,
+          "CONFLICTS": 2,
+          "REFINES": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.75
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "CO07",
+      "name": "Component Orchestration",
+      "relationships": {
+        "incoming_count": 6,
+        "outgoing_count": 6,
+        "total_count": 12,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "REFINES": 4,
+          "COMPOSES_WITH": 5
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.77
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "CO08",
+      "name": "Integration Testing",
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 5,
+        "total_count": 8,
+        "by_type": {
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 4,
+          "REFINES": 2,
+          "CONTRASTS_WITH": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.75
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "CO09",
+      "name": "Coupling Minimization",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 6,
+        "total_count": 8,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "COMPOSES_WITH": 5,
+          "REFINES": 1,
+          "CONFLICTS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.76
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "CO10",
+      "name": "Pipeline Orchestration",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 5,
+        "total_count": 6,
+        "by_type": {
+          "REFINES": 3,
+          "COMPOSES_WITH": 2,
+          "SCAFFOLDS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.75
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "CO11",
+      "name": "Pattern Composition (Tiling)",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 6,
+        "total_count": 7,
+        "by_type": {
+          "COMPOSES_WITH": 6,
+          "CONFLICTS": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.73
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "CO12",
+      "name": "Modular Interoperability",
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 6,
+        "total_count": 9,
+        "by_type": {
+          "PARALLELS": 1,
+          "SCAFFOLDS": 3,
+          "REFINES": 1,
+          "COMPOSES_WITH": 4
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.78
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "CO13",
+      "name": "Cross-Domain Analogy",
+      "relationships": {
+        "incoming_count": 0,
+        "outgoing_count": 6,
+        "total_count": 6,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "COMPOSES_WITH": 3,
+          "REFINES": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.73
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "CO17",
+      "name": "Orchestration vs Choreography",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 3,
+        "total_count": 4,
+        "by_type": {
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "CO18",
+      "name": "Knowledge Graphing",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 3,
+        "total_count": 4,
+        "by_type": {
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "CO20",
+      "name": "Holistic Integration",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 2,
+        "total_count": 4,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 2
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.8,
+          "avg": 0.73
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "DE01",
+      "name": "Root Cause Analysis",
+      "relationships": {
+        "incoming_count": 12,
+        "outgoing_count": 5,
+        "total_count": 17,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "PARALLELS": 1,
+          "REFINES": 6,
+          "COMPOSES_WITH": 7
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 1.0,
+          "avg": 0.81
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "DE02",
+      "name": "Functional Decomposition",
+      "relationships": {
+        "incoming_count": 5,
+        "outgoing_count": 6,
+        "total_count": 11,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "REFINES": 5,
+          "COMPOSES_WITH": 3
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.75
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "DE03",
+      "name": "Hierarchical Breakdown",
+      "relationships": {
+        "incoming_count": 10,
+        "outgoing_count": 6,
+        "total_count": 16,
+        "by_type": {
+          "SCAFFOLDS": 5,
+          "REFINES": 2,
+          "COMPOSES_WITH": 7,
+          "CONTRASTS_WITH": 2
+        },
+        "strength": {
+          "min": 0.5,
+          "max": 0.9,
+          "avg": 0.76
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "DE04",
+      "name": "Dependency Mapping",
+      "relationships": {
+        "incoming_count": 8,
+        "outgoing_count": 5,
+        "total_count": 13,
+        "by_type": {
+          "COMPOSES_WITH": 6,
+          "SCAFFOLDS": 2,
+          "CONFLICTS": 1,
+          "REFINES": 3,
+          "CONTRASTS_WITH": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.75
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "DE05",
+      "name": "Bottleneck Identification",
+      "relationships": {
+        "incoming_count": 8,
+        "outgoing_count": 4,
+        "total_count": 12,
+        "by_type": {
+          "COMPOSES_WITH": 6,
+          "SCAFFOLDS": 3,
+          "REFINES": 3
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.79
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "DE06",
+      "name": "Process Mapping",
+      "relationships": {
+        "incoming_count": 5,
+        "outgoing_count": 4,
+        "total_count": 9,
+        "by_type": {
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 5,
+          "SCAFFOLDS": 1,
+          "REFINES": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.81
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "DE07",
+      "name": "Cause-Effect Diagrams",
+      "relationships": {
+        "incoming_count": 9,
+        "outgoing_count": 4,
+        "total_count": 13,
+        "by_type": {
+          "PARALLELS": 2,
+          "SCAFFOLDS": 5,
+          "COMPOSES_WITH": 4,
+          "REFINES": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.79
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "DE08",
+      "name": "Information Flow Analysis",
+      "relationships": {
+        "incoming_count": 9,
+        "outgoing_count": 4,
+        "total_count": 13,
+        "by_type": {
+          "PARALLELS": 2,
+          "COMPOSES_WITH": 7,
+          "SCAFFOLDS": 2,
+          "REFINES": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.75
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "DE09",
+      "name": "Work Breakdown Structure",
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 4,
+        "total_count": 7,
+        "by_type": {
+          "COMPOSES_WITH": 1,
+          "CONFLICTS": 3,
+          "REFINES": 1,
+          "CONTRASTS_WITH": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.71
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "DE10",
+      "name": "Abstraction Laddering",
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 4,
+        "total_count": 7,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "COMPOSES_WITH": 2,
+          "REFINES": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.79
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "DE11",
+      "name": "Scope Delimitation",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "DE12",
+      "name": "Constraint Isolation",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "SCAFFOLDS": 1
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "DE13",
+      "name": "Failure Mode Analysis (FMEA)",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "SCAFFOLDS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "DE14",
+      "name": "Variable Control & Isolation",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "DE16",
+      "name": "Hypothesis Disaggregation",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "SCAFFOLDS": 1
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "DE17",
+      "name": "Orthogonalization",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.6,
+          "avg": 0.6
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "DE20",
+      "name": "Partition-and-Conquer",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.6,
+          "avg": 0.6
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN01",
+      "name": "Premortem Analysis",
+      "relationships": {
+        "incoming_count": 5,
+        "outgoing_count": 4,
+        "total_count": 9,
+        "by_type": {
+          "PARALLELS": 1,
+          "SCAFFOLDS": 1,
+          "REFINES": 3,
+          "CONTRASTS_WITH": 1,
+          "COMPOSES_WITH": 3
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.73
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN02",
+      "name": "Inversion",
+      "relationships": {
+        "incoming_count": 9,
+        "outgoing_count": 4,
+        "total_count": 13,
+        "by_type": {
+          "COMPOSES_WITH": 8,
+          "SCAFFOLDS": 4,
+          "REFINES": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.8
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN03",
+      "name": "Murphy's Law Application",
+      "relationships": {
+        "incoming_count": 5,
+        "outgoing_count": 4,
+        "total_count": 9,
+        "by_type": {
+          "PARALLELS": 2,
+          "SCAFFOLDS": 1,
+          "CONTRASTS_WITH": 3,
+          "CONFLICTS": 1,
+          "COMPOSES_WITH": 2
+        },
+        "strength": {
+          "min": 0.5,
+          "max": 0.9,
+          "avg": 0.69
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN04",
+      "name": "Regret Minimization",
+      "relationships": {
+        "incoming_count": 6,
+        "outgoing_count": 4,
+        "total_count": 10,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "CONTRASTS_WITH": 3,
+          "CONFLICTS": 3,
+          "REFINES": 1,
+          "COMPOSES_WITH": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.72
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN05",
+      "name": "Black Swan Preparation",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 4,
+        "total_count": 6,
+        "by_type": {
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 2,
+          "REFINES": 1,
+          "SCAFFOLDS": 2
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 1.0,
+          "avg": 0.77
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN06",
+      "name": "Devil's Advocate",
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 4,
+        "total_count": 7,
+        "by_type": {
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 3,
+          "REFINES": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.76
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN07",
+      "name": "Negative Visualization",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 4,
+        "total_count": 6,
+        "by_type": {
+          "COMPOSES_WITH": 4,
+          "REFINES": 1,
+          "CONFLICTS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.8
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN08",
+      "name": "Failure Mode Effects Analysis",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 2,
+        "total_count": 3,
+        "by_type": {
+          "COMPOSES_WITH": 2,
+          "REFINES": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.8
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN09",
+      "name": "Backward Induction",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 10,
+        "total_count": 11,
+        "by_type": {
+          "SCAFFOLDS": 4,
+          "PARALLELS": 2,
+          "COMPOSES_WITH": 2,
+          "REFINES": 1,
+          "CONFLICTS": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.75
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN1",
+      "name": "Premortem Analysis",
+      "relationships": {
+        "incoming_count": 0,
+        "outgoing_count": 5,
+        "total_count": 5,
+        "by_type": {
+          "SCAFFOLDS": 2,
+          "PARALLELS": 3
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.76
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN10",
+      "name": "Red Teaming",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 5,
+        "total_count": 7,
+        "by_type": {
+          "PARALLELS": 1,
+          "REFINES": 3,
+          "COMPOSES_WITH": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.79
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN11",
+      "name": "Devil's Advocate Protocol",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 1,
+        "total_count": 2,
+        "by_type": {
+          "PARALLELS": 1,
+          "SCAFFOLDS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN12",
+      "name": "Failure First Design",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 0,
+        "total_count": 2,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.8
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN13",
+      "name": "Opportunity Cost Focus",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 2,
+        "total_count": 3,
+        "by_type": {
+          "SCAFFOLDS": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.8
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN14",
+      "name": "Second-Order Effects (Inverted)",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 2,
+        "total_count": 3,
+        "by_type": {
+          "PARALLELS": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.8,
+          "avg": 0.73
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN15",
+      "name": "Constraint Reversal",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 4,
+        "total_count": 5,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "PARALLELS": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.8,
+          "avg": 0.74
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN16",
+      "name": "Inverse Optimization",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 1,
+        "total_count": 2,
+        "by_type": {
+          "SCAFFOLDS": 2
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.8,
+          "avg": 0.75
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN17",
+      "name": "Counterfactual Negation",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 1,
+        "total_count": 2,
+        "by_type": {
+          "SCAFFOLDS": 2
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.8,
+          "avg": 0.75
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN18",
+      "name": "Kill-Criteria & Stop Rules",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 0,
+        "total_count": 2,
+        "by_type": {
+          "PARALLELS": 2
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.8
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN19",
+      "name": "Harm Minimization (Via Negativa)",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 0,
+        "total_count": 2,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.8,
+          "avg": 0.7
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN2",
+      "name": "Inversion",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 2,
+        "total_count": 3,
+        "by_type": {
+          "SCAFFOLDS": 2,
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.73
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN20",
+      "name": "Antigoals & Anti-Patterns Catalog",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN3",
+      "name": "Murphy's Law Application",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 4,
+        "total_count": 6,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "PARALLELS": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.75
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN4",
+      "name": "Regret Minimization",
+      "relationships": {
+        "incoming_count": 0,
+        "outgoing_count": 4,
+        "total_count": 4,
+        "by_type": {
+          "SCAFFOLDS": 4
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 0.9,
+          "avg": 0.82
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN5",
+      "name": "Black Swan Preparation",
+      "relationships": {
+        "incoming_count": 0,
+        "outgoing_count": 1,
+        "total_count": 1,
+        "by_type": {
+          "SCAFFOLDS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN6",
+      "name": "Devil's Advocate",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 5,
+        "total_count": 6,
+        "by_type": {
+          "PARALLELS": 3,
+          "SCAFFOLDS": 3
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.82
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN7",
+      "name": "Negative Visualization",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 1,
+        "total_count": 3,
+        "by_type": {
+          "PARALLELS": 1,
+          "SCAFFOLDS": 2
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 0.9,
+          "avg": 0.83
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN8",
+      "name": "Failure Mode Effects Analysis",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 1,
+        "total_count": 3,
+        "by_type": {
+          "SCAFFOLDS": 2,
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 0.9,
+          "avg": 0.87
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "IN9",
+      "name": "Backward Induction",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "P01",
+      "name": "First Principles Framing",
+      "relationships": {
+        "incoming_count": 5,
+        "outgoing_count": 9,
+        "total_count": 14,
+        "by_type": {
+          "SCAFFOLDS": 5,
+          "COMPOSES_WITH": 3,
+          "PARALLELS": 1,
+          "REFINES": 4,
+          "CONTRASTS_WITH": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 1.0,
+          "avg": 0.84
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "P02",
+      "name": "Stakeholder Mapping",
+      "relationships": {
+        "incoming_count": 7,
+        "outgoing_count": 12,
+        "total_count": 19,
+        "by_type": {
+          "PARALLELS": 2,
+          "SCAFFOLDS": 6,
+          "COMPOSES_WITH": 6,
+          "REFINES": 5
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.77
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "P03",
+      "name": "Identity Stack",
+      "relationships": {
+        "incoming_count": 4,
+        "outgoing_count": 11,
+        "total_count": 15,
+        "by_type": {
+          "PARALLELS": 2,
+          "SCAFFOLDS": 5,
+          "COMPOSES_WITH": 5,
+          "REFINES": 3
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.77
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "P04",
+      "name": "Lens Shifting",
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 7,
+        "total_count": 10,
+        "by_type": {
+          "SCAFFOLDS": 2,
+          "COMPOSES_WITH": 3,
+          "PARALLELS": 2,
+          "REFINES": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.76
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "P05",
+      "name": "Empathy Mapping",
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 9,
+        "total_count": 12,
+        "by_type": {
+          "COMPOSES_WITH": 5,
+          "PARALLELS": 4,
+          "SCAFFOLDS": 1,
+          "REFINES": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 1.0,
+          "avg": 0.76
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "P06",
+      "name": "Point-of-View Anchoring",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 9,
+        "total_count": 11,
+        "by_type": {
+          "PARALLELS": 3,
+          "SCAFFOLDS": 5,
+          "REFINES": 2,
+          "COMPOSES_WITH": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 1.0,
+          "avg": 0.76
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "P07",
+      "name": "Perspective Switching",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 8,
+        "total_count": 9,
+        "by_type": {
+          "SCAFFOLDS": 4,
+          "PARALLELS": 4,
+          "COMPOSES_WITH": 1
+        },
+        "strength": {
+          "min": 0.5,
+          "max": 0.9,
+          "avg": 0.74
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "P08",
+      "name": "Narrative Framing",
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 4,
+        "total_count": 7,
+        "by_type": {
+          "SCAFFOLDS": 4,
+          "PARALLELS": 2,
+          "COMPOSES_WITH": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.77
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "P09",
+      "name": "Cultural Lens Shifting",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 8,
+        "total_count": 9,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "PARALLELS": 5,
+          "COMPOSES_WITH": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.78
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "P10",
+      "name": "Context Windowing",
+      "relationships": {
+        "incoming_count": 0,
+        "outgoing_count": 12,
+        "total_count": 12,
+        "by_type": {
+          "SCAFFOLDS": 8,
+          "PARALLELS": 2,
+          "REFINES": 1,
+          "COMPOSES_WITH": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 1.0,
+          "avg": 0.8
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "P11",
+      "name": "Role Perspective-Taking",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 6,
+        "total_count": 7,
+        "by_type": {
+          "PARALLELS": 3,
+          "SCAFFOLDS": 4
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.8,
+          "avg": 0.74
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "P12",
+      "name": "Temporal Framing",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 3,
+        "total_count": 4,
+        "by_type": {
+          "PARALLELS": 2,
+          "SCAFFOLDS": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.8,
+          "avg": 0.72
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "P13",
+      "name": "Spatial Framing",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 6,
+        "total_count": 7,
+        "by_type": {
+          "SCAFFOLDS": 5,
+          "PARALLELS": 2
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.79
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "P14",
+      "name": "Reference Class Framing",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 3,
+        "total_count": 5,
+        "by_type": {
+          "SCAFFOLDS": 5
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 0.9,
+          "avg": 0.82
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "P15",
+      "name": "Assumption Surfacing",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 3,
+        "total_count": 4,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.8,
+          "avg": 0.72
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "P16",
+      "name": "Identity-Context Reciprocity",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 3,
+        "total_count": 5,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "PARALLELS": 2
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 1.0,
+          "avg": 0.8
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "P17",
+      "name": "Frame Control & Reframing",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 1,
+        "total_count": 3,
+        "by_type": {
+          "SCAFFOLDS": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "P18",
+      "name": "Boundary Object Selection",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 1,
+        "total_count": 3,
+        "by_type": {
+          "SCAFFOLDS": 2,
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.8
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "P19",
+      "name": "Sensemaking Canvases",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 4,
+        "total_count": 5,
+        "by_type": {
+          "SCAFFOLDS": 2,
+          "PARALLELS": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.8
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "P20",
+      "name": "Worldview Articulation",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 1,
+        "total_count": 3,
+        "by_type": {
+          "SCAFFOLDS": 3
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 0.9,
+          "avg": 0.83
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "RE01",
+      "name": "Feedback Loops",
+      "relationships": {
+        "incoming_count": 9,
+        "outgoing_count": 2,
+        "total_count": 11,
+        "by_type": {
+          "PARALLELS": 1,
+          "SCAFFOLDS": 1,
+          "COMPOSES_WITH": 7,
+          "REFINES": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.77
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "RE02",
+      "name": "Incremental Improvement",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 4,
+        "total_count": 6,
+        "by_type": {
+          "SCAFFOLDS": 2,
+          "COMPOSES_WITH": 3,
+          "REFINES": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.8,
+          "avg": 0.75
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "RE03",
+      "name": "Prototyping Cycles",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 4,
+        "total_count": 6,
+        "by_type": {
+          "SCAFFOLDS": 2,
+          "COMPOSES_WITH": 3,
+          "REFINES": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.78
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "RE04",
+      "name": "Adaptive Planning",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 4,
+        "total_count": 5,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "COMPOSES_WITH": 2,
+          "REFINES": 1,
+          "CONFLICTS": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.74
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "RE05",
+      "name": "Evolutionary Algorithms",
+      "relationships": {
+        "incoming_count": 5,
+        "outgoing_count": 3,
+        "total_count": 8,
+        "by_type": {
+          "SCAFFOLDS": 2,
+          "REFINES": 2,
+          "COMPOSES_WITH": 4
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.72
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "RE06",
+      "name": "Iterative Design",
+      "relationships": {
+        "incoming_count": 11,
+        "outgoing_count": 2,
+        "total_count": 13,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "COMPOSES_WITH": 9,
+          "REFINES": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.81
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "RE07",
+      "name": "Spiral Development",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 1,
+        "total_count": 3,
+        "by_type": {
+          "COMPOSES_WITH": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.8,
+          "avg": 0.77
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "RE08",
+      "name": "Agile Sprints",
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 1,
+        "total_count": 4,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 2
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.8,
+          "avg": 0.72
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "RE09",
+      "name": "Prototyping Loops",
+      "relationships": {
+        "incoming_count": 6,
+        "outgoing_count": 2,
+        "total_count": 8,
+        "by_type": {
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 4,
+          "REFINES": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.8,
+          "avg": 0.73
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "RE10",
+      "name": "Compounding Cycles",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 1,
+        "total_count": 3,
+        "by_type": {
+          "COMPOSES_WITH": 2,
+          "REFINES": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.77
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "RE11",
+      "name": "Calibration Loops",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.6,
+          "avg": 0.6
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "RE12",
+      "name": "Bayesian Updating in Practice",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "SCAFFOLDS": 1
+        },
+        "strength": {
+          "min": 0.9,
+          "max": 0.9,
+          "avg": 0.9
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "RE16",
+      "name": "Retrospective→Prospective Loop",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "RE20",
+      "name": "Recursive Governance (Guardrails that Learn)",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 0,
+        "total_count": 2,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.8,
+          "avg": 0.75
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "SY01",
+      "name": "System-of-Systems View",
+      "relationships": {
+        "incoming_count": 28,
+        "outgoing_count": 2,
+        "total_count": 30,
+        "by_type": {
+          "COMPOSES_WITH": 26,
+          "SCAFFOLDS": 4
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.78
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "SY02",
+      "name": "Pattern Recognition",
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 1,
+        "total_count": 4,
+        "by_type": {
+          "SCAFFOLDS": 3,
+          "COMPOSES_WITH": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.8
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "SY03",
+      "name": "Stocks & Flows",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 1,
+        "total_count": 3,
+        "by_type": {
+          "COMPOSES_WITH": 3
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 0.9,
+          "avg": 0.87
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "SY04",
+      "name": "Meta-Analysis",
+      "relationships": {
+        "incoming_count": 6,
+        "outgoing_count": 1,
+        "total_count": 7,
+        "by_type": {
+          "PARALLELS": 1,
+          "SCAFFOLDS": 1,
+          "COMPOSES_WITH": 5
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.79
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "SY05",
+      "name": "Convergence Thinking",
+      "relationships": {
+        "incoming_count": 6,
+        "outgoing_count": 1,
+        "total_count": 7,
+        "by_type": {
+          "SCAFFOLDS": 4,
+          "COMPOSES_WITH": 3
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 1.0,
+          "avg": 0.86
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "SY06",
+      "name": "Cross-Disciplinary Integration",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 1,
+        "total_count": 2,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "COMPOSES_WITH": 1
+        },
+        "strength": {
+          "min": 0.9,
+          "max": 0.9,
+          "avg": 0.9
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "SY07",
+      "name": "Theory Building",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 1,
+        "total_count": 3,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "COMPOSES_WITH": 2
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.8,
+          "avg": 0.77
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "SY08",
+      "name": "Model Fusion",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 1,
+        "total_count": 2,
+        "by_type": {
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 1
+        },
+        "strength": {
+          "min": 0.5,
+          "max": 0.7,
+          "avg": 0.6
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "SY09",
+      "name": "Insight Synthesis",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 1,
+        "total_count": 3,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "COMPOSES_WITH": 2
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 1.0,
+          "avg": 0.83
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "SY10",
+      "name": "Causal Loop Diagrams",
+      "relationships": {
+        "incoming_count": 3,
+        "outgoing_count": 1,
+        "total_count": 4,
+        "by_type": {
+          "COMPOSES_WITH": 2,
+          "SCAFFOLDS": 2
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.9,
+          "avg": 0.8
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "SY11",
+      "name": "Governance Patterns",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 1,
+        "total_count": 3,
+        "by_type": {
+          "SCAFFOLDS": 1,
+          "PARALLELS": 1,
+          "COMPOSES_WITH": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.9,
+          "avg": 0.77
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "SY12",
+      "name": "Protocol/Interface Standards",
+      "relationships": {
+        "incoming_count": 0,
+        "outgoing_count": 1,
+        "total_count": 1,
+        "by_type": {
+          "CONTRASTS_WITH": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "SY13",
+      "name": "Incentive Architecture",
+      "relationships": {
+        "incoming_count": 6,
+        "outgoing_count": 2,
+        "total_count": 8,
+        "by_type": {
+          "PARALLELS": 1,
+          "SCAFFOLDS": 3,
+          "REFINES": 1,
+          "COMPOSES_WITH": 3
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 0.9,
+          "avg": 0.88
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "SY14",
+      "name": "Risk & Resilience Engineering",
+      "relationships": {
+        "incoming_count": 0,
+        "outgoing_count": 1,
+        "total_count": 1,
+        "by_type": {
+          "SCAFFOLDS": 1
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "SY15",
+      "name": "Multi-Scale Alignment",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.7,
+          "max": 0.7,
+          "avg": 0.7
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "SY16",
+      "name": "Ecosystem Strategy",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "SCAFFOLDS": 1
+        },
+        "strength": {
+          "min": 0.9,
+          "max": 0.9,
+          "avg": 0.9
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "SY17",
+      "name": "Policy Feedbacks",
+      "relationships": {
+        "incoming_count": 1,
+        "outgoing_count": 0,
+        "total_count": 1,
+        "by_type": {
+          "PARALLELS": 1
+        },
+        "strength": {
+          "min": 0.6,
+          "max": 0.6,
+          "avg": 0.6
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "SY18",
+      "name": "Measurement & Telemetry",
+      "relationships": {
+        "incoming_count": 2,
+        "outgoing_count": 0,
+        "total_count": 2,
+        "by_type": {
+          "SCAFFOLDS": 2
+        },
+        "strength": {
+          "min": 0.9,
+          "max": 0.9,
+          "avg": 0.9
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "code": "SY19",
+      "name": "Meta-Model Selection",
+      "relationships": {
+        "incoming_count": 4,
+        "outgoing_count": 2,
+        "total_count": 6,
+        "by_type": {
+          "SCAFFOLDS": 6
+        },
+        "strength": {
+          "min": 0.8,
+          "max": 1.0,
+          "avg": 0.88
+        }
+      },
+      "verification": {
+        "valid": true,
+        "errors": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-12-05T18:22:20.945872",
+  "duplicates_found": 6,
+  "fixes_needed": [
+    {
+      "code": "P04",
+      "file": "/Users/others/Documents/GitHub/hummbl-research/models/P/P04.md",
+      "current_name": "Systems Thinking",
+      "conflict_with": "P18",
+      "action": "verify"
+    },
+    {
+      "code": "P12",
+      "file": "/Users/others/Documents/GitHub/hummbl-research/models/P/P12.md",
+      "current_name": "Stakeholder Mapping",
+      "conflict_with": "P17",
+      "action": "verify"
+    },
+    {
+      "code": "IN14",
+      "file": "/Users/others/Documents/GitHub/hummbl-research/models/IN/IN14.md",
+      "current_name": "Assumption Inversion",
+      "conflict_with": "IN17",
+      "action": "verify"
+    },
+    {
+      "code": "DE02",
+      "file": "/Users/others/Documents/GitHub/hummbl-research/models/DE/DE02.md",
+      "current_name": "Functional Decomposition",
+      "conflict_with": "DE16",
+      "action": "verify"
+    },
+    {
+      "code": "RE14",
+      "file": "/Users/others/Documents/GitHub/hummbl-research/models/RE/RE14.md",
+      "current_name": "Recursive Optimization",
+      "conflict_with": "RE16",
+      "action": "verify"
+    },
+    {
+      "code": "SY03",
+      "file": "/Users/others/Documents/GitHub/hummbl-research/models/SY/SY03.md",
+      "current_name": "Holistic Integration",
+      "conflict_with": "SY18",
+      "action": "verify"
+    }
+  ],
+  "status": "verification_required",
+  "next_steps": [
+    "1. Get official model names from hummbl.io",
+    "2. Save to validation/official-model-names.json",
+    "3. Re-run this script to apply fixes"
+  ]
+}
