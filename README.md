@@ -6,6 +6,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Fully Developed](https://img.shields.io/badge/Status-Fully_Developed-green.svg)](https://github.com/hummbl-dev/hummbl-research)
 
+**License:** Code (MIT) | Content (CC BY 4.0) - See [License](#license) section for details
+
 ---
 
 ## What This Is
@@ -18,6 +20,21 @@ HUMMBL (Base120) is a comprehensive framework of **120 mental models** organized
 - **Executable** (not just descriptions)
 
 **Not just ideas about thinking. Actual algorithms that run.**
+
+### Understanding Operator Maturity
+
+Operators are scored on a **5-dimension utility rubric (1-10 scale)**:
+- **≥7.0/10 = VALIDATED** ✅ Production-ready, safe to use
+- **<7.0/10 = BASELINE** ⚠️ Functional but experimental, use with caution
+
+**What scores mean:**
+- **9.2/10 (DE)**: Production-ready, exemplar quality
+- **8.0/10 (RE, SY)**: Strong baseline, minor refinements needed
+- **7.8/10 (P)**: Good baseline, close to validated
+- **6.0/10 (CO)**: Functional but needs refinement
+- **3.6/10 (IN)**: Experimental, significant work needed
+
+Each operator is evaluated on: insight quality, usefulness, catch rate, speed, and recommendation likelihood.
 
 ---
 
@@ -45,7 +62,94 @@ result = decompose("""
 
 Try it live →
 
-Framework Overview
+---
+
+## Getting Started
+
+**Quick start for engineers:** Get HUMMBL running in 5 minutes.
+
+### 1. Install Dependencies
+
+```bash
+# Clone the repository
+git clone https://github.com/hummbl-dev/hummbl-research.git
+cd hummbl-research
+
+# Create virtual environment (recommended)
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### 2. Set Up API Key (Optional)
+
+For Vertex AI features (enhanced SY19 recommender):
+```bash
+# Follow the setup guide
+cat docs/create-api-key.md
+
+# Or use the setup script
+./setup-vertex-ai.sh
+```
+
+### 3. Run Your First Demo
+
+**Recommended:** Start with the Decomposition (DE) operator demo:
+
+```bash
+# Run the workflow demonstration
+python notebooks/hummbl_workflow_demo.py
+
+# Or explore the notebook
+jupyter notebook notebooks/hummbl_workflow_demo.py
+```
+
+**What you'll see:**
+- DE operator breaking down a problem into components
+- Dependency mapping and critical path analysis
+- Structured output with insights and confidence scores
+
+### 4. Try SY19 Model Recommender
+
+Get model recommendations for your problem:
+
+```bash
+python tools/sy19_recommend.py "I need to debug a distributed system with latency spikes"
+```
+
+**Next Steps:**
+- Read [validation studies](validation/) to understand operator quality
+- Explore [case studies](case-studies/) for real-world examples
+- Check [docs/for-engineers.md](docs/for-engineers.md) for daily workflow integration
+
+---
+
+## Recommended First Demos
+
+**Start here to move from concept to code quickly:**
+
+1. **`notebooks/hummbl_workflow_demo.py`** - Complete workflow demonstration
+   - Shows all 6 operators in action
+   - Demonstrates operator sequencing
+   - Includes example outputs and insights
+
+2. **Decomposition (DE) Operator** - Production-ready, best starting point
+   - See it in action: `validation/decomposition-study-2025.md`
+   - Try it: Use DE for any problem breakdown task
+   - Score: 9.2/10 (validated, production-ready)
+
+3. **SY19 Model Recommender** - Get recommendations for your problem
+   - Run: `python tools/sy19_recommend.py "your problem description"`
+   - Uses validated 367-relationship graph
+   - Optional: Enhanced with Vertex AI for better detection
+
+**Want more?** See [Tools & Code](#tools--code) section below.
+
+---
+
+## Framework Overview
 HUMMBL Base120 consists of 6 transformations with 20 models each:
 TransformPurposeModelsStatus
 P - Perspective
@@ -76,14 +180,18 @@ Explore all 120 models →
 
 ## Transformation Operator Status
 
-| Operator | Code | Status | Utility Score | Notes |
-|----------|------|--------|---------------|-------|
-| **Decomposition** | DE | ✅ VALIDATED | 9.2/10 | Production-ready, exemplar operator |
-| **Inversion** | IN | ⚠️ BASELINE | 3.6/10 | Structurally sound, needs extraction refinements |
-| **Composition** | CO | ⚠️ BASELINE | 6.0/10 | Functional integration patterns, needs refinement |
-| **Perspective** | P | ⚠️ BASELINE | 7.8/10 | Strong multi-perspective baseline, minor refinements needed |
-| **Recursion** | RE | ⚠️ BASELINE | 8.0/10 | Strong iterative refinement baseline, minor refinements needed |
-| **Meta-Systems** | SY | ⚠️ BASELINE | 8.0/10 | Strong meta-systems baseline, minor refinements needed |
+| Operator | Code | Status | Utility Score | When to Use | Implementation | Validation |
+|----------|------|--------|---------------|-------------|----------------|------------|
+| **Decomposition** | DE | ✅ VALIDATED | 9.2/10 | **Production-ready:** Use for any problem breakdown, architecture planning, or component identification. Safe for production use. | [hummbl-prototype](https://github.com/hummbl-dev/hummbl-prototype) | [`validation/decomposition-study-2025.md`](validation/decomposition-study-2025.md) |
+| **Inversion** | IN | ⚠️ BASELINE | 3.6/10 | **Experimental:** Use for failure mode analysis, but expect limited extraction quality. Not recommended for production. | [hummbl-prototype](https://github.com/hummbl-dev/hummbl-prototype) | [`validation/inversion-study-2025.md`](validation/inversion-study-2025.md) |
+| **Composition** | CO | ⚠️ BASELINE | 6.0/10 | **Functional:** Use for integration planning, but results may need manual refinement. Good for exploration, not final decisions. | [hummbl-prototype](https://github.com/hummbl-dev/hummbl-prototype) | [`validation/composition-study-2025.md`](validation/composition-study-2025.md) |
+| **Perspective** | P | ⚠️ BASELINE | 7.8/10 | **Strong baseline:** Use for multi-stakeholder analysis and perspective shifts. Close to validated, minor refinements needed. | [hummbl-prototype](https://github.com/hummbl-dev/hummbl-prototype) | [`validation/perspective-study-2025.md`](validation/perspective-study-2025.md) |
+| **Recursion** | RE | ⚠️ BASELINE | 8.0/10 | **Strong baseline:** Use for iterative refinement and feedback loop analysis. Very close to validated, safe for most use cases. | [hummbl-prototype](https://github.com/hummbl-dev/hummbl-prototype) | [`validation/recursion-study-2025.md`](validation/recursion-study-2025.md) |
+| **Meta-Systems** | SY | ⚠️ BASELINE | 8.0/10 | **Strong baseline:** Use for system-level analysis and meta-patterns. Very close to validated, safe for most use cases. | [hummbl-prototype](https://github.com/hummbl-dev/hummbl-prototype) | [`validation/meta-systems-study-2025.md`](validation/meta-systems-study-2025.md) |
+
+**Status Guide:**
+- ✅ **VALIDATED (≥7.0)**: Production-ready, safe to use in production
+- ⚠️ **BASELINE (<7.0)**: Functional but experimental, use with caution
 
 ### Validation Criteria
 
@@ -294,7 +402,14 @@ HUMBBL is in research phase. Contributions welcome for:
 ✅ Model refinements and clarifications
 ✅ Documentation improvements
 ✅ Academic citations and research
-See contributing guidelines →
+
+**Case Study Contribution Workflow:**
+1. **Open an issue** describing your case study idea
+2. **Share context** - problem domain, constraints, goals
+3. **Create PR** into `case-studies/` following the [case study template](case-studies/templates/case-study-template.md)
+4. **Include artifacts** - diagrams, operator outputs, before/after comparisons
+
+See [contributing guidelines](CONTRIBUTING.md) for details →
 
 Citation
 If you use HUMMBL in research or writing:
