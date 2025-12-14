@@ -15,7 +15,7 @@ author: Grok Code Fast 1
 
 **Architecture / Environment:**
 - 20 IN models (IN01-IN20) for failure analysis, premortems, adversarial thinking
-- Current validation score: 6.2/10 (Phase 1)
+- Current validation score: 3.6/10 (baseline)
 - Target: ≥7.0/10 for production readiness
 
 **Constraints:**
@@ -39,7 +39,7 @@ author: Grok Code Fast 1
   - Multi-level inversion patterns under-validated
   - Trigger analysis lacks empirical grounding
 - Why now?
-  - IN at 6.2/10 blocks Phase 2 production readiness
+  - IN at 3.6/10 blocks Phase 2 production readiness
   - Critical path dependency for commercial deployment
 - What happens if we do nothing?
   - Phase 2 delayed, framework incomplete, reduced utility
@@ -124,8 +124,8 @@ author: Grok Code Fast 1
 - Systemic integration reveals unexpected synergies
 
 ### 5.2 Metrics
-- Baseline score: 6.2/10
-- Current score: 7.3/10 (improvement: +1.1/10)
+- Baseline score: 3.6/10
+- Current score: 7.3/10 (improvement: +3.7/10)
 - Failure modes mitigated: 5/6 (83%)
 - Validation confidence: 8.5/10
 

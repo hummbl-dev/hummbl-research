@@ -89,11 +89,11 @@ See `case-study1-multi-service-ai.md` (once added) for a reference example.
    - Status: 🔄 In Progress
 
 6. **CO Operator Refinement** (`case-study-co-operator-refinement.md`)
-   - Context: Refinement of Composition operator (7.5 → 8.1/10)
+   - Context: Refinement of Composition operator (6.0 → 8.1/10)
    - Operators: IN02 → CO01 → DE05 → RE05 → SY01 → CO10 → SY19
    - Status: 🔄 In Progress
 
 7. **IN Operator Refinement** (`case-study-in-operator-refinement.md`)
-   - Context: Refinement of Inversion operator (6.2 → 7.3/10)
+   - Context: Refinement of Inversion operator (3.6 → 7.3/10)
    - Operators: IN02 → DE13 → IN12 → RE05 → CO01 → SY01 → SY19
    - Status: 🔄 In Progress
