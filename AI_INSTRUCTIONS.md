@@ -313,8 +313,10 @@ python tools/sy19_recommend.py "your problem description"
 
 **In Progress:**
 - 🔄 Case Study 1: Multi-service AI system (Target: Jan 2026)
-- 🔄 Case Study 2: Fitness transformation (Target: Dec 2025)
-- 🔄 Case Study 3: Ozzy health protocol (Target: Dec 2025)
+- 🔄 Case Study 2: Project Planning & Architecture (In Progress)
+- 🔄 Case Study 3: API/Product Surface Design (In Progress)
+- 🔄 CO Operator Refinement (7.5 → 8.1/10)
+- 🔄 IN Operator Refinement (6.2 → 7.3/10)
 
 **Next Steps:**
 - Operator refinements (IN, CO improvements)

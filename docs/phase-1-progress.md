@@ -16,8 +16,8 @@
   - ✅ **Updated to use validated 367 relationships (2025-12-05)**
 - **Testing:**
   - ✅ Tested on Case Study 1 scenario (Multi-service AI)
-  - ✅ Tested on Case Study 2 scenario (Fitness transformation)
-  - ✅ Tested on Case Study 3 scenario (Ozzy health protocol)
+  - ✅ Tested on Case Study 2 scenario (Project Planning)
+  - ✅ Tested on Case Study 3 scenario (API Design)
   - ✅ All tests passed - see `validation/SY19-TEST-RESULTS.md`
 - **Next Steps:**
   - Integrate into case study workflow
@@ -26,43 +26,54 @@
 
 ## Case Studies Status
 
-### Case Study 3: Ozzy Health Protocol
-- **Target Date:** Dec 15, 2025
-- **Status:** Preparation
-- **Progress:**
-  - [x] Infrastructure deployed
-  - [ ] Vet appointment scheduled
-  - [ ] Pre-vet preparation complete
-  - [ ] Vet visit complete
-  - [ ] Recording complete
-  - [ ] Documentation complete
-  - [ ] Distribution complete
-- **Quality Gate:** Portfolio-worthy? [TBD]
-- **Engagement:** [Track after distribution]
-
-### Case Study 2: Fitness Transformation
-- **Target Date:** Dec 31, 2025
-- **Status:** Planning
-- **Progress:**
-  - [x] Infrastructure deployed
-  - [ ] Data gathered
-  - [ ] Recording complete
-  - [ ] Documentation complete
-  - [ ] Distribution complete
-- **Quality Gate:** Portfolio-worthy? [TBD]
-- **Engagement:** [Track after distribution]
-
-### Case Study 1: Multi-Service AI
+### Case Study 1: Multi-Service AI System
 - **Target Date:** Jan 15, 2026
 - **Status:** Planning
 - **Progress:**
   - [x] Infrastructure deployed
+  - [x] SY19 recommendations generated
   - [ ] Architecture finalized
   - [ ] Recording complete
   - [ ] Documentation complete
   - [ ] Distribution complete
 - **Quality Gate:** Portfolio-worthy? [TBD]
 - **Engagement:** [Track after distribution]
+
+### Case Study 2: Project Planning & Architecture
+- **Status:** In Progress
+- **Progress:**
+  - [x] Infrastructure deployed
+  - [x] Operator sequence defined (P01 → DE01 → DE08 → CO01 → RE09 → SY01 → SY19)
+  - [x] Initial results documented (30% time saved, 8/10 clarity)
+  - [ ] Recording complete
+  - [ ] Documentation complete
+  - [ ] Distribution complete
+- **Quality Gate:** Portfolio-worthy? [TBD]
+- **Engagement:** [Track after distribution]
+
+### Case Study 3: API/Product Surface Design
+- **Status:** In Progress
+- **Progress:**
+  - [x] Infrastructure deployed
+  - [x] Operator sequence defined (P02 → P05 → DE02 → IN04 → CO10 → RE09 → SY13)
+  - [x] Initial results documented (25% time saved, 9/10 clarity)
+  - [ ] Recording complete
+  - [ ] Documentation complete
+  - [ ] Distribution complete
+- **Quality Gate:** Portfolio-worthy? [TBD]
+- **Engagement:** [Track after distribution]
+
+### Operator Refinement Case Studies
+
+**CO Operator Refinement:**
+- **Status:** In Progress
+- **Progress:** Score improved from 7.5/10 to 8.1/10 (+0.6)
+- **Results:** 85% integration consistency, 98% performance maintained
+
+**IN Operator Refinement:**
+- **Status:** In Progress
+- **Progress:** Score improved from 6.2/10 to 7.3/10 (+1.1)
+- **Results:** 5/6 failure modes mitigated, 8.5/10 validation confidence
 
 ## Operator Insights
 [Document learnings from each case study]

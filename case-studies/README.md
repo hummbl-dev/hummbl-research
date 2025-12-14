@@ -77,3 +77,23 @@ See `case-study1-multi-service-ai.md` (once added) for a reference example.
    - Context: Multi-service AI recommendation system with bottlenecks and cascades
    - Operators: P02 → DE07 → DE06 → DE08 → CO03 → CO12 → RE06 → SY04 → SY01 → SY19
    - Status: 🔄 In Progress
+
+4. **Project Planning & Architecture** (`case-study2-project-planning.md`)
+   - Context: Software development project planning and architecture design
+   - Operators: P01 → DE01 → DE08 → CO01 → RE09 → SY01 → SY19
+   - Status: 🔄 In Progress
+
+5. **API/Product Surface Design** (`case-study3-api-design.md`)
+   - Context: API and product interface design for software systems
+   - Operators: P02 → P05 → DE02 → IN04 → CO10 → RE09 → SY13
+   - Status: 🔄 In Progress
+
+6. **CO Operator Refinement** (`case-study-co-operator-refinement.md`)
+   - Context: Refinement of Composition operator (7.5 → 8.1/10)
+   - Operators: IN02 → CO01 → DE05 → RE05 → SY01 → CO10 → SY19
+   - Status: 🔄 In Progress
+
+7. **IN Operator Refinement** (`case-study-in-operator-refinement.md`)
+   - Context: Refinement of Inversion operator (6.2 → 7.3/10)
+   - Operators: IN02 → DE13 → IN12 → RE05 → CO01 → SY01 → SY19
+   - Status: 🔄 In Progress

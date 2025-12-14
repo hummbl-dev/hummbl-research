@@ -17,8 +17,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### In Progress
 - Case Study 1: Multi-service AI recommendation system
-- Case Study 2: Personal training program design
-- Case Study 3: Ozzy (French Bulldog) health optimization
+- Case Study 2: Project Planning & Architecture
+- Case Study 3: API/Product Surface Design
+- CO Operator Refinement (7.5 → 8.1/10)
+- IN Operator Refinement (6.2 → 7.3/10)
 
 ### Infrastructure
 - Added case study templates and production workflow
