@@ -202,7 +202,10 @@ Explore all 120 models →
 
 **Status Guide:**
 - ✅ **VALIDATED (≥7.0)**: Production-ready, safe to use in production
-- ⚠️ **BASELINE (<7.0)**: Functional but experimental, use with caution
+- ⚠️ **BASELINE (≥7.0 but not yet VALIDATED)**: Functional and near-production-ready, minor refinements may be needed
+- ⚠️ **BASELINE (<7.0)**: Functional but experimental, use with caution, not recommended for production
+
+**Note:** Operators scoring ≥7.0/10 are production-ready but may be marked BASELINE if they haven't completed the full validation process. P (7.8), RE (8.0), and SY (8.0) are strong baselines very close to VALIDATED status.
 
 ### Validation Criteria
 
